@@ -14,7 +14,8 @@ month=`date +%m`
 day=`date +%d`
 year=`date +%y`
 dumphere="${year}/${month}/${day}"
-slack-history-export -t "$SLACK_KET" -T "channel" -c "#all" -F json --d $dumphere
+mkdir -p $dumphere
+slack-history-export -t "$SLACK_KEY" -T "channel" -c "#all" -F json -d $dumphere
 git add $dumphere/*
 git commit -m "Adding Singularity Slack for $dumphere"
 git push origin master
