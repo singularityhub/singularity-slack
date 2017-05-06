@@ -1,0 +1,42 @@
+[
+    {
+        "user": "mrdwyer",
+        "text": "<@U4QV9855Z|mrdwyer> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1490732551.099792",
+        "date": 1490732551099
+    },
+    {
+        "user": "oguitart",
+        "text": "<@U4UTFKXDG|oguitart> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1491466793.575155",
+        "date": 1491466793575
+    },
+    {
+        "user": "jji25",
+        "text": "<@U4YKWNE8N|jji25> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1491959846.933138",
+        "date": 1491959846933
+    },
+    {
+        "user": "jfonner",
+        "text": "<@U5494H4HG|jfonner> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493139936.761692",
+        "date": 1493139936761
+    },
+    {
+        "user": "jturcino",
+        "text": "<@U54HA39AR|jturcino> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493157411.125635",
+        "date": 1493157411125
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "user": "mrdwyer",
+        "text": "<@U4QV9855Z|mrdwyer> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1490732575.591867",
+        "date": 1490732575591
+    }
+]
