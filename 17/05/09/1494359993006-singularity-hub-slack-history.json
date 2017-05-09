@@ -1,0 +1,120 @@
+[
+    {
+        "user": "mrdwyer",
+        "text": "<@U4QV9855Z|mrdwyer> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1490732551.099792",
+        "date": 1490732551099
+    },
+    {
+        "user": "oguitart",
+        "text": "<@U4UTFKXDG|oguitart> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1491466793.575155",
+        "date": 1491466793575
+    },
+    {
+        "user": "jji25",
+        "text": "<@U4YKWNE8N|jji25> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1491959846.933138",
+        "date": 1491959846933
+    },
+    {
+        "user": "jfonner",
+        "text": "<@U5494H4HG|jfonner> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493139936.761692",
+        "date": 1493139936761
+    },
+    {
+        "user": "jturcino",
+        "text": "<@U54HA39AR|jturcino> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493157411.125635",
+        "date": 1493157411125
+    },
+    {
+        "user": "fspiga",
+        "text": "<@U57LL2LG3|fspiga> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1494062464.390790",
+        "date": 1494062464390
+    },
+    {
+        "user": "jerrin",
+        "text": "<@U4G788K0T|jerrin> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1494339788.567388",
+        "date": 1494339788567
+    },
+    {
+        "type": "message",
+        "user": "jerrin",
+        "text": "Hi, I am trying to make MPI work with singularity and had set up mpi version 1.8.4 in the container as the host system has the same openmpi version. However, the container does not understand that there are 2 compute nodes to execute and every time, I run the process it executes on a single compute node",
+        "ts": "1494340760.045749",
+        "date": 1494340760045
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U4G788K0T|jerrin> uploaded a file: <https://singularity-container.slack.com/files/jerrin/F5AS24C1J/-.txt|Untitled>",
+        "file": {
+            "id": "F5AS24C1J",
+            "created": 1494340773,
+            "timestamp": 1494340773,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U4G788K0T",
+            "editable": true,
+            "size": 1337,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T0YKGK200-F5AS24C1J/-.txt",
+            "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F5AS24C1J/download/-.txt",
+            "permalink": "https://singularity-container.slack.com/files/jerrin/F5AS24C1J/-.txt",
+            "permalink_public": "https://slack-files.com/T0YKGK200-F5AS24C1J-5ded8817d2",
+            "edit_link": "https://singularity-container.slack.com/files/jerrin/F5AS24C1J/-.txt/edit",
+            "preview": "aprun1:~> ccmrun mpirun -np 20 --hostfile hosts singularity exec mpi.img /usr/bin/ring\r\n“openmpi” version “1.8.4” loaded.\r\nHello world!  I am process number: 8 on host nid00900\r\nHello world!  I am process number: 9 on host nid00900\r\nHello world!  I am process number: 10 on host nid00900\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>aprun1:~&gt; ccmrun mpirun -np 20 --hostfile hosts singularity exec mpi.img /usr/bin/ring</pre></div>\n<div><pre>“openmpi” version “1.8.4” loaded.</pre></div>\n<div><pre>Hello world!  I am process number: 8 on host nid00900</pre></div>\n<div><pre>Hello world!  I am process number: 9 on host nid00900</pre></div>\n<div><pre>Hello world!  I am process number: 10 on host nid00900</pre></div>\n<div><pre></pre></div>\n</div>\n</div>\n",
+            "lines": 23,
+            "lines_more": 18,
+            "preview_is_truncated": true,
+            "channels": [
+                "C3VU5JDHQ"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "jerrin",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "jerrin",
+        "bot_id": null,
+        "ts": "1494340776.053538",
+        "date": 1494340776053
+    },
+    {
+        "type": "message",
+        "user": "jerrin",
+        "text": "```aprun1:~&gt; cat hosts \nnid00900\nnid00901\n```",
+        "ts": "1494340814.071770",
+        "date": 1494340814071
+    }
+]
