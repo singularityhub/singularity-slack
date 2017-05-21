@@ -1,0 +1,26 @@
+[
+    {
+        "user": "dwd",
+        "text": "<@U2YQWJQ4T|dwd> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1492803451.149573",
+        "date": 1492803451149
+    },
+    {
+        "user": "jfonner",
+        "text": "<@U5494H4HG|jfonner> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493139946.270144",
+        "date": 1493139946270
+    },
+    {
+        "user": "eduardoarango",
+        "text": "<@U3E99RUG1|eduardoarango> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1494286747.061868",
+        "date": 1494286747061
+    }
+]
