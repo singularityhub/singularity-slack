@@ -1,0 +1,10 @@
+[
+    {
+        "user": "frederik",
+        "text": "<@U5FFKV6M6|frederik> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1495434826.897975",
+        "date": 1495434826897
+    }
+]
