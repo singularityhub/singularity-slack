@@ -1,0 +1,283 @@
+[
+    {
+        "user": "jfonner",
+        "text": "<@U5494H4HG|jfonner> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493139936.761692",
+        "date": 1493139936761
+    },
+    {
+        "user": "jturcino",
+        "text": "<@U54HA39AR|jturcino> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1493157411.125635",
+        "date": 1493157411125
+    },
+    {
+        "user": "fspiga",
+        "text": "<@U57LL2LG3|fspiga> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1494062464.390790",
+        "date": 1494062464390
+    },
+    {
+        "user": "jerrin",
+        "text": "<@U4G788K0T|jerrin> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1494339788.567388",
+        "date": 1494339788567
+    },
+    {
+        "type": "message",
+        "user": "jerrin",
+        "text": "Hi, I am trying to make MPI work with singularity and had set up mpi version 1.8.4 in the container as the host system has the same openmpi version. However, the container does not understand that there are 2 compute nodes to execute and every time, I run the process it executes on a single compute node",
+        "ts": "1494340760.045749",
+        "date": 1494340760045
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U4G788K0T|jerrin> uploaded a file: <https://singularity-container.slack.com/files/jerrin/F5AS24C1J/-.txt|Untitled>",
+        "file": {
+            "id": "F5AS24C1J",
+            "created": 1494340773,
+            "timestamp": 1494340773,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U4G788K0T",
+            "editable": true,
+            "size": 1337,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T0YKGK200-F5AS24C1J/-.txt",
+            "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F5AS24C1J/download/-.txt",
+            "permalink": "https://singularity-container.slack.com/files/jerrin/F5AS24C1J/-.txt",
+            "permalink_public": "https://slack-files.com/T0YKGK200-F5AS24C1J-5ded8817d2",
+            "edit_link": "https://singularity-container.slack.com/files/jerrin/F5AS24C1J/-.txt/edit",
+            "preview": "aprun1:~> ccmrun mpirun -np 20 --hostfile hosts singularity exec mpi.img /usr/bin/ring\r\n“openmpi” version “1.8.4” loaded.\r\nHello world!  I am process number: 8 on host nid00900\r\nHello world!  I am process number: 9 on host nid00900\r\nHello world!  I am process number: 10 on host nid00900\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>aprun1:~&gt; ccmrun mpirun -np 20 --hostfile hosts singularity exec mpi.img /usr/bin/ring</pre></div>\n<div><pre>“openmpi” version “1.8.4” loaded.</pre></div>\n<div><pre>Hello world!  I am process number: 8 on host nid00900</pre></div>\n<div><pre>Hello world!  I am process number: 9 on host nid00900</pre></div>\n<div><pre>Hello world!  I am process number: 10 on host nid00900</pre></div>\n<div><pre></pre></div>\n</div>\n</div>\n",
+            "lines": 23,
+            "lines_more": 18,
+            "preview_is_truncated": true,
+            "channels": [
+                "C3VU5JDHQ"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "jerrin",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "jerrin",
+        "bot_id": null,
+        "ts": "1494340776.053538",
+        "date": 1494340776053
+    },
+    {
+        "type": "message",
+        "user": "jerrin",
+        "text": "```aprun1:~&gt; cat hosts \nnid00900\nnid00901\n```",
+        "ts": "1494340814.071770",
+        "date": 1494340814071
+    },
+    {
+        "user": "frederik",
+        "text": "<@U5FFKV6M6|frederik> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1495434832.579385",
+        "date": 1495434832579
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "happy to report that builders are updated for 2.3, the first image is done! And we now support the name of your image and repo for the url: <https://singularity-hub.org/collections/vsoch/hello-world/>",
+        "attachments": [
+            {
+                "service_name": "Singularity Hub",
+                "title": "singularity-hub",
+                "title_link": "https://singularity-hub.org/collections/vsoch/hello-world/",
+                "text": "singularity container and workflow management",
+                "fallback": "Singularity Hub: singularity-hub",
+                "from_url": "https://singularity-hub.org/collections/vsoch/hello-world/",
+                "service_icon": "https://singularity-hub.org/static/img/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1496292164.987492",
+        "date": 1496292164987
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "many more changes will come for shub, and some derivatives of it *wink* but I probably need to go home soon, lol",
+        "ts": "1496292195.990862",
+        "date": 1496292195990
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "so not tonight :slightly_smiling_face:",
+        "ts": "1496292199.991305",
+        "date": 1496292199991
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "hey everyone - I'm working on the builders now - should be ready within the hour, there was a bug that I overlooked, forgot to install yum  and debootstrap :slightly_smiling_face:",
+        "ts": "1496365267.556845",
+        "date": 1496365267556
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "if you are trying to build images just let them sit - I will manually finish the builds, and let everyone know when the new builders are up",
+        "ts": "1496365286.559519",
+        "date": 1496365286559
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "so when I was working on your image and sent the signal to finish_build I saw",
+        "ts": "1496367380.810874",
+        "date": 1496367380810
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U245DTC59|v> uploaded a file: <https://singularity-container.slack.com/files/v/F5LT379T2/-.py|Untitled>",
+        "file": {
+            "id": "F5LT379T2",
+            "created": 1496367399,
+            "timestamp": 1496367399,
+            "name": "-.py",
+            "title": "Untitled",
+            "mimetype": "text/plain",
+            "filetype": "python",
+            "pretty_type": "Python",
+            "user": "U245DTC59",
+            "editable": true,
+            "size": 219,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T0YKGK200-F5LT379T2/-.py",
+            "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F5LT379T2/download/-.py",
+            "permalink": "https://singularity-container.slack.com/files/v/F5LT379T2/-.py",
+            "permalink_public": "https://slack-files.com/T0YKGK200-F5LT379T2-b0cbfc1f81",
+            "edit_link": "https://singularity-container.slack.com/files/v/F5LT379T2/-.py/edit",
+            "preview": "vanessa@singularity-builder-2-3-50gb-2:/tmp/singularity$ Connection to 104.196.245.7 closed by remote host.\r\nConnection to 104.196.245.7 closed.\r\nERROR: (gcloud.compute.ssh) [/usr/bin/ssh] exited with return code [255].",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">vanessa</span>@<span class=\"cm-variable\">singularity</span><span class=\"cm-operator\">-</span><span class=\"cm-variable\">builder</span><span class=\"cm-operator\">-</span><span class=\"cm-number\">2</span><span class=\"cm-operator\">-</span><span class=\"cm-number\">3</span><span class=\"cm-operator\">-</span><span class=\"cm-number\">50</span><span class=\"cm-variable\">gb</span><span class=\"cm-operator\">-</span><span class=\"cm-number\">2</span>:<span class=\"cm-operator\">/</span><span class=\"cm-variable\">tmp</span><span class=\"cm-operator\">/</span><span class=\"cm-variable\">singularity</span><span class=\"cm-error\">$</span> <span class=\"cm-variable\">Connection</span> <span class=\"cm-variable\">to</span> <span class=\"cm-number\">104.196.245</span><span class=\"cm-number\">.7</span> <span class=\"cm-variable\">closed</span> <span class=\"cm-variable\">by</span> <span class=\"cm-variable\">remote</span> <span class=\"cm-variable\">host</span>.</pre></div>\n<div><pre><span class=\"cm-property\">Connection</span> <span class=\"cm-variable\">to</span> <span class=\"cm-number\">104.196.245</span><span class=\"cm-number\">.7</span> <span class=\"cm-variable\">closed</span>.</pre></div>\n<div><pre><span class=\"cm-property\">ERROR</span>: (<span class=\"cm-variable\">gcloud</span>.<span class=\"cm-property\">compute</span>.<span class=\"cm-property\">ssh</span>) [<span class=\"cm-operator\">/</span><span class=\"cm-variable\">usr</span><span class=\"cm-operator\">/</span><span class=\"cm-builtin\">bin</span><span class=\"cm-operator\">/</span><span class=\"cm-variable\">ssh</span>] <span class=\"cm-variable\">exited</span> <span class=\"cm-keyword\">with</span> <span class=\"cm-keyword\">return</span> <span class=\"cm-variable\">code</span> [<span class=\"cm-number\">255</span>].</pre></div>\n</div>\n</div>\n",
+            "lines": 3,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C3VU5JDHQ"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "v",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "v",
+        "bot_id": null,
+        "ts": "1496367399.812923",
+        "date": 1496367399812
+    },
+    {
+        "user": "athota",
+        "text": "<@U35UCUAR1|athota> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1496367400.813079",
+        "date": 1496367400813
+    },
+    {
+        "user": "alaindomissy",
+        "text": "<@U247AF8DP|alaindomissy> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1496367716.849638",
+        "date": 1496367716849
+    },
+    {
+        "user": "eduardoarango",
+        "text": "<@U3E99RUG1|eduardoarango> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1496368147.899374",
+        "date": 1496368147899
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "if you have a collection on singularity hub - it won't automatically update the builder, you need to do this in the collection. I'm writing up some instructions for the site now, I apologize for not making this clear",
+        "ts": "1496368355.925152",
+        "date": 1496368355925
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "okay, I made a new base of usage docs, along with a link from the main page on how to update your builder (for already existing collections)",
+        "ts": "1496372387.380670",
+        "date": 1496372387380
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "<https://github.com/singularityhub/singularityhub.github.io/wiki>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "singularityhub/singularityhub.github.io",
+                "title_link": "https://github.com/singularityhub/singularityhub.github.io/wiki",
+                "text": "<http://singularityhub.github.io|singularityhub.github.io> - redirect to main <http://www.singularity-hub.org> site",
+                "fallback": "GitHub: singularityhub/singularityhub.github.io",
+                "from_url": "https://github.com/singularityhub/singularityhub.github.io/wiki",
+                "thumb_url": "https://avatars1.githubusercontent.com/u/24552884?v=3&s=400",
+                "thumb_width": 250,
+                "thumb_height": 250,
+                "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1496372401.382322",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U247AF8DP"
+                ],
+                "count": 1
+            }
+        ],
+        "date": 1496372401382
+    },
+    {
+        "user": "sbutcher",
+        "text": "<@U2WSZL9L2|sbutcher> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1496400321.755088",
+        "date": 1496400321755
+    }
+]
