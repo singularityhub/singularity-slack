@@ -1,0 +1,58 @@
+[
+    {
+        "user": "eduardoarango",
+        "text": "<@U3E99RUG1|eduardoarango> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1494286747.061868",
+        "date": 1494286747061
+    },
+    {
+        "user": "frederik",
+        "text": "<@U5FFKV6M6|frederik> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1495434805.762326",
+        "date": 1495434805762
+    },
+    {
+        "user": "alice",
+        "text": "<@U5MSWV6P4|alice> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1496417655.356596",
+        "date": 1496417655356
+    },
+    {
+        "user": "cclerget",
+        "text": "<@U5RJ04A4F|cclerget> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1496947572.626426",
+        "date": 1496947572626
+    },
+    {
+        "user": "godlovedc",
+        "text": "<@U2MT7BF0V|godlovedc> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1497361783.484266",
+        "date": 1497361783484
+    },
+    {
+        "user": "remyd1",
+        "text": "<@U4BKCNE9K|remyd1> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1498051205.621442",
+        "date": 1498051205621
+    },
+    {
+        "user": "bala",
+        "text": "<@U60ADBYP8|bala> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1498486933.218404",
+        "date": 1498486933218
+    }
+]

@@ -1,0 +1,800 @@
+[
+    {
+        "user": "fspiga",
+        "text": "<@U57LL2LG3|fspiga> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1494062464.390790",
+        "date": 1494062464390
+    },
+    {
+        "user": "jerrin",
+        "text": "<@U4G788K0T|jerrin> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1494339788.567388",
+        "date": 1494339788567
+    },
+    {
+        "type": "message",
+        "user": "jerrin",
+        "text": "Hi, I am trying to make MPI work with singularity and had set up mpi version 1.8.4 in the container as the host system has the same openmpi version. However, the container does not understand that there are 2 compute nodes to execute and every time, I run the process it executes on a single compute node",
+        "ts": "1494340760.045749",
+        "date": 1494340760045
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U4G788K0T|jerrin> uploaded a file: <https://singularity-container.slack.com/files/jerrin/F5AS24C1J/-.txt|Untitled>",
+        "file": {
+            "id": "F5AS24C1J",
+            "created": 1494340773,
+            "timestamp": 1494340773,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U4G788K0T",
+            "editable": true,
+            "size": 1337,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T0YKGK200-F5AS24C1J/-.txt",
+            "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F5AS24C1J/download/-.txt",
+            "permalink": "https://singularity-container.slack.com/files/jerrin/F5AS24C1J/-.txt",
+            "permalink_public": "https://slack-files.com/T0YKGK200-F5AS24C1J-5ded8817d2",
+            "edit_link": "https://singularity-container.slack.com/files/jerrin/F5AS24C1J/-.txt/edit",
+            "preview": "aprun1:~> ccmrun mpirun -np 20 --hostfile hosts singularity exec mpi.img /usr/bin/ring\r\n“openmpi” version “1.8.4” loaded.\r\nHello world!  I am process number: 8 on host nid00900\r\nHello world!  I am process number: 9 on host nid00900\r\nHello world!  I am process number: 10 on host nid00900\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>aprun1:~&gt; ccmrun mpirun -np 20 --hostfile hosts singularity exec mpi.img /usr/bin/ring</pre></div>\n<div><pre>“openmpi” version “1.8.4” loaded.</pre></div>\n<div><pre>Hello world!  I am process number: 8 on host nid00900</pre></div>\n<div><pre>Hello world!  I am process number: 9 on host nid00900</pre></div>\n<div><pre>Hello world!  I am process number: 10 on host nid00900</pre></div>\n<div><pre></pre></div>\n</div>\n</div>\n",
+            "lines": 23,
+            "lines_more": 18,
+            "preview_is_truncated": true,
+            "channels": [
+                "C3VU5JDHQ"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "jerrin",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "jerrin",
+        "bot_id": null,
+        "ts": "1494340776.053538",
+        "date": 1494340776053
+    },
+    {
+        "type": "message",
+        "user": "jerrin",
+        "text": "```aprun1:~&gt; cat hosts \nnid00900\nnid00901\n```",
+        "ts": "1494340814.071770",
+        "date": 1494340814071
+    },
+    {
+        "user": "frederik",
+        "text": "<@U5FFKV6M6|frederik> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1495434832.579385",
+        "date": 1495434832579
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "happy to report that builders are updated for 2.3, the first image is done! And we now support the name of your image and repo for the url: <https://singularity-hub.org/collections/vsoch/hello-world/>",
+        "attachments": [
+            {
+                "service_name": "Singularity Hub",
+                "title": "singularity-hub",
+                "title_link": "https://singularity-hub.org/collections/vsoch/hello-world/",
+                "text": "singularity container and workflow management",
+                "fallback": "Singularity Hub: singularity-hub",
+                "from_url": "https://singularity-hub.org/collections/vsoch/hello-world/",
+                "service_icon": "https://singularity-hub.org/static/img/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1496292164.987492",
+        "date": 1496292164987
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "many more changes will come for shub, and some derivatives of it *wink* but I probably need to go home soon, lol",
+        "ts": "1496292195.990862",
+        "date": 1496292195990
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "so not tonight :slightly_smiling_face:",
+        "ts": "1496292199.991305",
+        "date": 1496292199991
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "hey everyone - I'm working on the builders now - should be ready within the hour, there was a bug that I overlooked, forgot to install yum  and debootstrap :slightly_smiling_face:",
+        "ts": "1496365267.556845",
+        "date": 1496365267556
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "if you are trying to build images just let them sit - I will manually finish the builds, and let everyone know when the new builders are up",
+        "ts": "1496365286.559519",
+        "date": 1496365286559
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "so when I was working on your image and sent the signal to finish_build I saw",
+        "ts": "1496367380.810874",
+        "date": 1496367380810
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U245DTC59|v> uploaded a file: <https://singularity-container.slack.com/files/v/F5LT379T2/-.py|Untitled>",
+        "file": {
+            "id": "F5LT379T2",
+            "created": 1496367399,
+            "timestamp": 1496367399,
+            "name": "-.py",
+            "title": "Untitled",
+            "mimetype": "text/plain",
+            "filetype": "python",
+            "pretty_type": "Python",
+            "user": "U245DTC59",
+            "editable": true,
+            "size": 219,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T0YKGK200-F5LT379T2/-.py",
+            "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F5LT379T2/download/-.py",
+            "permalink": "https://singularity-container.slack.com/files/v/F5LT379T2/-.py",
+            "permalink_public": "https://slack-files.com/T0YKGK200-F5LT379T2-b0cbfc1f81",
+            "edit_link": "https://singularity-container.slack.com/files/v/F5LT379T2/-.py/edit",
+            "preview": "vanessa@singularity-builder-2-3-50gb-2:/tmp/singularity$ Connection to 104.196.245.7 closed by remote host.\r\nConnection to 104.196.245.7 closed.\r\nERROR: (gcloud.compute.ssh) [/usr/bin/ssh] exited with return code [255].",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">vanessa</span>@<span class=\"cm-variable\">singularity</span><span class=\"cm-operator\">-</span><span class=\"cm-variable\">builder</span><span class=\"cm-operator\">-</span><span class=\"cm-number\">2</span><span class=\"cm-operator\">-</span><span class=\"cm-number\">3</span><span class=\"cm-operator\">-</span><span class=\"cm-number\">50</span><span class=\"cm-variable\">gb</span><span class=\"cm-operator\">-</span><span class=\"cm-number\">2</span>:<span class=\"cm-operator\">/</span><span class=\"cm-variable\">tmp</span><span class=\"cm-operator\">/</span><span class=\"cm-variable\">singularity</span><span class=\"cm-error\">$</span> <span class=\"cm-variable\">Connection</span> <span class=\"cm-variable\">to</span> <span class=\"cm-number\">104.196.245</span><span class=\"cm-number\">.7</span> <span class=\"cm-variable\">closed</span> <span class=\"cm-variable\">by</span> <span class=\"cm-variable\">remote</span> <span class=\"cm-variable\">host</span>.</pre></div>\n<div><pre><span class=\"cm-property\">Connection</span> <span class=\"cm-variable\">to</span> <span class=\"cm-number\">104.196.245</span><span class=\"cm-number\">.7</span> <span class=\"cm-variable\">closed</span>.</pre></div>\n<div><pre><span class=\"cm-property\">ERROR</span>: (<span class=\"cm-variable\">gcloud</span>.<span class=\"cm-property\">compute</span>.<span class=\"cm-property\">ssh</span>) [<span class=\"cm-operator\">/</span><span class=\"cm-variable\">usr</span><span class=\"cm-operator\">/</span><span class=\"cm-builtin\">bin</span><span class=\"cm-operator\">/</span><span class=\"cm-variable\">ssh</span>] <span class=\"cm-variable\">exited</span> <span class=\"cm-keyword\">with</span> <span class=\"cm-keyword\">return</span> <span class=\"cm-variable\">code</span> [<span class=\"cm-number\">255</span>].</pre></div>\n</div>\n</div>\n",
+            "lines": 3,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [
+                "C3VU5JDHQ"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "v",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "v",
+        "bot_id": null,
+        "ts": "1496367399.812923",
+        "date": 1496367399812
+    },
+    {
+        "user": "athota",
+        "text": "<@U35UCUAR1|athota> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1496367400.813079",
+        "date": 1496367400813
+    },
+    {
+        "user": "alaindomissy",
+        "text": "<@U247AF8DP|alaindomissy> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1496367716.849638",
+        "date": 1496367716849
+    },
+    {
+        "user": "eduardoarango",
+        "text": "<@U3E99RUG1|eduardoarango> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1496368147.899374",
+        "date": 1496368147899
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "if you have a collection on singularity hub - it won't automatically update the builder, you need to do this in the collection. I'm writing up some instructions for the site now, I apologize for not making this clear",
+        "ts": "1496368355.925152",
+        "date": 1496368355925
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "okay, I made a new base of usage docs, along with a link from the main page on how to update your builder (for already existing collections)",
+        "ts": "1496372387.380670",
+        "date": 1496372387380
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "<https://github.com/singularityhub/singularityhub.github.io/wiki>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "singularityhub/singularityhub.github.io",
+                "title_link": "https://github.com/singularityhub/singularityhub.github.io/wiki",
+                "text": "<http://singularityhub.github.io|singularityhub.github.io> - redirect to main <http://www.singularity-hub.org> site",
+                "fallback": "GitHub: singularityhub/singularityhub.github.io",
+                "from_url": "https://github.com/singularityhub/singularityhub.github.io/wiki",
+                "thumb_url": "https://avatars1.githubusercontent.com/u/24552884?v=3&s=400",
+                "thumb_width": 250,
+                "thumb_height": 250,
+                "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1496372401.382322",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U247AF8DP"
+                ],
+                "count": 1
+            }
+        ],
+        "date": 1496372401382
+    },
+    {
+        "user": "sbutcher",
+        "text": "<@U2WSZL9L2|sbutcher> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1496400321.755088",
+        "date": 1496400321755
+    },
+    {
+        "type": "message",
+        "user": "alaindomissy",
+        "text": "<@U245DTC59> I noticed the id number (github commit id for the Singularity repo ?)  does not really show the latest version. For exemple on <https://singularity-hub.org/collections/> YeoLab/eclip-dev shows latest version as 02a50a2d3dc7ad948242ca23a9cb976d5f879de3 but in the details view at <https://singularity-hub.org/collections/161/> the latest has id: 219a210555c8d91df04eb83e3a2740d2136e2812\t\nIs this an issue ? Should I post a github issue for this ? Thanks",
+        "attachments": [
+            {
+                "service_name": "Singularity Hub",
+                "title": "singularity-hub",
+                "title_link": "https://singularity-hub.org/collections/161/",
+                "text": "singularity container and workflow management",
+                "fallback": "Singularity Hub: singularity-hub",
+                "from_url": "https://singularity-hub.org/collections/161/",
+                "service_icon": "https://singularity-hub.org/static/img/favicon.ico",
+                "id": 1
+            }
+        ],
+        "edited": {
+            "user": "U247AF8DP",
+            "ts": "1496808251.000000"
+        },
+        "ts": "1496768243.707806",
+        "date": 1496768243707
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "oh yes please do, looks like a bug in a query somewhere",
+        "ts": "1496770450.509082",
+        "date": 1496770450509
+    },
+    {
+        "user": "cclerget",
+        "text": "<@U5RJ04A4F|cclerget> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1496947589.012546",
+        "date": 1496947589012
+    },
+    {
+        "type": "message",
+        "user": "satra",
+        "text": "<@U245DTC59> after editing the builder in this collection it only built one branch, not all that are enabled: <https://singularity-hub.org/collections/60/>",
+        "attachments": [
+            {
+                "service_name": "Singularity Hub",
+                "title": "singularity-hub",
+                "title_link": "https://singularity-hub.org/collections/60/",
+                "text": "singularity container and workflow management",
+                "fallback": "Singularity Hub: singularity-hub",
+                "from_url": "https://singularity-hub.org/collections/60/",
+                "service_icon": "https://singularity-hub.org/static/img/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1497139183.152571",
+        "date": 1497139183152
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "did you push to the branch?",
+        "ts": "1497139866.184072",
+        "date": 1497139866184
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "everyone - I'm looking for feedback about ways that you want to build images for the next release of singularity hub. Note that this is not relevant to a singularity hub registry, which will be owned by an instititon and build and store locally. For Singularity Hub we will stay building and storing on Google Cloud, and I'm interested to hear ways that people want to build (command line? still github pushes? command in CI like travis or circle? Docker Hub?) Any feedback appreciated. Otherwise I'll do what I think is best :slightly_smiling_face:",
+        "ts": "1497142523.289958",
+        "date": 1497142523289
+    },
+    {
+        "type": "message",
+        "user": "satra",
+        "text": "<@U245DTC59> - no i did not. i expected all builds to be restarted when the builder was changed. i don't have any changes to make to the branch.",
+        "edited": {
+            "user": "U444V56A2",
+            "ts": "1497193624.000000"
+        },
+        "ts": "1497193558.303681",
+        "date": 1497193558303
+    },
+    {
+        "type": "message",
+        "user": "satra",
+        "text": "all of my branches were already enabled on singularity hub.",
+        "ts": "1497193576.304773",
+        "date": 1497193576304
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "a builder only builds when you push to the branch ",
+        "ts": "1497201785.827210",
+        "date": 1497201785827
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "if you didn't push, it's. or going to build",
+        "ts": "1497201815.828924",
+        "date": 1497201815828
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "<@U444V56A2> would you prefer a model that allows for multiple build specs in a repo, given that you define different tags, but then only keeps one version per tag (and it's up to you to tag different versions?)",
+        "ts": "1497205271.059011",
+        "date": 1497205271059
+    },
+    {
+        "type": "message",
+        "user": "satra",
+        "text": "this is only in the context of switching Builders from 2.2 to 2.3 on Singularity hub not the general context of creating different branches for repose in my case all branches were already built by Builder 2.2 but when I switch the Builder to 2.3 only the main branch built.",
+        "attachments": [
+            {
+                "fallback": "[June 11th, 2017 2:21 PM] v: <@U444V56A2> would you prefer a model that allows for multiple build specs in a repo, given that you define different tags, but then only keeps one version per tag (and it's up to you to tag different versions?)",
+                "ts": "1497205271.059011",
+                "author_subname": "v",
+                "channel_id": "C3VU5JDHQ",
+                "channel_name": "singularity-hub",
+                "is_msg_unfurl": true,
+                "text": "<@U444V56A2> would you prefer a model that allows for multiple build specs in a repo, given that you define different tags, but then only keeps one version per tag (and it's up to you to tag different versions?)",
+                "author_name": "Vanessa Sochat",
+                "author_link": "https://singularity-container.slack.com/team/v",
+                "author_icon": "https://avatars.slack-edge.com/2016-09-25/83810871125_5385e49799681501c8ab_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "color": "D0D0D0",
+                "from_url": "https://singularity-container.slack.com/archives/C3VU5JDHQ/p1497205271059011",
+                "is_share": true,
+                "footer": "Posted in #singularity-hub"
+            }
+        ],
+        "ts": "1497206481.148985",
+        "date": 1497206481148
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "yeah I know, I was just asking about a different idea :slightly_smiling_face:",
+        "ts": "1497207370.205974",
+        "date": 1497207370205
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "a lot have expressed wanting to (not) use multiple branches, and I'm trying to figure out if that is reasonable",
+        "ts": "1497207397.207560",
+        "date": 1497207397207
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "it also seems that (most) update their container when testing/developing at some frequency, and then there is a sort of \"freeze point\" when the version is good (akin to a release), but most of the time the previous builds (which aren't needed) they don't bother deleting",
+        "ts": "1497207445.210319",
+        "date": 1497207445210
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "so Singularity Hub could place the responsibility of versioning on the user, meaning that if you push without specifying a tag, it's just \"latest\" and it overrides the previous latest",
+        "ts": "1497207471.212019",
+        "date": 1497207471212
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "if you specify a tag, then that tag gets built",
+        "ts": "1497207480.212517",
+        "date": 1497207480212
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "if someone ever needs to go back to a previous version, they would go back to that commit",
+        "ts": "1497207496.213446",
+        "date": 1497207496213
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "(and would have to rebuild )",
+        "ts": "1497207507.214061",
+        "date": 1497207507214
+    },
+    {
+        "type": "message",
+        "user": "satra",
+        "text": "<@U245DTC59> - ah i see. let me think about it. for one i was thinking of all the possibilities of the tensorflow containers on docker hub, and how that would be feasible. let me think.",
+        "ts": "1497219103.891010",
+        "date": 1497219103891
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "the registries are going to have a client --&gt; token oauth2 approach, and I could also add something like that for users of singularity hub, but I think (for most) pushing to github is still one step easier than that.",
+        "ts": "1497219206.896850",
+        "date": 1497219206896
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "but not to get sidetracked, let's stick to talking about github first heh",
+        "ts": "1497219223.897762",
+        "date": 1497219223897
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U444V56A2|satra> uploaded a file: <https://singularity-container.slack.com/files/satra/F5S3NUL69/pasted_image_at_2017_06_11_06_20_pm.png|Pasted image at 2017-06-11, 6:20 PM>",
+        "file": {
+            "id": "F5S3NUL69",
+            "created": 1497219639,
+            "timestamp": 1497219639,
+            "name": "Pasted image at 2017_06_11 06_20 PM.png",
+            "title": "Pasted image at 2017-06-11, 6:20 PM",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U444V56A2",
+            "editable": false,
+            "size": 194352,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T0YKGK200-F5S3NUL69/pasted_image_at_2017_06_11_06_20_pm.png",
+            "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F5S3NUL69/download/pasted_image_at_2017_06_11_06_20_pm.png",
+            "thumb_64": "https://files.slack.com/files-tmb/T0YKGK200-F5S3NUL69-ed4c5bc605/pasted_image_at_2017_06_11_06_20_pm_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T0YKGK200-F5S3NUL69-ed4c5bc605/pasted_image_at_2017_06_11_06_20_pm_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T0YKGK200-F5S3NUL69-ed4c5bc605/pasted_image_at_2017_06_11_06_20_pm_360.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 186,
+            "thumb_480": "https://files.slack.com/files-tmb/T0YKGK200-F5S3NUL69-ed4c5bc605/pasted_image_at_2017_06_11_06_20_pm_480.png",
+            "thumb_480_w": 480,
+            "thumb_480_h": 248,
+            "thumb_160": "https://files.slack.com/files-tmb/T0YKGK200-F5S3NUL69-ed4c5bc605/pasted_image_at_2017_06_11_06_20_pm_160.png",
+            "thumb_720": "https://files.slack.com/files-tmb/T0YKGK200-F5S3NUL69-ed4c5bc605/pasted_image_at_2017_06_11_06_20_pm_720.png",
+            "thumb_720_w": 720,
+            "thumb_720_h": 372,
+            "thumb_800": "https://files.slack.com/files-tmb/T0YKGK200-F5S3NUL69-ed4c5bc605/pasted_image_at_2017_06_11_06_20_pm_800.png",
+            "thumb_800_w": 800,
+            "thumb_800_h": 414,
+            "thumb_960": "https://files.slack.com/files-tmb/T0YKGK200-F5S3NUL69-ed4c5bc605/pasted_image_at_2017_06_11_06_20_pm_960.png",
+            "thumb_960_w": 960,
+            "thumb_960_h": 496,
+            "thumb_1024": "https://files.slack.com/files-tmb/T0YKGK200-F5S3NUL69-ed4c5bc605/pasted_image_at_2017_06_11_06_20_pm_1024.png",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 529,
+            "image_exif_rotation": 1,
+            "original_w": 2294,
+            "original_h": 1186,
+            "permalink": "https://singularity-container.slack.com/files/satra/F5S3NUL69/pasted_image_at_2017_06_11_06_20_pm.png",
+            "permalink_public": "https://slack-files.com/T0YKGK200-F5S3NUL69-6ac7860db6",
+            "channels": [
+                "C3VU5JDHQ"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "satra",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "satra",
+        "bot_id": null,
+        "ts": "1497219642.920333",
+        "date": 1497219642920
+    },
+    {
+        "type": "message",
+        "user": "satra",
+        "text": "i'd like to see something similar.\n- automated builds that happen on pushes (as a choice)\n- being able to select a branch or tag, \n   - provide a location for the Singularity file, \n   - the singularity tag name, and \n   - to be able to trigger the builds.",
+        "ts": "1497219725.924565",
+        "date": 1497219725924
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "\"being able to select a branch or tag\" that just means having some way to specify what container is built with what tag/branch?",
+        "ts": "1497220158.947817",
+        "date": 1497220158947
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "This must be done in a way that does not rely on saving extra information about the build in singularity hub",
+        "ts": "1497220178.948827",
+        "date": 1497220178948
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "so for example, if for a %label field there was SINGULARITYHUB_TAG that would live with the build specification file, and it wouldn't be a big deal if singularity hub exploded, it would rebuild and know to tag that image as such",
+        "ts": "1497220212.950776",
+        "date": 1497220212950
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "but if it's just a field saved in the database, that's not a reproducible thing if the database goes away",
+        "ts": "1497220236.952379",
+        "date": 1497220236952
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "The algorithm I was thinking of testing is something like:\n- User can add Singularity files in any folder, any level of the repo, and any number\n- a build is still triggered on commit, and instead of assuming Singularity at base, all Singularity files are checked\n - ONLY those that have a change since the last commit are built - and note this is done by the same builder, so if the user makes changes to 5 files at once, and one of them fails, the build fails that image and keeps going to the others.\n- the builder will create a dictionary of images by tag, based on the %label in the spec file `SINGULARITYHUB_TAG`. If it's not defined, `latest` will be used. If there are conflicts (eg, two spec files without tags that would both be latest) a warning is issued and the more recently updated file is used.\n- the hub only maintains an image per tag specified by the user. This means that you would only be able to go back in time to an older commit (that you didn't save as a tag) by pushing with that tag again.",
+        "ts": "1497220472.965697",
+        "date": 1497220472965
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "and there is no reason that a level of branches couldn't still be maintained, so you could have equivalent tags on different branches, but I have to think of how to reference this via uri",
+        "ts": "1497220532.968954",
+        "date": 1497220532968
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "probably like :master@tag, :development@tag",
+        "ts": "1497220560.970656",
+        "date": 1497220560970
+    },
+    {
+        "type": "message",
+        "user": "satra",
+        "text": "sounds fine to me.",
+        "ts": "1497220926.990071",
+        "date": 1497220926990
+    },
+    {
+        "type": "message",
+        "user": "satra",
+        "text": "i think that handles all the pieces that i wanted :slightly_smiling_face:",
+        "ts": "1497220950.991405",
+        "date": 1497220950991
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "ok cool :slightly_smiling_face:",
+        "ts": "1497221123.000419",
+        "date": 1497221123000
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "I like the model better too, because researchers can be more specific about versions (using tag and branch) and also not build up unnecessary containers they don't need",
+        "ts": "1497221169.002754",
+        "date": 1497221169002
+    },
+    {
+        "type": "message",
+        "user": "sbutcher",
+        "text": "hi <@U245DTC59> , when i build a centos VM from scratch on shub, i get the \" ERROR: RPM database is using a weird path: %(bash -c 'echo ~/.rpmdb')\" error",
+        "ts": "1497346516.538233",
+        "date": 1497346516538
+    },
+    {
+        "type": "message",
+        "user": "sbutcher",
+        "text": "<https://singularity-hub.org/containers/1231/log>",
+        "attachments": [
+            {
+                "service_name": "Singularity Hub",
+                "title": "singularity-hub",
+                "title_link": "https://singularity-hub.org/containers/1231/log",
+                "text": "singularity container and workflow management",
+                "fallback": "Singularity Hub: singularity-hub",
+                "from_url": "https://singularity-hub.org/containers/1231/log",
+                "service_icon": "https://singularity-hub.org/static/img/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1497346523.539978",
+        "date": 1497346523539
+    },
+    {
+        "type": "message",
+        "user": "sbutcher",
+        "text": "i can fix this locally with the .rpmmacros file , but on shub...?",
+        "ts": "1497346551.546859",
+        "date": 1497346551546
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "so you got it working using debootstrap instead? <https://singularity-hub.org/containers/1240/log>",
+        "attachments": [
+            {
+                "service_name": "Singularity Hub",
+                "title": "singularity-hub",
+                "title_link": "https://singularity-hub.org/containers/1240/log",
+                "text": "singularity container and workflow management",
+                "fallback": "Singularity Hub: singularity-hub",
+                "from_url": "https://singularity-hub.org/containers/1240/log",
+                "service_icon": "https://singularity-hub.org/static/img/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1497360321.727007",
+        "date": 1497360321727
+    },
+    {
+        "type": "message",
+        "user": "sbutcher",
+        "text": "hi <@U245DTC59> , i built a ubuntu one instead..however getting some errors that i don't get on a local container (my local one works fine)",
+        "edited": {
+            "user": "U2WSZL9L2",
+            "ts": "1497360946.000000"
+        },
+        "ts": "1497360740.872594",
+        "date": 1497360740872
+    },
+    {
+        "type": "message",
+        "user": "sbutcher",
+        "text": "it's supposed to build R from source",
+        "ts": "1497360750.876033",
+        "date": 1497360750876
+    },
+    {
+        "type": "message",
+        "user": "sbutcher",
+        "text": "would be good to know how to solve the centos issue fir shub later though too if poss",
+        "ts": "1497360781.887137",
+        "date": 1497360781887
+    },
+    {
+        "type": "message",
+        "user": "sbutcher",
+        "text": "perhaps this is the problem for the ubuntu image? \"debconf: delaying package configuration, since apt-utils is not installed\"",
+        "ts": "1497360828.903886",
+        "date": 1497360828903
+    },
+    {
+        "type": "message",
+        "user": "v",
+        "text": "is that in or outside the image? If it's inside, maybe it needs apt-utils. If it's outside, the builder would need it. Any reason to not just use an r-base image, or a docker image with the OS you need?",
+        "ts": "1497361168.026291",
+        "date": 1497361168026
+    },
+    {
+        "user": "godlovedc",
+        "text": "<@U2MT7BF0V|godlovedc> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1497361834.272063",
+        "date": 1497361834272
+    },
+    {
+        "type": "message",
+        "user": "sbutcher",
+        "text": "v, thats from the singularityhub log file . its strange because",
+        "ts": "1497364382.293937",
+        "date": 1497364382293
+    },
+    {
+        "type": "message",
+        "user": "sbutcher",
+        "text": "<https://singularity-hub.org/containers/1240/log>",
+        "attachments": [
+            {
+                "service_name": "Singularity Hub",
+                "title": "singularity-hub",
+                "title_link": "https://singularity-hub.org/containers/1240/log",
+                "text": "singularity container and workflow management",
+                "fallback": "Singularity Hub: singularity-hub",
+                "from_url": "https://singularity-hub.org/containers/1240/log",
+                "service_icon": "https://singularity-hub.org/static/img/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1497364388.296267",
+        "date": 1497364388296
+    },
+    {
+        "type": "message",
+        "user": "sbutcher",
+        "text": "it works locally",
+        "ts": "1497364396.299734",
+        "date": 1497364396299
+    },
+    {
+        "type": "message",
+        "user": "sbutcher",
+        "text": "we and quite a few other sites won't be using docker images, rather build from scratch",
+        "ts": "1497365529.766423",
+        "date": 1497365529766
+    },
+    {
+        "type": "message",
+        "user": "sbutcher",
+        "text": "AKA repeatable science",
+        "ts": "1497368067.832666",
+        "date": 1497368067832
+    },
+    {
+        "type": "message",
+        "user": "sbutcher",
+        "text": ":smile:",
+        "ts": "1497368069.833187",
+        "date": 1497368069833
+    },
+    {
+        "type": "message",
+        "user": "sbutcher",
+        "text": "i'm actually testing why i get a gazillion % speedup inside the container with an R script",
+        "ts": "1497368108.849780",
+        "date": 1497368108849
+    },
+    {
+        "type": "message",
+        "user": "sbutcher",
+        "text": "could be version related, so having to build a bunch of different versions",
+        "ts": "1497368123.855933",
+        "date": 1497368123855
+    },
+    {
+        "user": "asd2007",
+        "text": "<@U532F3Z4K|asd2007> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1497667580.533458",
+        "date": 1497667580533
+    }
+]
