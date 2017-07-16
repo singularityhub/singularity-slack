@@ -1,0 +1,112 @@
+[
+    {
+        "user": "eduardoarango",
+        "text": "<@U3E99RUG1|eduardoarango> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1494286747.061868",
+        "date": 1494286747061
+    },
+    {
+        "user": "frederik",
+        "text": "<@U5FFKV6M6|frederik> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1495434805.762326",
+        "date": 1495434805762
+    },
+    {
+        "user": "alice",
+        "text": "<@U5MSWV6P4|alice> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1496417655.356596",
+        "date": 1496417655356
+    },
+    {
+        "user": "cclerget",
+        "text": "<@U5RJ04A4F|cclerget> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1496947572.626426",
+        "date": 1496947572626
+    },
+    {
+        "user": "godlovedc",
+        "text": "<@U2MT7BF0V|godlovedc> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1497361783.484266",
+        "date": 1497361783484
+    },
+    {
+        "user": "remyd1",
+        "text": "<@U4BKCNE9K|remyd1> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1498051205.621442",
+        "date": 1498051205621
+    },
+    {
+        "user": "bala",
+        "text": "<@U60ADBYP8|bala> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1498486933.218404",
+        "date": 1498486933218
+    },
+    {
+        "user": "ax3l",
+        "text": "<@U64KRMEDT|ax3l> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1499324937.181478",
+        "date": 1499324937181
+    },
+    {
+        "user": "kjstrosahl",
+        "text": "<@U68D8JLCS|kjstrosahl> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1499958788.057259",
+        "date": 1499958788057
+    },
+    {
+        "type": "message",
+        "user": "remyd1",
+        "text": "Bump\n<https://github.com/singularityware/singularity/pull/768>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Development - arm/ARCH support in debootstrap by remyd1 · Pull Request #768 · singularityware/singularity",
+                "title_link": "https://github.com/singularityware/singularity/pull/768",
+                "text": "Description of the Pull Request (PR): I tested/built successfully singularity on my rapsberry PI 2, using this tutorial (BTW, I think it would be helpful to specify needed packages (libtool, autoto...",
+                "fallback": "GitHub: Development - arm/ARCH support in debootstrap by remyd1 · Pull Request #768 · singularityware/singularity",
+                "from_url": "https://github.com/singularityware/singularity/pull/768",
+                "thumb_url": "https://avatars5.githubusercontent.com/u/929620?v=4&s=400",
+                "thumb_width": 250,
+                "thumb_height": 250,
+                "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1500113264.738772",
+        "date": 1500113264738
+    },
+    {
+        "type": "message",
+        "user": "gmk",
+        "text": "<@U4BKCNE9K> Thanks for the bump! :wink:",
+        "ts": "1500159710.291662",
+        "reactions": [
+            {
+                "name": "metal",
+                "users": [
+                    "U4BKCNE9K"
+                ],
+                "count": 1
+            }
+        ],
+        "date": 1500159710291
+    }
+]
