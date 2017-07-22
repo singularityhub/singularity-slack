@@ -18,7 +18,8 @@ day=`date +%d`
 year=`date +%y`
 dumphere="${year}/${month}/${day}"
 mkdir -p $dumphere
-slack-history-export -t "$SLACK_KEY" -T "channel" -c "#all" -F json -d $dumphere
+slack-history-export -t "$SLACK_KEY" -c "general" -F json -f $dumphere/general.json
+slack-history-export -t "$SLACK_KEY" -c "singularity-hub" -F json -f $dumphere/singularity-hub.json
 git add $dumphere/*
 git commit -m "Adding Singularity Slack for $dumphere"
 git push origin master
