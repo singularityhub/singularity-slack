@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # This is a dinky script to export Singularity slack on a daily basis
 # using cron
@@ -8,6 +8,9 @@
 # Check with:
 # crontab -l
 
+# Install node/npm for version 5
+# http://www.hostingadvice.com/how-to/install-nodejs-ubuntu-14-04/#node-version-manager
+# Then npm i -g slack-history-export
 # https://www.npmjs.com/package/slack-history-export
 source .api-secrets
 month=`date +%m`
