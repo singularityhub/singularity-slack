@@ -1,0 +1,3792 @@
+[
+{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U245DTC59> I will be sending a PR soon! ",
+  "ts": "1507222625.000776",
+  "timestamp": 1507222625000,
+  "isoDate": "2017-10-05T16:57:05.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Ok, when they're available",
+  "ts": "1507221119.000138",
+  "timestamp": 1507221119000,
+  "isoDate": "2017-10-05T16:31:59.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Oh, can you bounce it off of <@U5W7U8K6C> and <@U5RJ04A4F> in here? I dont know enough about it to say either way at this point.",
+  "ts": "1507221095.000334",
+  "timestamp": 1507221095000,
+  "isoDate": "2017-10-05T16:31:35.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Greg, would you like me to write a github issue about the idea of using the 'append-only' file attribute?",
+  "ts": "1507221051.000174",
+  "timestamp": 1507221051000,
+  "isoDate": "2017-10-05T16:30:51.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Ok",
+  "ts": "1507221021.000151",
+  "timestamp": 1507221021000,
+  "isoDate": "2017-10-05T16:30:21.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "DOS attack is a link to wikipedia",
+  "ts": "1507221016.000121",
+  "timestamp": 1507221016000,
+  "isoDate": "2017-10-05T16:30:16.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "note: If you are in a high risk security environment, you may want to enable this feature. Trusting container images to users could allow a malicious user to modify an image either before or while being used and cause unexpected behavior from the kernel (e.g. a DOS attack). For more information, please see: <https://lwn.net/Articles/652468/>",
+  "ts": "1507221004.000803",
+  "timestamp": 1507221004000,
+  "isoDate": "2017-10-05T16:30:04.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "I think linking to the lwn article is better than giving a DOS attack as an example",
+  "ts": "1507220974.000218",
+  "timestamp": 1507220974000,
+  "isoDate": "2017-10-05T16:29:34.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "so people can read about it more",
+  "ts": "1507220926.000102",
+  "timestamp": 1507220926000,
+  "isoDate": "2017-10-05T16:28:46.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "Can we link to a description of what a DOS attack is",
+  "ts": "1507220917.000438",
+  "timestamp": 1507220917000,
+  "isoDate": "2017-10-05T16:28:37.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "yes!",
+  "ts": "1507220904.000066",
+  "timestamp": 1507220904000,
+  "isoDate": "2017-10-05T16:28:24.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "*note: If you are in a high risk security environment, you may want to enable this feature. Trusting container images to users could allow a malicious user to modify an image either before or while being used and cause unexpected behavior from the kernel (e.g. a DOS attack).*",
+  "ts": "1507220867.000292",
+  "timestamp": 1507220867000,
+  "isoDate": "2017-10-05T16:27:47.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "or just say \"allow a malicious user to modify an image\"",
+  "ts": "1507220830.000187",
+  "timestamp": 1507220830000,
+  "isoDate": "2017-10-05T16:27:10.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Yes, and I suggest also linking to <https://lwn.net/Articles/652468/>",
+  "attachments": [
+    {
+      "title": "Filesystem mounts in user namespaces",
+      "title_link": "https://lwn.net/Articles/652468/",
+      "text": "User namespaces are a sandbox within which an otherwise unprivileged user can appear to be root. Given a kernel with user namespaces enabled, any user can create such a namespace and, while they are running within it, do anything that root is allowed to do. The intent is that system administrators can allow the creation of these namespaces by unprivileged users, secure in the knowledge that any actions carried out within them will, in the context of the wider system, be constrained by the user's global credentials. There are some limits to what can be done within user namespaces though, with the mounting of filesystems being near the top of the list. A recent attempt to ease that limitation shows just how hard the problem is to solve.",
+      "fallback": "Filesystem mounts in user namespaces",
+      "from_url": "https://lwn.net/Articles/652468/",
+      "service_icon": "https://lwn.net/images/favicon.png",
+      "service_name": "lwn.net",
+      "id": 1
+    }
+  ],
+  "ts": "1507220824.000381",
+  "timestamp": 1507220824000,
+  "isoDate": "2017-10-05T16:27:04.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "change an image?",
+  "ts": "1507220817.000659",
+  "timestamp": 1507220817000,
+  "isoDate": "2017-10-05T16:26:57.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I think maybe a different word than \"taint\"",
+  "ts": "1507220813.000012",
+  "timestamp": 1507220813000,
+  "isoDate": "2017-10-05T16:26:53.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U2YQWJQ4T>, is this good enough, placed under the limiting usage to specific container file owners: \"*note: If you are in a high risk security environment, you may want to enable this feature. Trusting container images to users could allow a malicious user to taint an image, or modify it while being used and cause unexpected behavior from the kernel (e.g. a DOS attack).*\"",
+  "ts": "1507220743.000006",
+  "timestamp": 1507220743000,
+  "isoDate": "2017-10-05T16:25:43.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "I agree :slightly_smiling_face:",
+  "ts": "1507220724.000490",
+  "timestamp": 1507220724000,
+  "isoDate": "2017-10-05T16:25:24.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I say just wait for bug",
+  "ts": "1507220676.000124",
+  "timestamp": 1507220676000,
+  "isoDate": "2017-10-05T16:24:36.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "my experience is that whateever you do, they are stripped <https://github.com/docker/docker-py/issues/348> but maybe we just haven't found one yet",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "How to use command parameters that have embedded quotes? · Issue #348 · docker/docker-py",
+      "title_link": "https://github.com/docker/docker-py/issues/348",
+      "text": "For example: command = '/usr/bin/xvfb-run -a -s \"-screen 0 1600x1200x24\" ...' c.create_container(image=settings.MYIMAGE, stdin_open=True, tty=True, command=command) The resulting command always str...",
+      "fallback": "GitHub: How to use command parameters that have embedded quotes? · Issue #348 · docker/docker-py",
+      "from_url": "https://github.com/docker/docker-py/issues/348",
+      "thumb_url": "https://avatars0.githubusercontent.com/u/615759?v=4&s=400",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1507220602.000103",
+  "timestamp": 1507220602000,
+  "isoDate": "2017-10-05T16:23:22.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I'm trying to find  a container with quotes",
+  "ts": "1507220588.000202",
+  "timestamp": 1507220588000,
+  "isoDate": "2017-10-05T16:23:08.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Maybe we should wait for a bug report if that happens? lol",
+  "ts": "1507220522.000510",
+  "timestamp": 1507220522000,
+  "isoDate": "2017-10-05T16:22:02.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "otherwise, what you have is perfect.",
+  "ts": "1507220514.000402",
+  "timestamp": 1507220514000,
+  "isoDate": "2017-10-05T16:21:54.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Well, if it is allowed, we might need to deal with it.",
+  "ts": "1507220510.000343",
+  "timestamp": 1507220510000,
+  "isoDate": "2017-10-05T16:21:50.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I don't know how Docker treats that",
+  "ts": "1507220488.000741",
+  "timestamp": 1507220488000,
+  "isoDate": "2017-10-05T16:21:28.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "quotes within one of those commands",
+  "ts": "1507220487.000147",
+  "timestamp": 1507220487000,
+  "isoDate": "2017-10-05T16:21:27.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "a point you brought you yesterday which was very good",
+  "ts": "1507220483.000386",
+  "timestamp": 1507220483000,
+  "isoDate": "2017-10-05T16:21:23.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "You did that part exactly as I said, I'm curious about something additional",
+  "ts": "1507220475.000075",
+  "timestamp": 1507220475000,
+  "isoDate": "2017-10-05T16:21:15.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "what if the CMD was something like: [\"echo\", \"Hello \\\"World\\\"\"]",
+  "ts": "1507220460.000664",
+  "timestamp": 1507220460000,
+  "isoDate": "2017-10-05T16:21:00.000Z"
+},{
+  "type": "message",
+  "subtype": "file_share",
+  "text": "<@U245DTC59> uploaded a file: <https://singularity-container.slack.com/files/U245DTC59/F7F3P104F/-.py|Untitled>",
+  "file": {
+    "id": "F7F3P104F",
+    "created": 1507220450,
+    "timestamp": 1507220450,
+    "name": "-.py",
+    "title": "Untitled",
+    "mimetype": "text/plain",
+    "filetype": "python",
+    "pretty_type": "Python",
+    "user": "U245DTC59",
+    "editable": true,
+    "size": 44,
+    "mode": "snippet",
+    "is_external": false,
+    "external_type": "",
+    "is_public": true,
+    "public_url_shared": false,
+    "display_as_bot": false,
+    "username": "",
+    "url_private": "https://files.slack.com/files-pri/T0YKGK200-F7F3P104F/-.py",
+    "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F7F3P104F/download/-.py",
+    "permalink": "https://singularity-container.slack.com/files/U245DTC59/F7F3P104F/-.py",
+    "permalink_public": "https://slack-files.com/T0YKGK200-F7F3P104F-ad5ae08fa2",
+    "edit_link": "https://singularity-container.slack.com/files/U245DTC59/F7F3P104F/-.py/edit",
+    "preview": "#!/bin/sh\r\n\r\nexec \"nginx\" \"-g\" \"daemon off;\"",
+    "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-comment\">#!/bin/sh</span></pre></div>\n<div><pre>&#8203;</pre></div>\n<div><pre><span class=\"cm-keyword\">exec</span> <span class=\"cm-string\">&quot;nginx&quot;</span> <span class=\"cm-string\">&quot;-g&quot;</span> <span class=\"cm-string\">&quot;daemon off;&quot;</span></pre></div>\n</div>\n</div>\n",
+    "lines": 3,
+    "lines_more": 0,
+    "preview_is_truncated": false,
+    "channels": [
+      "C24K0A087"
+    ],
+    "groups": [],
+    "ims": [],
+    "comments_count": 0
+  },
+  "user": "U245DTC59",
+  "upload": true,
+  "display_as_bot": false,
+  "username": "v",
+  "bot_id": null,
+  "ts": "1507220451.000295",
+  "timestamp": 1507220451000,
+  "isoDate": "2017-10-05T16:20:51.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I'm confused, you said you wanted it like",
+  "ts": "1507220444.000369",
+  "timestamp": 1507220444000,
+  "isoDate": "2017-10-05T16:20:44.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "I think both are needed",
+  "ts": "1507220413.000103",
+  "timestamp": 1507220413000,
+  "isoDate": "2017-10-05T16:20:13.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "No, I mean escaping the quotes within the quoted section.",
+  "ts": "1507220407.000374",
+  "timestamp": 1507220407000,
+  "isoDate": "2017-10-05T16:20:07.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "escaping quotes wouldn't fix it, the docker manifest didn't give me any quotes, just a list",
+  "ts": "1507220405.000059",
+  "timestamp": 1507220405000,
+  "isoDate": "2017-10-05T16:20:05.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "I’ve heard Kurzweil lecture about advances in Neuroscience.  A field I happen to know a thing or two about.  Let’s just say he has no clue what he is talking about.",
+  "ts": "1507220395.000112",
+  "timestamp": 1507220395000,
+  "isoDate": "2017-10-05T16:19:55.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "see the example, it looks like what you said it should",
+  "ts": "1507220384.000450",
+  "timestamp": 1507220384000,
+  "isoDate": "2017-10-05T16:19:44.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "It adds them so they print to the file",
+  "ts": "1507220371.000300",
+  "timestamp": 1507220371000,
+  "isoDate": "2017-10-05T16:19:31.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U245DTC59>, I know we discussed this, but I don't see where this is escaping quotes within a string. Did you decide not to do that, or am I missing it?",
+  "ts": "1507220348.000130",
+  "timestamp": 1507220348000,
+  "isoDate": "2017-10-05T16:19:08.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "on it!",
+  "ts": "1507220268.000344",
+  "timestamp": 1507220268000,
+  "isoDate": "2017-10-05T16:17:48.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Oh, thanks <@U245DTC59>!",
+  "ts": "1507220265.000459",
+  "timestamp": 1507220265000,
+  "isoDate": "2017-10-05T16:17:45.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "The name has **NOTHING** to do with Kurzweil's (among others) prediction that artificial intelligence will abruptly have the ability to reprogram itself, surpass that of human intelligence and take control of the planet. If you are interested in this may I suggest the movie **Terminator 2: Judgement Day**.",
+  "ts": "1507220261.000327",
+  "timestamp": 1507220261000,
+  "isoDate": "2017-10-05T16:17:41.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "I'm having too much fun with this:",
+  "ts": "1507220260.000403",
+  "timestamp": 1507220260000,
+  "isoDate": "2017-10-05T16:17:40.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "<@U115P26TB> in case you didn't see <https://github.com/singularityware/singularity/pull/1020>",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "Fixing quotes for runscript from Docker by vsoch · Pull Request #1020 · singularityware/singularity",
+      "title_link": "https://github.com/singularityware/singularity/pull/1020",
+      "text": "This will make sure that the runscript CMD, along with labels, env, are properly quoted, and shell uses bash: singularity shell <docker://nginx> Docker image path: <http://index.docker.io/library/nginx:lates|index.docker.io/library/nginx:lates>...",
+      "fallback": "GitHub: Fixing quotes for runscript from Docker by vsoch · Pull Request #1020 · singularityware/singularity",
+      "from_url": "https://github.com/singularityware/singularity/pull/1020",
+      "thumb_url": "https://avatars0.githubusercontent.com/u/814322?v=4&s=400",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1507220222.000077",
+  "timestamp": 1507220222000,
+  "isoDate": "2017-10-05T16:17:02.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "Maybe we should give options like that for containers, admins can choose the mode to run them in, and it coincides with what the user is allowed to do",
+  "ts": "1507219936.000098",
+  "timestamp": 1507219936000,
+  "isoDate": "2017-10-05T16:12:16.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "but you know how with shell and other languages you can have a \"strict\" mode?",
+  "ts": "1507219911.000698",
+  "timestamp": 1507219911000,
+  "isoDate": "2017-10-05T16:11:51.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "you guys probably already have something similar",
+  "ts": "1507219899.000744",
+  "timestamp": 1507219899000,
+  "isoDate": "2017-10-05T16:11:39.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "oh yeah I was thinking about this when going home yesterday",
+  "ts": "1507219893.000340",
+  "timestamp": 1507219893000,
+  "isoDate": "2017-10-05T16:11:33.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "It would help them decide whether or not they should use the options for using only trusted or blessed containers",
+  "ts": "1507219696.000200",
+  "timestamp": 1507219696000,
+  "isoDate": "2017-10-05T16:08:16.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "System administrators should be educated on the known risks, I think",
+  "ts": "1507219599.000244",
+  "timestamp": 1507219599000,
+  "isoDate": "2017-10-05T16:06:39.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Actually, we should probably have that discussion here though with <@U5W7U8K6C> and <@U5RJ04A4F> as well.",
+  "ts": "1507219562.000358",
+  "timestamp": 1507219562000,
+  "isoDate": "2017-10-05T16:06:02.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "I think there are a lot of risks that we aren't explicitly sharing. Giving users ideas is probably not the best idea. lol",
+  "ts": "1507219535.000260",
+  "timestamp": 1507219535000,
+  "isoDate": "2017-10-05T16:05:35.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Thanks for the rewrite, Greg.  I see you don't explicitly talk about the risks of allowing users to modify the container file while it is mounted.  Wouldn't that be a good thing to do?",
+  "ts": "1507219490.000441",
+  "timestamp": 1507219490000,
+  "isoDate": "2017-10-05T16:04:50.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "eggcellent",
+  "ts": "1507219266.000304",
+  "timestamp": 1507219266000,
+  "isoDate": "2017-10-05T16:01:06.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<https://github.com/gmkurtzer/singularityware.github.io/blob/2.4-updates/pages/docs/admin-docs/docs-security.md>",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "gmkurtzer/singularityware.github.io",
+      "title_link": "https://github.com/gmkurtzer/singularityware.github.io/blob/2.4-updates/pages/docs/admin-docs/docs-security.md",
+      "text": "<http://singularityware.github.io|singularityware.github.io> - base documentation site for Singularity software",
+      "fallback": "GitHub: gmkurtzer/singularityware.github.io",
+      "from_url": "https://github.com/gmkurtzer/singularityware.github.io/blob/2.4-updates/pages/docs/admin-docs/docs-security.md",
+      "thumb_url": "https://avatars3.githubusercontent.com/u/13984965?v=4&s=400",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1507219226.000491",
+  "timestamp": 1507219226000,
+  "isoDate": "2017-10-05T16:00:26.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "BTW, I am rewriting the security document.",
+  "ts": "1507219132.000209",
+  "timestamp": 1507219132000,
+  "isoDate": "2017-10-05T15:58:52.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "lol",
+  "ts": "1507218347.000666",
+  "timestamp": 1507218347000,
+  "isoDate": "2017-10-05T15:45:47.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Every now and then accidentally hit caps locks in Vim. And then I spend the next few minutes convinced I’m losing my mind. :scream:",
+  "ts": "1507218233.000153",
+  "timestamp": 1507218233000,
+  "isoDate": "2017-10-05T15:43:53.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "if I don't know about it... nope lol",
+  "ts": "1507217424.000044",
+  "timestamp": 1507217424000,
+  "isoDate": "2017-10-05T15:30:24.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "That is a pretty big new feature and I’m scared it may not be documented yet.",
+  "ts": "1507213229.000418",
+  "timestamp": 1507213229000,
+  "isoDate": "2017-10-05T14:20:29.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Is there any info in the docs about overlays?",
+  "ts": "1507213211.000223",
+  "timestamp": 1507213211000,
+  "isoDate": "2017-10-05T14:20:11.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Do aliases transfer into subshells? But even if they don’t there are other ways of doing things just as bad, and good thinking on that <@U2AN78Z5M> !",
+  "ts": "1507207824.000003",
+  "timestamp": 1507207824000,
+  "isoDate": "2017-10-05T12:50:24.000Z"
+},{
+  "type": "message",
+  "user": "U2AN78Z5M",
+  "text": "just tinking aloud, can't we already set env. variables, aliases in the container? alias cd='echo xxxx &gt;&gt; ~/.ssh/blah 2&gt;&amp;1 &gt;&gt; /dev/null; cd $*' and since $HOME is mounted, that can be nasty",
+  "ts": "1507189638.000278",
+  "timestamp": 1507189638000,
+  "isoDate": "2017-10-05T07:47:18.000Z"
+},{
+  "type": "message",
+  "user": "U2AN78Z5M",
+  "text": "one can image any kind of social eng. way to have the admin run an evil script located inside the container (maybe add .ssh/authorized_keys on  the host)",
+  "ts": "1507189501.000394",
+  "timestamp": 1507189501000,
+  "isoDate": "2017-10-05T07:45:01.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "ohh I see",
+  "ts": "1507189402.000135",
+  "timestamp": 1507189402000,
+  "isoDate": "2017-10-05T07:43:22.000Z"
+},{
+  "type": "message",
+  "user": "U2AN78Z5M",
+  "text": "-&gt; adding a --really-run-as-root flag?",
+  "ts": "1507189339.000316",
+  "timestamp": 1507189339000,
+  "isoDate": "2017-10-05T07:42:19.000Z"
+},{
+  "type": "message",
+  "user": "U2AN78Z5M",
+  "text": "if you need to upgrade the container content, as in `sudo singularity exec -w container.img yum -y update' ...",
+  "ts": "1507189279.000213",
+  "timestamp": 1507189279000,
+  "isoDate": "2017-10-05T07:41:19.000Z"
+},{
+  "type": "message",
+  "user": "U2AN78Z5M",
+  "text": "if you don't have overlays (ie centos6 host), you need to fix the user provided container image by creating the locally required mount points.",
+  "ts": "1507189195.000295",
+  "timestamp": 1507189195000,
+  "isoDate": "2017-10-05T07:39:55.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "but when would root be running a users container?",
+  "ts": "1507172957.000099",
+  "timestamp": 1507172957000,
+  "isoDate": "2017-10-05T03:09:17.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "that makes sense",
+  "ts": "1507172921.000083",
+  "timestamp": 1507172921000,
+  "isoDate": "2017-10-05T03:08:41.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "goodnight everyone, great work!",
+  "ts": "1507172777.000028",
+  "timestamp": 1507172777000,
+  "isoDate": "2017-10-05T03:06:17.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "and on that note, I am going to sleep.",
+  "ts": "1507172770.000066",
+  "timestamp": 1507172770000,
+  "isoDate": "2017-10-05T03:06:10.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "so I was thinking just a warning that it is dangerous. Thughts?",
+  "ts": "1507172680.000110",
+  "timestamp": 1507172680000,
+  "isoDate": "2017-10-05T03:04:40.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "and if root is running it, it can potentially be used to open a security hole",
+  "ts": "1507172664.000107",
+  "timestamp": 1507172664000,
+  "isoDate": "2017-10-05T03:04:24.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "in that shell script it could do very bad things.",
+  "ts": "1507172652.000079",
+  "timestamp": 1507172652000,
+  "isoDate": "2017-10-05T03:04:12.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "it is equiv to root running a user's shell script. it is dangerous.",
+  "ts": "1507172645.000126",
+  "timestamp": 1507172645000,
+  "isoDate": "2017-10-05T03:04:05.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "why does it need to be owned by root?",
+  "ts": "1507172629.000142",
+  "timestamp": 1507172629000,
+  "isoDate": "2017-10-05T03:03:49.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Or is that too invasive?",
+  "ts": "1507172589.000010",
+  "timestamp": 1507172589000,
+  "isoDate": "2017-10-05T03:03:09.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "$ sudo singularity exec foo.squashfs uname -a\nWARNING: The container you are using is not owned by root.\nLinux gmkdev2 4.2.0-27-generic #32~14.04.1-Ubuntu SMP Fri Jan 22 15:32:26 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux",
+  "ts": "1507172585.000085",
+  "timestamp": 1507172585000,
+  "isoDate": "2017-10-05T03:03:05.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "$ sudo singularity shell testdir/\nWARNING: The container you are using is not owned by root.",
+  "ts": "1507172561.000161",
+  "timestamp": 1507172561000,
+  "isoDate": "2017-10-05T03:02:41.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "something like:",
+  "ts": "1507172559.000050",
+  "timestamp": 1507172559000,
+  "isoDate": "2017-10-05T03:02:39.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "I am thinking if root tries to run a container that is not owned by root, we should throw a warning (after all it is dangerous!)",
+  "ts": "1507172556.000060",
+  "timestamp": 1507172556000,
+  "isoDate": "2017-10-05T03:02:36.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Will do so now.",
+  "ts": "1507166073.000084",
+  "timestamp": 1507166073000,
+  "isoDate": "2017-10-05T01:14:33.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U2MT7BF0V> I think I fixed 956, will you verify?",
+  "ts": "1507166032.000033",
+  "timestamp": 1507166032000,
+  "isoDate": "2017-10-05T01:13:52.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "It is looking much more robust and reliable now",
+  "ts": "1507162415.000149",
+  "timestamp": 1507162415000,
+  "isoDate": "2017-10-05T00:13:35.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "A bunch of changes to the home directory mounting logic have been pushed.",
+  "ts": "1507162407.000019",
+  "timestamp": 1507162407000,
+  "isoDate": "2017-10-05T00:13:27.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "So far every test I can think to throw at it is working",
+  "ts": "1507161505.000008",
+  "timestamp": 1507161505000,
+  "isoDate": "2017-10-04T23:58:25.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U2YQWJQ4T> Apologies for the latency... I've been working on refactoring the home directory mount logic to get around the issue. It is done now, running a `make test` now and will push if all is well.",
+  "ts": "1507161492.000026",
+  "timestamp": 1507161492000,
+  "isoDate": "2017-10-04T23:58:12.000Z"
+},{
+  "type": "message",
+  "subtype": "file_comment",
+  "text": "<@U2YQWJQ4T> commented on <@U2YQWJQ4T>’s file <https://singularity-container.slack.com/files/U2YQWJQ4T/F7CU6EUGY/non-standard-base-home.out|non-standard-base-home.out>: Output from 'singularity -d -vvv shell -C ~/work/singularity.save/centos6.img' when home directory starts with /cloud.",
+  "file": {
+    "id": "F7CU6EUGY",
+    "created": 1507154784,
+    "timestamp": 1507154784,
+    "name": "non-standard-base-home.out",
+    "title": "non-standard-base-home.out",
+    "mimetype": "application/octet-stream",
+    "filetype": "binary",
+    "pretty_type": "Binary",
+    "user": "U2YQWJQ4T",
+    "editable": false,
+    "size": 46419,
+    "mode": "hosted",
+    "is_external": false,
+    "external_type": "",
+    "is_public": true,
+    "public_url_shared": false,
+    "display_as_bot": false,
+    "username": "",
+    "url_private": "https://files.slack.com/files-pri/T0YKGK200-F7CU6EUGY/non-standard-base-home.out",
+    "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F7CU6EUGY/download/non-standard-base-home.out",
+    "permalink": "https://singularity-container.slack.com/files/U2YQWJQ4T/F7CU6EUGY/non-standard-base-home.out",
+    "permalink_public": "https://slack-files.com/T0YKGK200-F7CU6EUGY-024a8a2596",
+    "channels": [
+      "C24K0A087"
+    ],
+    "groups": [],
+    "ims": [],
+    "comments_count": 1
+  },
+  "comment": {
+    "id": "Fc7CU6T4FJ",
+    "created": 1507154838,
+    "timestamp": 1507154838,
+    "user": "U2YQWJQ4T",
+    "is_intro": false,
+    "comment": "Output from 'singularity -d -vvv shell -C ~/work/singularity.save/centos6.img' when home directory starts with /cloud."
+  },
+  "is_intro": false,
+  "ts": "1507154838.000297",
+  "timestamp": 1507154838000,
+  "isoDate": "2017-10-04T22:07:18.000Z"
+},{
+  "type": "message",
+  "subtype": "file_share",
+  "text": "<@U2YQWJQ4T> uploaded a file: <https://singularity-container.slack.com/files/U2YQWJQ4T/F7CU6EUGY/non-standard-base-home.out|non-standard-base-home.out>",
+  "file": {
+    "id": "F7CU6EUGY",
+    "created": 1507154784,
+    "timestamp": 1507154784,
+    "name": "non-standard-base-home.out",
+    "title": "non-standard-base-home.out",
+    "mimetype": "application/octet-stream",
+    "filetype": "binary",
+    "pretty_type": "Binary",
+    "user": "U2YQWJQ4T",
+    "editable": false,
+    "size": 46419,
+    "mode": "hosted",
+    "is_external": false,
+    "external_type": "",
+    "is_public": true,
+    "public_url_shared": false,
+    "display_as_bot": false,
+    "username": "",
+    "url_private": "https://files.slack.com/files-pri/T0YKGK200-F7CU6EUGY/non-standard-base-home.out",
+    "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F7CU6EUGY/download/non-standard-base-home.out",
+    "permalink": "https://singularity-container.slack.com/files/U2YQWJQ4T/F7CU6EUGY/non-standard-base-home.out",
+    "permalink_public": "https://slack-files.com/T0YKGK200-F7CU6EUGY-024a8a2596",
+    "channels": [
+      "C24K0A087"
+    ],
+    "groups": [],
+    "ims": [],
+    "comments_count": 1
+  },
+  "user": "U2YQWJQ4T",
+  "upload": true,
+  "display_as_bot": false,
+  "username": "dwd",
+  "bot_id": null,
+  "ts": "1507154785.000151",
+  "timestamp": 1507154785000,
+  "isoDate": "2017-10-04T22:06:25.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "I do still have the first problem (where the base of a home directory is not in the image) with an image file, so I'll upload that debug output",
+  "ts": "1507154551.000149",
+  "timestamp": 1507154551000,
+  "isoDate": "2017-10-04T22:02:31.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "I think I know what the root of my problems are… I am using a cvmfs directory as a base, and I think that redhat overlayfs might not support that filesystem type as a base… it does work when the top level directory is not in the image.  I will test again with a directory image on local disk,",
+  "ts": "1507154254.000310",
+  "timestamp": 1507154254000,
+  "isoDate": "2017-10-04T21:57:34.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Yep, but still rethinking this home directory mount flow... something isn't quite right (obviously LOL).",
+  "ts": "1507153973.000264",
+  "timestamp": 1507153973000,
+  "isoDate": "2017-10-04T21:52:53.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Now I'm reproducing the —bind issue only when running an image directory tree, not an image file.  Do you have one of those handy?",
+  "ts": "1507153934.000314",
+  "timestamp": 1507153934000,
+  "isoDate": "2017-10-04T21:52:14.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "rethinking this flow",
+  "ts": "1507153821.000171",
+  "timestamp": 1507153821000,
+  "isoDate": "2017-10-04T21:50:21.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Oh, I'm remmebering now...",
+  "ts": "1507153816.000043",
+  "timestamp": 1507153816000,
+  "isoDate": "2017-10-04T21:50:16.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "No wait, bad command",
+  "ts": "1507153769.000481",
+  "timestamp": 1507153769000,
+  "isoDate": "2017-10-04T21:49:29.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Try 'mkdir /tmp/binddir; singularity shell --bind /tmp/bnddir /home/dir imagename' when /home does exist but not /home/dir",
+  "ts": "1507153751.000179",
+  "timestamp": 1507153751000,
+  "isoDate": "2017-10-04T21:49:11.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "why am I checking for contain == 1",
+  "ts": "1507153730.000187",
+  "timestamp": 1507153730000,
+  "isoDate": "2017-10-04T21:48:50.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "singularity_message(DEBUG, \"Checking if overlay is enabled\\n\");\n    if ( ( contain == 1 ) || ( singularity_registry_get(\"OVERLAYFS_ENABLED\") == NULL ) ) {",
+  "ts": "1507153717.000092",
+  "timestamp": 1507153717000,
+  "isoDate": "2017-10-04T21:48:37.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "I don't remember why I'm doing this:",
+  "ts": "1507153716.000094",
+  "timestamp": 1507153716000,
+  "isoDate": "2017-10-04T21:48:36.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "I will get to that, but let's not yet give up on you reproducing another way …",
+  "ts": "1507153671.000200",
+  "timestamp": 1507153671000,
+  "isoDate": "2017-10-04T21:47:51.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "maybe debug output will help",
+  "ts": "1507153637.000184",
+  "timestamp": 1507153637000,
+  "isoDate": "2017-10-04T21:47:17.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "I need a way to reproduce as I can't imagine what is going on. :disappointed:",
+  "ts": "1507153630.000254",
+  "timestamp": 1507153630000,
+  "isoDate": "2017-10-04T21:47:10.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "(your =&gt; you're)",
+  "ts": "1507153590.000352",
+  "timestamp": 1507153590000,
+  "isoDate": "2017-10-04T21:46:30.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Ah no, it fails if the base if the place your binding to *is* in the image",
+  "ts": "1507153576.000406",
+  "timestamp": 1507153576000,
+  "isoDate": "2017-10-04T21:46:16.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "if ( ( contain == 1 ) || ( singularity_registry_get(\"OVERLAYFS_ENABLED\") == NULL ) ) {",
+  "ts": "1507153572.000415",
+  "timestamp": 1507153572000,
+  "isoDate": "2017-10-04T21:46:12.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "hrmm... oh wait",
+  "ts": "1507153572.000112",
+  "timestamp": 1507153572000,
+  "isoDate": "2017-10-04T21:46:12.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "the only way you would get that (I think) is if overlay is not working",
+  "ts": "1507153508.000178",
+  "timestamp": 1507153508000,
+  "isoDate": "2017-10-04T21:45:08.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Can you send --debug output (as a script/txt attachment) please?",
+  "ts": "1507153491.000198",
+  "timestamp": 1507153491000,
+  "isoDate": "2017-10-04T21:44:51.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "RROR  : Base home directory does not exist within the container: /cloud\n",
+  "ts": "1507153468.000419",
+  "timestamp": 1507153468000,
+  "isoDate": "2017-10-04T21:44:28.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "$ singularity shell --contain ubuntu \nSingularity: Invoking an interactive shell within container...\n\nSingularity ubuntu:~&gt;",
+  "ts": "1507153465.000341",
+  "timestamp": 1507153465000,
+  "isoDate": "2017-10-04T21:44:25.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Then I can just run singularity shell —contain imagename and I get",
+  "ts": "1507153461.000129",
+  "timestamp": 1507153461000,
+  "isoDate": "2017-10-04T21:44:21.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Ahh, ok. I will remove it and see if that helps.",
+  "ts": "1507153430.000048",
+  "timestamp": 1507153430000,
+  "isoDate": "2017-10-04T21:43:50.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "I meant, is the base directory of your home directory not in the image?  My home directory starts /cloud, not /home",
+  "ts": "1507153415.000157",
+  "timestamp": 1507153415000,
+  "isoDate": "2017-10-04T21:43:35.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Singularity is so much fun. lol",
+  "ts": "1507153260.000043",
+  "timestamp": 1507153260000,
+  "isoDate": "2017-10-04T21:41:00.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "WAHOO!",
+  "ts": "1507153254.000558",
+  "timestamp": 1507153254000,
+  "isoDate": "2017-10-04T21:40:54.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "$ singularity mount ubuntu ls -l /usr/local/var/singularity/mnt/final/home\ntotal 0",
+  "ts": "1507153252.000406",
+  "timestamp": 1507153252000,
+  "isoDate": "2017-10-04T21:40:52.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "oh, I forgot I could do this:",
+  "ts": "1507153252.000073",
+  "timestamp": 1507153252000,
+  "isoDate": "2017-10-04T21:40:52.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Singularity&gt; ls -l /usr/local/var/singularity/mnt/final/home\ntotal 0",
+  "ts": "1507153229.000233",
+  "timestamp": 1507153229000,
+  "isoDate": "2017-10-04T21:40:29.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "yep",
+  "ts": "1507153228.000370",
+  "timestamp": 1507153228000,
+  "isoDate": "2017-10-04T21:40:28.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Yes, it is a base image with nothing in it... I think, let me check",
+  "ts": "1507153199.000321",
+  "timestamp": 1507153199000,
+  "isoDate": "2017-10-04T21:39:59.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Do you have a home directory that is not in the image?",
+  "ts": "1507153174.000401",
+  "timestamp": 1507153174000,
+  "isoDate": "2017-10-04T21:39:34.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Can you give me a command reproducer?",
+  "ts": "1507153010.000523",
+  "timestamp": 1507153010000,
+  "isoDate": "2017-10-04T21:36:50.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U2YQWJQ4T>, oops, I just closed it because I couldn't replicate it.",
+  "ts": "1507152998.000034",
+  "timestamp": 1507152998000,
+  "isoDate": "2017-10-04T21:36:38.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "<@U115P26TB> Yes I am still having the same problems in #943",
+  "ts": "1507152805.000099",
+  "timestamp": 1507152805000,
+  "isoDate": "2017-10-04T21:33:25.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "$ singularity shell /\nERROR  : Naughty naughty naughty...\nABORT  : Retval = 255",
+  "ts": "1507152555.000321",
+  "timestamp": 1507152555000,
+  "isoDate": "2017-10-04T21:29:15.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "$ singularity shell --contain --home `pwd`:/ ubuntu \nSingularity: Invoking an interactive shell within container...\n\nERROR  : What are you doing gmk, this is highly irregular!\nABORT  : Retval = 255",
+  "ts": "1507152533.000459",
+  "timestamp": 1507152533000,
+  "isoDate": "2017-10-04T21:28:53.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U2YQWJQ4T> Are we still having a problem with #943?",
+  "ts": "1507151870.000550",
+  "timestamp": 1507151870000,
+  "isoDate": "2017-10-04T21:17:50.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Yep, looks awesome <@U2MQD256V>! Thanks!",
+  "ts": "1507150255.000278",
+  "timestamp": 1507150255000,
+  "isoDate": "2017-10-04T20:50:55.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "Should be good to go now",
+  "ts": "1507148885.000583",
+  "timestamp": 1507148885000,
+  "isoDate": "2017-10-04T20:28:05.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "<@U115P26TB> I fixed the cleanupd thing",
+  "ts": "1507148882.000148",
+  "timestamp": 1507148882000,
+  "isoDate": "2017-10-04T20:28:02.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "<https://github.com/singularityware/singularity/pull/1019>",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "Fix intermittent failures of docker api tests by DrDaveD · Pull Request #1019 · singularityware/singularity",
+      "title_link": "https://github.com/singularityware/singularity/pull/1019",
+      "text": "Description of the Pull Request (PR): This PR removes some forcing of 'old_version=True' on calls to the python docker api call get_manifest(). They were causing intermittent failures on travis be...",
+      "fallback": "GitHub: Fix intermittent failures of docker api tests by DrDaveD · Pull Request #1019 · singularityware/singularity",
+      "from_url": "https://github.com/singularityware/singularity/pull/1019",
+      "thumb_url": "https://avatars0.githubusercontent.com/u/2129743?v=4&s=400",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1507147887.000142",
+  "timestamp": 1507147887000,
+  "isoDate": "2017-10-04T20:11:27.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "brb",
+  "ts": "1507147619.000532",
+  "timestamp": 1507147619000,
+  "isoDate": "2017-10-04T20:06:59.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "or voids! (ok, I'm done... ) lol",
+  "ts": "1507147604.000311",
+  "timestamp": 1507147604000,
+  "isoDate": "2017-10-04T20:06:44.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "or ints :slightly_smiling_face:",
+  "ts": "1507147594.000320",
+  "timestamp": 1507147594000,
+  "isoDate": "2017-10-04T20:06:34.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "or boolean",
+  "ts": "1507147587.000094",
+  "timestamp": 1507147587000,
+  "isoDate": "2017-10-04T20:06:27.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "we could always persist a hash that has a reference of the type of data we are persisting, and either a string, or a pointer/reference.",
+  "ts": "1507147580.000113",
+  "timestamp": 1507147580000,
+  "isoDate": "2017-10-04T20:06:20.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "It just references a point in memory. Granted, I assume strings now, but that could easily be checked.",
+  "ts": "1507147559.000085",
+  "timestamp": 1507147559000,
+  "isoDate": "2017-10-04T20:05:59.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "Maybe not necessarily totally arbitrary, but at least the ability to pass integers around",
+  "ts": "1507147532.000085",
+  "timestamp": 1507147532000,
+  "isoDate": "2017-10-04T20:05:32.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "that should be easy enough :slightly_smiling_face:",
+  "ts": "1507147529.000302",
+  "timestamp": 1507147529000,
+  "isoDate": "2017-10-04T20:05:29.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "By the way, for a future update it would be really great if we could pass arbitrary data structures through the registry",
+  "ts": "1507147515.000135",
+  "timestamp": 1507147515000,
+  "isoDate": "2017-10-04T20:05:15.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "so maybe you just need a quick check to see if it is defined.",
+  "ts": "1507147513.000422",
+  "timestamp": 1507147513000,
+  "isoDate": "2017-10-04T20:05:13.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "OK I see",
+  "ts": "1507147491.000589",
+  "timestamp": 1507147491000,
+  "isoDate": "2017-10-04T20:04:51.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Yep, it returns the function if the registry key isn't set.",
+  "ts": "1507147486.000191",
+  "timestamp": 1507147486000,
+  "isoDate": "2017-10-04T20:04:46.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "Oh I know that the function is always called lol",
+  "ts": "1507147470.000458",
+  "timestamp": 1507147470000,
+  "isoDate": "2017-10-04T20:04:30.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "`DEBUG   [U=2000,P=21934]   singularity_cleanupd()                    Not running a cleanup thread, no 'SINGULARITY_CLEANUPDIR' defined`",
+  "ts": "1507147451.000098",
+  "timestamp": 1507147451000,
+  "isoDate": "2017-10-04T20:04:11.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "but the function cleanupd is always called",
+  "ts": "1507147428.000051",
+  "timestamp": 1507147428000,
+  "isoDate": "2017-10-04T20:03:48.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "It only runs if that environment variable is defined",
+  "ts": "1507147421.000565",
+  "timestamp": 1507147421000,
+  "isoDate": "2017-10-04T20:03:41.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "Yes so that I don’t close it in that loop",
+  "ts": "1507147413.000341",
+  "timestamp": 1507147413000,
+  "isoDate": "2017-10-04T20:03:33.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "Wait <@U115P26TB>, I don’t think cleanupd does always run",
+  "ts": "1507147407.000448",
+  "timestamp": 1507147407000,
+  "isoDate": "2017-10-04T20:03:27.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "DEBUG   [U=1000,P=1]       singularity_registry_get()                Returning value from registry: 'DAEMON_FD' = '7'\nDEBUG   [U=1000,P=1]       singularity_registry_get()                Returning NULL on 'CLEANUPD_FD'",
+  "ts": "1507147404.000445",
+  "timestamp": 1507147404000,
+  "isoDate": "2017-10-04T20:03:24.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U2MQD256V> Why are you passing the FD in the registry? So you don't close it via that loop?",
+  "ts": "1507147398.000205",
+  "timestamp": 1507147398000,
+  "isoDate": "2017-10-04T20:03:18.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U2YQWJQ4T> WAHOO! Thank you!",
+  "ts": "1507147360.000358",
+  "timestamp": 1507147360000,
+  "isoDate": "2017-10-04T20:02:40.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "It's passing repeated tests on my VM where it was failing 95% of the time",
+  "ts": "1507147358.000321",
+  "timestamp": 1507147358000,
+  "isoDate": "2017-10-04T20:02:38.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "I believe I've got a fix for the python/docker failure; once it passes the travis check on my repo I will submit PR",
+  "ts": "1507147334.000342",
+  "timestamp": 1507147334000,
+  "isoDate": "2017-10-04T20:02:14.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "`DEBUG   [U=2000,P=1]       singularity_registry_get()                Returning NULL on 'CLEANUPD_FD'`",
+  "ts": "1507147333.000445",
+  "timestamp": 1507147333000,
+  "isoDate": "2017-10-04T20:02:13.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "I think the failure is",
+  "ts": "1507147326.000082",
+  "timestamp": 1507147326000,
+  "isoDate": "2017-10-04T20:02:06.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "I",
+  "ts": "1507147322.000432",
+  "timestamp": 1507147322000,
+  "isoDate": "2017-10-04T20:02:02.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "It is failing for me too.",
+  "ts": "1507147318.000001",
+  "timestamp": 1507147318000,
+  "isoDate": "2017-10-04T20:01:58.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U2MQD256V> Yes. And you can test locally via `sh test.sh tests/29-instance.sh`",
+  "ts": "1507147314.000242",
+  "timestamp": 1507147314000,
+  "isoDate": "2017-10-04T20:01:54.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "Does cleanupd always run?",
+  "ts": "1507147299.000402",
+  "timestamp": 1507147299000,
+  "isoDate": "2017-10-04T20:01:39.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "the second one failed on python/docker bits",
+  "ts": "1507147234.000473",
+  "timestamp": 1507147234000,
+  "isoDate": "2017-10-04T20:00:34.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U2MQD256V> The first test on ubuntu failed on instance tests: <https://travis-ci.org/singularityware/singularity/jobs/283343582>",
+  "ts": "1507147224.000251",
+  "timestamp": 1507147224000,
+  "isoDate": "2017-10-04T20:00:24.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "<https://travis-ci.org/singularityware/singularity/builds/283350392>",
+  "ts": "1507147189.000253",
+  "timestamp": 1507147189000,
+  "isoDate": "2017-10-04T19:59:49.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "FYI: <https://travis-ci.org/singularityware/singularity/builds/283343580?utm_source=github_status&amp;utm_medium=notification>",
+  "ts": "1507147149.000165",
+  "timestamp": 1507147149000,
+  "isoDate": "2017-10-04T19:59:09.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Yep, <@U2YQWJQ4T> and <@U245DTC59> were discussing that.",
+  "ts": "1507147139.000100",
+  "timestamp": 1507147139000,
+  "isoDate": "2017-10-04T19:58:59.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "And I don’t know why",
+  "ts": "1507147128.000388",
+  "timestamp": 1507147128000,
+  "isoDate": "2017-10-04T19:58:48.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "Yes, but for some reason the builds are failing",
+  "ts": "1507147126.000028",
+  "timestamp": 1507147126000,
+  "isoDate": "2017-10-04T19:58:46.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U2MQD256V> Did that PR fix the instance cleanup issue?",
+  "ts": "1507147086.000533",
+  "timestamp": 1507147086000,
+  "isoDate": "2017-10-04T19:58:06.000Z"
+},{
+  "type": "message",
+  "subtype": "file_share",
+  "text": "<@U2MT7BF0V> uploaded a file: <https://singularity-container.slack.com/files/U2MT7BF0V/F7DFN2NAW/-.yaml|Untitled>",
+  "file": {
+    "id": "F7DFN2NAW",
+    "created": 1507146848,
+    "timestamp": 1507146848,
+    "name": "-.yaml",
+    "title": "Untitled",
+    "mimetype": "text/plain",
+    "filetype": "yaml",
+    "pretty_type": "YAML",
+    "user": "U2MT7BF0V",
+    "editable": true,
+    "size": 2440,
+    "mode": "snippet",
+    "is_external": false,
+    "external_type": "",
+    "is_public": true,
+    "public_url_shared": false,
+    "display_as_bot": false,
+    "username": "",
+    "url_private": "https://files.slack.com/files-pri/T0YKGK200-F7DFN2NAW/-.yaml",
+    "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F7DFN2NAW/download/-.yaml",
+    "permalink": "https://singularity-container.slack.com/files/U2MT7BF0V/F7DFN2NAW/-.yaml",
+    "permalink_public": "https://slack-files.com/T0YKGK200-F7DFN2NAW-5e54722380",
+    "edit_link": "https://singularity-container.slack.com/files/U2MT7BF0V/F7DFN2NAW/-.yaml/edit",
+    "preview": "# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.\r\n\r\nentries:\r\n\r\n- title: User Guide\r",
+    "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-comment\"># This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.</span></pre></div>\n<div><pre>&#8203;</pre></div>\n<div><pre><span class=\"cm-atom\">entries</span><span class=\"cm-meta\">:</span></pre></div>\n<div><pre>&#8203;</pre></div>\n<div><pre><span class=\"cm-meta\">- </span><span class=\"cm-atom\">title</span><span class=\"cm-meta\">: </span>User Guide</pre></div>\n</div>\n</div>\n",
+    "lines": 127,
+    "lines_more": 122,
+    "preview_is_truncated": true,
+    "channels": [
+      "C24K0A087"
+    ],
+    "groups": [],
+    "ims": [],
+    "comments_count": 0
+  },
+  "user": "U2MT7BF0V",
+  "upload": true,
+  "display_as_bot": false,
+  "username": "godlovedc",
+  "bot_id": null,
+  "ts": "1507146848.000388",
+  "timestamp": 1507146848000,
+  "isoDate": "2017-10-04T19:54:08.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "I’m just trying to bump the Singularity Flow button down below the Build section.  This should do it right?",
+  "ts": "1507146821.000010",
+  "timestamp": 1507146821000,
+  "isoDate": "2017-10-04T19:53:41.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "brb",
+  "ts": "1507146558.000064",
+  "timestamp": 1507146558000,
+  "isoDate": "2017-10-04T19:49:18.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "hey <@U2MT7BF0V> just tell me what you want and I'll do it,jekyll is weird and annoying and I KNOW you have  lot to do!",
+  "ts": "1507146546.000242",
+  "timestamp": 1507146546000,
+  "isoDate": "2017-10-04T19:49:06.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Hey <@U245DTC59> I’m trying to change the order of the items in the sidebar for the user docs.  I think that Singularity Flow should follow the Build section (i.e. a user should learn how to use the build command before learning best practices for using the build command).\nI’m editing `_data/sidebars/user_docs.yml` but it doesn’t seem to be doing anything on my Jekyll site.  What am I missing?",
+  "edited": {
+    "user": "U2MT7BF0V",
+    "ts": "1507146487.000000"
+  },
+  "ts": "1507146409.000295",
+  "timestamp": 1507146409000,
+  "isoDate": "2017-10-04T19:46:49.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Or it could be the network; the network is obviously much better at FNAL than it is at my home",
+  "ts": "1507145957.000182",
+  "timestamp": 1507145957000,
+  "isoDate": "2017-10-04T19:39:17.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "<@U245DTC59> I can't reproduce it on my old slow 32 bit PC at home running Debian 9, but if on my Centos7 VM I run docker with ubuntu:latest image, it also fails quite quickly (but again not every time).  So I think it probably depends on the speed of the hardware",
+  "ts": "1507145826.000540",
+  "timestamp": 1507145826000,
+  "isoDate": "2017-10-04T19:37:06.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "<https://github.com/singularityware/singularity/pull/1018> still needs to build and whatnot",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "Adding registry and namespace definition to recipe by vsoch · Pull Request #1018 · singularityware/singularity",
+      "title_link": "https://github.com/singularityware/singularity/pull/1018",
+      "text": "Description of the Pull Request (PR): This adds the ability for a user to directly name the Registry: and Namespace: in a recipe header, to be used over what is parsed from the URI. The image tag/h...",
+      "fallback": "GitHub: Adding registry and namespace definition to recipe by vsoch · Pull Request #1018 · singularityware/singularity",
+      "from_url": "https://github.com/singularityware/singularity/pull/1018",
+      "thumb_url": "https://avatars0.githubusercontent.com/u/814322?v=4&s=400",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1507145643.000362",
+  "timestamp": 1507145643000,
+  "isoDate": "2017-10-04T19:34:03.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "yep just added",
+  "ts": "1507145494.000568",
+  "timestamp": 1507145494000,
+  "isoDate": "2017-10-04T19:31:34.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "I think taking an environment flag (or two so we can catch the deffile and a passed option) is a good idea.",
+  "ts": "1507144480.000377",
+  "timestamp": 1507144480000,
+  "isoDate": "2017-10-04T19:14:40.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "but then we have to decide if the uri is completely ignored",
+  "ts": "1507144048.000324",
+  "timestamp": 1507144048000,
+  "isoDate": "2017-10-04T19:07:28.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "OR allow export to environment, probably recipe is better (which then does the export)",
+  "ts": "1507144034.000626",
+  "timestamp": 1507144034000,
+  "isoDate": "2017-10-04T19:07:14.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I think we should get in the suggestion <@U2MQD256V> made to accept Registry, Namespace, in the recipe file",
+  "ts": "1507144019.000166",
+  "timestamp": 1507144019000,
+  "isoDate": "2017-10-04T19:06:59.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "it's consistently failing on centos 7, I still can't reproduce locally",
+  "ts": "1507143672.000252",
+  "timestamp": 1507143672000,
+  "isoDate": "2017-10-04T19:01:12.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<!here>: Just wanted to give the heads up, that the target for release of 2.4 is close of business tomorrow. If anyone thinks that is too aggressive, or feels we need extra time, please let me know ASAP. Thanks!",
+  "ts": "1507143159.000225",
+  "timestamp": 1507143159000,
+  "isoDate": "2017-10-04T18:52:39.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Ok but whatever it is, it is some sort of timing problem, intermittent",
+  "ts": "1507142994.000356",
+  "timestamp": 1507142994000,
+  "isoDate": "2017-10-04T18:49:54.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I take it back, an active image could be once a day, but that shouldn't be hitting us as frequently as it is",
+  "ts": "1507142928.000046",
+  "timestamp": 1507142928000,
+  "isoDate": "2017-10-04T18:48:48.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "the tag latest would, for a very active image, probably only be changed once a week, and likely at a time when users would be less impacted",
+  "ts": "1507142855.000253",
+  "timestamp": 1507142855000,
+  "isoDate": "2017-10-04T18:47:35.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "the latest image is associated with a particular tag being served, associated with a particular manifest",
+  "ts": "1507142830.000310",
+  "timestamp": 1507142830000,
+  "isoDate": "2017-10-04T18:47:10.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "'while python -m unittest tests.test_docker_api &gt;/tmp/test_docker_api 2&gt;&amp;1; do echo \"trying again\"; sleep 1; done' printed 'trying again' twice, so it failed the third time",
+  "ts": "1507142767.000298",
+  "timestamp": 1507142767000,
+  "isoDate": "2017-10-04T18:46:07.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "What about the race condition hypothesis?  Doesn't the value of \"latest\" keep changing?",
+  "ts": "1507142549.000209",
+  "timestamp": 1507142549000,
+  "isoDate": "2017-10-04T18:42:29.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "oh hmm I wonder if it's a VM problem",
+  "ts": "1507142514.000462",
+  "timestamp": 1507142514000,
+  "isoDate": "2017-10-04T18:41:54.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "I disagree.  It's not a travis problem, it's a problem in the test.  As I said, I reproduced it many times on my own VM",
+  "ts": "1507142501.000468",
+  "timestamp": 1507142501000,
+  "isoDate": "2017-10-04T18:41:41.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "It does seem to be truncated in that Ubuntu build, but the Centos7 cleaned up. ",
+  "ts": "1507142474.000577",
+  "timestamp": 1507142474000,
+  "isoDate": "2017-10-04T18:41:14.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I really think this looks like resource overuse of some kind that kills the job, and then the container dies. It would make sense it's sporadic and not linked to any particular os because it would happen only when two concurrent running things take up too much resource.",
+  "ts": "1507142467.000038",
+  "timestamp": 1507142467000,
+  "isoDate": "2017-10-04T18:41:07.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "there isn't the usual finishing / cleaning up despite the error",
+  "ts": "1507142417.000522",
+  "timestamp": 1507142417000,
+  "isoDate": "2017-10-04T18:40:17.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I think it's notable that in all cases, the entire thing just stops, and then fail",
+  "ts": "1507142408.000638",
+  "timestamp": 1507142408000,
+  "isoDate": "2017-10-04T18:40:08.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Here's one in python3 on Ubuntu <https://travis-ci.org/singularityware/singularity/jobs/283014074#L2151>",
+  "ts": "1507142260.000111",
+  "timestamp": 1507142260000,
+  "isoDate": "2017-10-04T18:37:40.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "No wait, that particular travis failure was also Centos7.  I will look for another Ubuntu failure",
+  "ts": "1507142121.000271",
+  "timestamp": 1507142121000,
+  "isoDate": "2017-10-04T18:35:21.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "<https://github.com/kubernetes/helm/issues/1824#issuecomment-274955957>",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "tiller:v2.1.3 image in gcr.io has a bad mediaType · Issue #1824 · kubernetes/helm",
+      "title_link": "https://github.com/kubernetes/helm/issues/1824#issuecomment-274955957",
+      "text": "See: docker/docker#30083 In talks with the <http://gcr.io|gcr.io> guys they said that the image was uploaded with the bad mediaType (text/html) and are suggesting that the image be rebuilt and repushed. They'd als...",
+      "fallback": "GitHub: tiller:v2.1.3 image in gcr.io has a bad mediaType · Issue #1824 · kubernetes/helm",
+      "from_url": "https://github.com/kubernetes/helm/issues/1824#issuecomment-274955957",
+      "thumb_url": "https://avatars2.githubusercontent.com/u/1944671?v=4&s=400",
+      "thumb_width": 64,
+      "thumb_height": 64,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1507142095.000499",
+  "timestamp": 1507142095000,
+  "isoDate": "2017-10-04T18:34:55.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "It's an intermittent problem.  Run it in a loop for a while",
+  "ts": "1507142050.000341",
+  "timestamp": 1507142050000,
+  "isoDate": "2017-10-04T18:34:10.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "strange I have ubuntu",
+  "ts": "1507142029.000045",
+  "timestamp": 1507142029000,
+  "isoDate": "2017-10-04T18:33:49.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Scientific Linux 7, same as Centos7 and EL7.  The failure in travis was Ubuntu",
+  "ts": "1507142017.000521",
+  "timestamp": 1507142017000,
+  "isoDate": "2017-10-04T18:33:37.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "is there consistency with regard to the OS this is done on?",
+  "ts": "1507142007.000484",
+  "timestamp": 1507142007000,
+  "isoDate": "2017-10-04T18:33:27.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "what is SL7?",
+  "ts": "1507141998.000356",
+  "timestamp": 1507141998000,
+  "isoDate": "2017-10-04T18:33:18.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "2.7.5.  I'm testing on SL7",
+  "ts": "1507141991.000167",
+  "timestamp": 1507141991000,
+  "isoDate": "2017-10-04T18:33:11.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "what version of python?",
+  "ts": "1507141969.000763",
+  "timestamp": 1507141969000,
+  "isoDate": "2017-10-04T18:32:49.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I just ran it three times, it worked fine",
+  "ts": "1507141966.000246",
+  "timestamp": 1507141966000,
+  "isoDate": "2017-10-04T18:32:46.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Yes, locally it is failing 95% of the time for me, sometimes works",
+  "ts": "1507141955.000043",
+  "timestamp": 1507141955000,
+  "isoDate": "2017-10-04T18:32:35.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "and type `python -m unittest tests.test_docker_api`",
+  "ts": "1507141947.000025",
+  "timestamp": 1507141947000,
+  "isoDate": "2017-10-04T18:32:27.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "go into libexec/python",
+  "ts": "1507141941.000177",
+  "timestamp": 1507141941000,
+  "isoDate": "2017-10-04T18:32:21.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "It could be that travis is blocking certain  urls",
+  "ts": "1507141937.000039",
+  "timestamp": 1507141937000,
+  "isoDate": "2017-10-04T18:32:17.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "are you able to reproduce this locally?",
+  "ts": "1507141927.000166",
+  "timestamp": 1507141927000,
+  "isoDate": "2017-10-04T18:32:07.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "The original error is at <https://travis-ci.org/singularityware/singularity/jobs/283242704#L4231> Http Error with code 404",
+  "ts": "1507141919.000287",
+  "timestamp": 1507141919000,
+  "isoDate": "2017-10-04T18:31:59.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U39UE6ZFC> I invited you to devel so we can chat about your install script.",
+  "ts": "1507141905.000357",
+  "timestamp": 1507141905000,
+  "isoDate": "2017-10-04T18:31:45.000Z"
+},{
+  "user": "U39UE6ZFC",
+  "inviter": "U115P26TB",
+  "text": "<@U39UE6ZFC> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1507141839.000449",
+  "timestamp": 1507141839000,
+  "isoDate": "2017-10-04T18:30:39.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "That's not actually the source of the bug, but it is reporting the problem there",
+  "ts": "1507141789.000344",
+  "timestamp": 1507141789000,
+  "isoDate": "2017-10-04T18:29:49.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "oh interesting the bug is happening in check_errors, let me look at that",
+  "ts": "1507141743.000730",
+  "timestamp": 1507141743000,
+  "isoDate": "2017-10-04T18:29:03.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "See for example <https://travis-ci.org/singularityware/singularity/jobs/283242704#L4293>, where it shows it is calling get_manifest(old_version=True)",
+  "ts": "1507141678.000300",
+  "timestamp": 1507141678000,
+  "isoDate": "2017-10-04T18:27:58.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "(sorry, 05-python-units.sh)",
+  "ts": "1507141620.000297",
+  "timestamp": 1507141620000,
+  "isoDate": "2017-10-04T18:27:00.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "I did that first.  It is failing tests/05-05-python-units.sh is failing for me about 95% of the time",
+  "ts": "1507141605.000634",
+  "timestamp": 1507141605000,
+  "isoDate": "2017-10-04T18:26:45.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "which line are you looking at? And which is failing?",
+  "ts": "1507141603.000026",
+  "timestamp": 1507141603000,
+  "isoDate": "2017-10-04T18:26:43.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "oh let me take a look",
+  "ts": "1507141540.000116",
+  "timestamp": 1507141540000,
+  "isoDate": "2017-10-04T18:25:40.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "if you think there is a bug with the way we call it you need to test using the singularity client",
+  "ts": "1507141522.000486",
+  "timestamp": 1507141522000,
+  "isoDate": "2017-10-04T18:25:22.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "test_docker_api.py explicitly sets old_version=True when calling get_manifest on <http://gcr.io/tensorflow/tensorflow|gcr.io/tensorflow/tensorflow>, so that makes it do Accept: application/json",
+  "ts": "1507141514.000413",
+  "timestamp": 1507141514000,
+  "isoDate": "2017-10-04T18:25:14.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "sorry I don't think you saw what I said - if you look at the calls above, we are adding that header, it's essential to get it working. The problem is more likely to do with connectivity / connections. The latest media type is going to change pretty infrequently",
+  "ts": "1507141503.000537",
+  "timestamp": 1507141503000,
+  "isoDate": "2017-10-04T18:25:03.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "I am having more success if I add —header 'Accept: application/vnd.docker.distribution.manifest.v2+json'.  So maybe the problem is that the definition of \"latest\" keeps changing, and there's a race condition where you get the list and meanwhile the definition of 'latest' changes and the media type no longer matches",
+  "ts": "1507141321.000002",
+  "timestamp": 1507141321000,
+  "isoDate": "2017-10-04T18:22:01.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "so when you want to get layers, or a manifest, you also have to typically send a request for a token, parse the Authenticate heade they send back to get the scope, etc, then make the request, get the token, and add it to the request header",
+  "ts": "1507141300.000460",
+  "timestamp": 1507141300000,
+  "isoDate": "2017-10-04T18:21:40.000Z"
+},{
+  "type": "message",
+  "subtype": "file_share",
+  "text": "<@U245DTC59> uploaded a file: <https://singularity-container.slack.com/files/U245DTC59/F7EGBGS6B/-.py|Untitled>",
+  "file": {
+    "id": "F7EGBGS6B",
+    "created": 1507141142,
+    "timestamp": 1507141142,
+    "name": "-.py",
+    "title": "Untitled",
+    "mimetype": "text/plain",
+    "filetype": "python",
+    "pretty_type": "Python",
+    "user": "U245DTC59",
+    "editable": true,
+    "size": 12388,
+    "mode": "snippet",
+    "is_external": false,
+    "external_type": "",
+    "is_public": true,
+    "public_url_shared": false,
+    "display_as_bot": false,
+    "username": "",
+    "url_private": "https://files.slack.com/files-pri/T0YKGK200-F7EGBGS6B/-.py",
+    "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F7EGBGS6B/download/-.py",
+    "permalink": "https://singularity-container.slack.com/files/U245DTC59/F7EGBGS6B/-.py",
+    "permalink_public": "https://slack-files.com/T0YKGK200-F7EGBGS6B-966835a94e",
+    "edit_link": "https://singularity-container.slack.com/files/U245DTC59/F7EGBGS6B/-.py/edit",
+    "preview": "manifest = image.get_manifest(old_version=True)\r\nVERBOSE Obtaining manifest: https://gcr.io/v2/tensorflow/tensorflow/manifests/latest\r\nDEBUG GET https://gcr.io/v2/tensorflow/tensorflow/manifests/latest\r\n\r\nIn [8]: manifest\r",
+    "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">manifest</span> = <span class=\"cm-variable\">image</span>.<span class=\"cm-property\">get_manifest</span>(<span class=\"cm-variable\">old_version</span>=<span class=\"cm-builtin\">True</span>)</pre></div>\n<div><pre><span class=\"cm-variable\">VERBOSE</span> <span class=\"cm-variable\">Obtaining</span> <span class=\"cm-variable\">manifest</span>: <span class=\"cm-variable\">https</span>:<span class=\"cm-operator\">//</span><span class=\"cm-variable\">gcr</span>.<span class=\"cm-property\">io</span><span class=\"cm-operator\">/</span><span class=\"cm-variable\">v2</span><span class=\"cm-operator\">/</span><span class=\"cm-variable\">tensorflow</span><span class=\"cm-operator\">/</span><span class=\"cm-variable\">tensorflow</span><span class=\"cm-operator\">/</span><span class=\"cm-variable\">manifests</span><span class=\"cm-operator\">/</span><span class=\"cm-variable\">latest</span></pre></div>\n<div><pre><span class=\"cm-variable\">DEBUG</span> <span class=\"cm-variable\">GET</span> <span class=\"cm-variable\">https</span>:<span class=\"cm-operator\">//</span><span class=\"cm-variable\">gcr</span>.<span class=\"cm-property\">io</span><span class=\"cm-operator\">/</span><span class=\"cm-variable\">v2</span><span class=\"cm-operator\">/</span><span class=\"cm-variable\">tensorflow</span><span class=\"cm-operator\">/</span><span class=\"cm-variable\">tensorflow</span><span class=\"cm-operator\">/</span><span class=\"cm-variable\">manifests</span><span class=\"cm-operator\">/</span><span class=\"cm-variable\">latest</span></pre></div>\n<div><pre>&#8203;</pre></div>\n<div><pre><span class=\"cm-variable\">In</span> [<span class=\"cm-number\">8</span>]: <span class=\"cm-variable\">manifest</span></pre></div>\n</div>\n</div>\n",
+    "lines": 55,
+    "lines_more": 50,
+    "preview_is_truncated": true,
+    "channels": [
+      "C24K0A087"
+    ],
+    "groups": [],
+    "ims": [],
+    "comments_count": 0
+  },
+  "user": "U245DTC59",
+  "upload": true,
+  "display_as_bot": false,
+  "username": "v",
+  "bot_id": null,
+  "ts": "1507141142.000689",
+  "timestamp": 1507141142000,
+  "isoDate": "2017-10-04T18:19:02.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "in contrast here is version 1",
+  "ts": "1507141137.000092",
+  "timestamp": 1507141137000,
+  "isoDate": "2017-10-04T18:18:57.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "so for example, the one above is a version 2 manifest - you can see the schemaVersion is 2.0. But it doesn't come on the first call, the first call returns a list of manifests that we have to make another call to retrieve",
+  "ts": "1507141112.000485",
+  "timestamp": 1507141112000,
+  "isoDate": "2017-10-04T18:18:32.000Z"
+},{
+  "type": "message",
+  "subtype": "file_share",
+  "text": "<@U245DTC59> uploaded a file: <https://singularity-container.slack.com/files/U245DTC59/F7CQ076V6/-.py|Untitled>",
+  "file": {
+    "id": "F7CQ076V6",
+    "created": 1507140984,
+    "timestamp": 1507140984,
+    "name": "-.py",
+    "title": "Untitled",
+    "mimetype": "text/plain",
+    "filetype": "python",
+    "pretty_type": "Python",
+    "user": "U245DTC59",
+    "editable": true,
+    "size": 222,
+    "mode": "snippet",
+    "is_external": false,
+    "external_type": "",
+    "is_public": true,
+    "public_url_shared": false,
+    "display_as_bot": false,
+    "username": "",
+    "url_private": "https://files.slack.com/files-pri/T0YKGK200-F7CQ076V6/-.py",
+    "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F7CQ076V6/download/-.py",
+    "permalink": "https://singularity-container.slack.com/files/U245DTC59/F7CQ076V6/-.py",
+    "permalink_public": "https://slack-files.com/T0YKGK200-F7CQ076V6-fbd4171a84",
+    "edit_link": "https://singularity-container.slack.com/files/U245DTC59/F7CQ076V6/-.py/edit",
+    "preview": " image.headers\r\nOut[6]: \r\n{'Accept': 'application/vnd.docker.distribution.manifest.v2+json,application/vnd.docker.distribution.manifest.list.v2+json,application/json',\r\n 'Content-Type': 'application/json; charset=utf-8'}\r\n",
+    "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre> <span class=\"cm-variable\">image</span>.<span class=\"cm-property\">headers</span></pre></div>\n<div><pre><span class=\"cm-variable\">Out</span>[<span class=\"cm-number\">6</span>]: </pre></div>\n<div><pre>{<span class=\"cm-string\">'Accept'</span>: <span class=\"cm-string\">'application/vnd.docker.distribution.manifest.v2+json,application/vnd.docker.distribution.manifest.list.v2+json,application/json'</span>,</pre></div>\n<div><pre> <span class=\"cm-string\">'Content-Type'</span>: <span class=\"cm-string\">'application/json; charset=utf-8'</span>}</pre></div>\n</div>\n</div>\n",
+    "lines": 5,
+    "lines_more": 0,
+    "preview_is_truncated": false,
+    "channels": [
+      "C24K0A087"
+    ],
+    "groups": [],
+    "ims": [],
+    "comments_count": 0
+  },
+  "user": "U245DTC59",
+  "upload": true,
+  "display_as_bot": false,
+  "username": "v",
+  "bot_id": null,
+  "ts": "1507140985.000196",
+  "timestamp": 1507140985000,
+  "isoDate": "2017-10-04T18:16:25.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "but we sometimes have to speciically ask for version 1 to get the older manifest that has metadata about environment and commands - v2 does not have this",
+  "ts": "1507140964.000389",
+  "timestamp": 1507140964000,
+  "isoDate": "2017-10-04T18:16:04.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "we can always ask for a version 2, but we sometimes get back a version 1",
+  "ts": "1507140941.000128",
+  "timestamp": 1507140941000,
+  "isoDate": "2017-10-04T18:15:41.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "slack doesn't always show, I mean asterisk/asterisk",
+  "ts": "1507140932.000080",
+  "timestamp": 1507140932000,
+  "isoDate": "2017-10-04T18:15:32.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "we have to change what we ask for depending on the need",
+  "ts": "1507140927.000179",
+  "timestamp": 1507140927000,
+  "isoDate": "2017-10-04T18:15:27.000Z"
+},{
+  "type": "message",
+  "subtype": "file_share",
+  "text": "<@U245DTC59> uploaded a file: <https://singularity-container.slack.com/files/U245DTC59/F7EACCD54/-.py|Untitled>",
+  "file": {
+    "id": "F7EACCD54",
+    "created": 1507140916,
+    "timestamp": 1507140916,
+    "name": "-.py",
+    "title": "Untitled",
+    "mimetype": "text/plain",
+    "filetype": "python",
+    "pretty_type": "Python",
+    "user": "U245DTC59",
+    "editable": true,
+    "size": 3101,
+    "mode": "snippet",
+    "is_external": false,
+    "external_type": "",
+    "is_public": true,
+    "public_url_shared": false,
+    "display_as_bot": false,
+    "username": "",
+    "url_private": "https://files.slack.com/files-pri/T0YKGK200-F7EACCD54/-.py",
+    "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F7EACCD54/download/-.py",
+    "permalink": "https://singularity-container.slack.com/files/U245DTC59/F7EACCD54/-.py",
+    "permalink_public": "https://slack-files.com/T0YKGK200-F7EACCD54-5e753b3a21",
+    "edit_link": "https://singularity-container.slack.com/files/U245DTC59/F7EACCD54/-.py/edit",
+    "preview": " image=DockerApiConnection(image='gcr.io/tensorflow/tensorflow:latest')\r\nDEBUG Headers found: Accept,Content-Type\r\nVERBOSE Registry: gcr.io\r\nVERBOSE Namespace: tensorflow\r\nVERBOSE Repo Name: tensorflow\r",
+    "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre> <span class=\"cm-variable\">image</span>=<span class=\"cm-variable\">DockerApiConnection</span>(<span class=\"cm-variable\">image</span>=<span class=\"cm-string\">'gcr.io/tensorflow/tensorflow:latest'</span>)</pre></div>\n<div><pre><span class=\"cm-variable\">DEBUG</span> <span class=\"cm-variable\">Headers</span> <span class=\"cm-variable\">found</span>: <span class=\"cm-variable\">Accept</span>,<span class=\"cm-variable\">Content</span><span class=\"cm-operator\">-</span><span class=\"cm-variable\">Type</span></pre></div>\n<div><pre><span class=\"cm-variable\">VERBOSE</span> <span class=\"cm-variable\">Registry</span>: <span class=\"cm-variable\">gcr</span>.<span class=\"cm-property\">io</span></pre></div>\n<div><pre><span class=\"cm-variable\">VERBOSE</span> <span class=\"cm-variable\">Namespace</span>: <span class=\"cm-variable\">tensorflow</span></pre></div>\n<div><pre><span class=\"cm-variable\">VERBOSE</span> <span class=\"cm-variable\">Repo</span> <span class=\"cm-variable\">Name</span>: <span class=\"cm-variable\">tensorflow</span></pre></div>\n</div>\n</div>\n",
+    "lines": 59,
+    "lines_more": 54,
+    "preview_is_truncated": true,
+    "channels": [
+      "C24K0A087"
+    ],
+    "groups": [],
+    "ims": [],
+    "comments_count": 0
+  },
+  "user": "U245DTC59",
+  "upload": true,
+  "display_as_bot": false,
+  "username": "v",
+  "bot_id": null,
+  "ts": "1507140917.000546",
+  "timestamp": 1507140917000,
+  "isoDate": "2017-10-04T18:15:17.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Sometimes it works.  I see libexec/python/docker/api.py also sometimes sets 'Accept: application/json', old_version is True",
+  "ts": "1507140868.000110",
+  "timestamp": 1507140868000,
+  "isoDate": "2017-10-04T18:14:28.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Understood, but wget puts in 'Accept: */*' so it should accept everything.  Maybe it wants an exact match?",
+  "ts": "1507140822.000288",
+  "timestamp": 1507140822000,
+  "isoDate": "2017-10-04T18:13:42.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "let me show an example one sec",
+  "ts": "1507140817.000700",
+  "timestamp": 1507140817000,
+  "isoDate": "2017-10-04T18:13:37.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "Singularity client != wget",
+  "ts": "1507140786.000454",
+  "timestamp": 1507140786000,
+  "isoDate": "2017-10-04T18:13:06.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "it's telling you that the manifest with latest has a media type that your client (the wget) isn't adding as an accept header.",
+  "ts": "1507140781.000074",
+  "timestamp": 1507140781000,
+  "isoDate": "2017-10-04T18:13:01.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "The default accept is not '/', it is '*/*'",
+  "ts": "1507140576.000099",
+  "timestamp": 1507140576000,
+  "isoDate": "2017-10-04T18:09:36.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "(I mean wget command, not wget message)",
+  "ts": "1507140528.000655",
+  "timestamp": 1507140528000,
+  "isoDate": "2017-10-04T18:08:48.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "I'm just using the wget message I listed above, no headers.  The default Accept is */*. The message in <https://travis-ci.org/singularityware/singularity/jobs/283242704> right after the Error with code 404 is ERROR MANIFEST_UNKNOWN: Manifest with tag 'latest' has media type 'application/vnd.docker.distribution.manifest.v2+json', but client accepts 'application/json'.\n so that seems to indicate that the singularity client is accepting appilcation/json",
+  "ts": "1507140508.000625",
+  "timestamp": 1507140508000,
+  "isoDate": "2017-10-04T18:08:28.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "our client adds the Accept header for application/vnd.docker.distribution.manifest.v2+json'",
+  "ts": "1507140428.000252",
+  "timestamp": 1507140428000,
+  "isoDate": "2017-10-04T18:07:08.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "are you adding the header or just using wget?",
+  "ts": "1507140411.000058",
+  "timestamp": 1507140411000,
+  "isoDate": "2017-10-04T18:06:51.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "When the wget works the Content-Type is actually application/vnd.docker.distribution.manifest.v1+prettyjws",
+  "ts": "1507140353.000268",
+  "timestamp": 1507140353000,
+  "isoDate": "2017-10-04T18:05:53.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I think this might come down to differences in the registries, and we should choose a docker hub image instead",
+  "ts": "1507140338.000618",
+  "timestamp": 1507140338000,
+  "isoDate": "2017-10-04T18:05:38.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "wget -dqO- <https://gcr.io/v2/tensorflow/tensorflow/manifests/latest> similarly fails most of the time with a 404 error, and the body has [{\"errors\":[{\"code\":\"MANIFEST_UNKNOWN\",\"message\":\"Manifest with tag 'latest' has media type 'application/vnd.docker.distribution.manifest.v2+json', but client accepts '*/*'.\"}]}]",
+  "ts": "1507140276.000299",
+  "timestamp": 1507140276000,
+  "isoDate": "2017-10-04T18:04:36.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "gcr is Google's registry I bet you anything that they use containers to serve it, it's hugely hit, and so Errors are likely",
+  "ts": "1507140253.000531",
+  "timestamp": 1507140253000,
+  "isoDate": "2017-10-04T18:04:13.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "huh you know what I think is likely",
+  "ts": "1507140212.000430",
+  "timestamp": 1507140212000,
+  "isoDate": "2017-10-04T18:03:32.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "I take it back, I was using the wrong URL with wget, the one previously listed in the output (ending tags/list) rather than the one that fails (ending manifests/latest)",
+  "ts": "1507139958.000029",
+  "timestamp": 1507139958000,
+  "isoDate": "2017-10-04T17:59:18.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "In fact, in my testing on an sl7 VM, it fails the vast majority of the times and succeeds only occasionally.  On the other hand, I have not see repeated wgets of the URL fail.  So I'm looking into the python http fetching code",
+  "ts": "1507139505.000026",
+  "timestamp": 1507139505000,
+  "isoDate": "2017-10-04T17:51:45.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "The problem is the http 404 error; sometimes <https://gcr.io/v2/tensorflow/tensorflow/manifests/latest> is not found",
+  "ts": "1507138270.000314",
+  "timestamp": 1507138270000,
+  "isoDate": "2017-10-04T17:31:10.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "@gmk, back to the travis failure, I just reproduced the error in <https://travis-ci.org/singularityware/singularity/jobs/283242704> by running 05-python-units.sh by hand",
+  "ts": "1507138209.000233",
+  "timestamp": 1507138209000,
+  "isoDate": "2017-10-04T17:30:09.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "I am running on: Linux gmkdev2 4.2.0-27-generic #32~14.04.1-Ubuntu SMP Fri Jan 22 15:32:26 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux",
+  "ts": "1507136411.000746",
+  "timestamp": 1507136411000,
+  "isoDate": "2017-10-04T17:00:11.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "second: 4.4.0-78-generic #99-Ubuntu SMP Thu Apr 27 15:29:09 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux",
+  "ts": "1507136404.000272",
+  "timestamp": 1507136404000,
+  "isoDate": "2017-10-04T17:00:04.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "MS_SILENT doesn't do squat for supressing those ext kprintk's... sheesh... what's the point!",
+  "ts": "1507136399.000325",
+  "timestamp": 1507136399000,
+  "isoDate": "2017-10-04T16:59:59.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "first machine: 4.4.0-96-generic #119-Ubuntu SMP Tue Sep 12 14:59:54 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux",
+  "ts": "1507136396.000117",
+  "timestamp": 1507136396000,
+  "isoDate": "2017-10-04T16:59:56.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "What OS?",
+  "ts": "1507136379.001064",
+  "timestamp": 1507136379001,
+  "isoDate": "2017-10-04T16:59:39.001Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "no on host",
+  "ts": "1507136315.000482",
+  "timestamp": 1507136315000,
+  "isoDate": "2017-10-04T16:58:35.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "IO error always in docker?",
+  "ts": "1507136287.000641",
+  "timestamp": 1507136287000,
+  "isoDate": "2017-10-04T16:58:07.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "test on 2 machines same I/O error",
+  "ts": "1507136275.000388",
+  "timestamp": 1507136275000,
+  "isoDate": "2017-10-04T16:57:55.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "no idea",
+  "ts": "1507136092.000750",
+  "timestamp": 1507136092000,
+  "isoDate": "2017-10-04T16:54:52.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "A bunch of them... can we supress them?",
+  "ts": "1507136067.000388",
+  "timestamp": 1507136067000,
+  "isoDate": "2017-10-04T16:54:27.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "[4017971.937157] EXT4-fs (loop1): mounting ext3 file system using the ext4 subsystem\n[4017971.937373] EXT4-fs (loop1): mounted filesystem with ordered data mode. Opts: errors=remount-ro",
+  "ts": "1507136061.000115",
+  "timestamp": 1507136061000,
+  "isoDate": "2017-10-04T16:54:21.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "After the test has finished successfully, the only messages I have in the ring buffer is:",
+  "ts": "1507136050.000734",
+  "timestamp": 1507136050000,
+  "isoDate": "2017-10-04T16:54:10.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "that loop is still flying",
+  "ts": "1507135944.000707",
+  "timestamp": 1507135944000,
+  "isoDate": "2017-10-04T16:52:24.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "let me try that",
+  "ts": "1507135930.000520",
+  "timestamp": 1507135930000,
+  "isoDate": "2017-10-04T16:52:10.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "and when you exec 20-build test did you see it ?",
+  "ts": "1507135905.000354",
+  "timestamp": 1507135905000,
+  "isoDate": "2017-10-04T16:51:45.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "$ du -sh ~/demo/foo.squashfs \n45M     /home/gmk/demo/foo.squashfs",
+  "ts": "1507135854.000165",
+  "timestamp": 1507135854000,
+  "isoDate": "2017-10-04T16:50:54.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "how small is your image ?",
+  "ts": "1507135836.000727",
+  "timestamp": 1507135836000,
+  "isoDate": "2017-10-04T16:50:36.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "I flushed the ring buffer and it is empty",
+  "ts": "1507135790.000154",
+  "timestamp": 1507135790000,
+  "isoDate": "2017-10-04T16:49:50.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "nevermind... those were old messages",
+  "ts": "1507135785.000273",
+  "timestamp": 1507135785000,
+  "isoDate": "2017-10-04T16:49:45.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "oh wait",
+  "ts": "1507135781.000311",
+  "timestamp": 1507135781000,
+  "isoDate": "2017-10-04T16:49:41.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "does anyone know if it is possible to supress them?",
+  "ts": "1507135768.000258",
+  "timestamp": 1507135768000,
+  "isoDate": "2017-10-04T16:49:28.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "But massive amounts of kernel mount messages....",
+  "ts": "1507135762.000222",
+  "timestamp": 1507135762000,
+  "isoDate": "2017-10-04T16:49:22.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "no errors yet",
+  "ts": "1507135755.000288",
+  "timestamp": 1507135755000,
+  "isoDate": "2017-10-04T16:49:15.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "I've had this going for about 1 minute: `$ while singularity exec foo.squashfs true; do true; done`",
+  "ts": "1507135752.000395",
+  "timestamp": 1507135752000,
+  "isoDate": "2017-10-04T16:49:12.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "seems related to loop/image",
+  "ts": "1507135738.000472",
+  "timestamp": 1507135738000,
+  "isoDate": "2017-10-04T16:48:58.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Does Singularity error?",
+  "ts": "1507135700.000188",
+  "timestamp": 1507135700000,
+  "isoDate": "2017-10-04T16:48:20.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Uh-oh...",
+  "ts": "1507135690.000170",
+  "timestamp": 1507135690000,
+  "isoDate": "2017-10-04T16:48:10.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "<@U115P26TB> for #962 no ! It happens both with writable and squashfs, just run a loop on \"singularity exec ...\" trigger this message",
+  "ts": "1507135510.000029",
+  "timestamp": 1507135510000,
+  "isoDate": "2017-10-04T16:45:10.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Right before a release, I do these crazy purges through the issues. lol",
+  "ts": "1507135109.000271",
+  "timestamp": 1507135109000,
+  "isoDate": "2017-10-04T16:38:29.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "You are awesome!",
+  "ts": "1507135010.000032",
+  "timestamp": 1507135010000,
+  "isoDate": "2017-10-04T16:36:50.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "<@U115P26TB>",
+  "ts": "1507134969.000361",
+  "timestamp": 1507134969000,
+  "isoDate": "2017-10-04T16:36:09.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "<https://github.com/singularityware/singularity/blob/development/src/start.c#L103>",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "singularityware/singularity",
+      "title_link": "https://github.com/singularityware/singularity/blob/development/src/start.c#L103",
+      "text": "singularity - Singularity: Application containers for Linux",
+      "fallback": "GitHub: singularityware/singularity",
+      "from_url": "https://github.com/singularityware/singularity/blob/development/src/start.c#L103",
+      "thumb_url": "https://avatars2.githubusercontent.com/u/20306680?v=4&s=400",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1507134959.000360",
+  "timestamp": 1507134959000,
+  "isoDate": "2017-10-04T16:35:59.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "I kinda love checking off all these issues!",
+  "ts": "1507134936.000080",
+  "timestamp": 1507134936000,
+  "isoDate": "2017-10-04T16:35:36.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Awesome <@U2MT7BF0V>!",
+  "ts": "1507134927.000453",
+  "timestamp": 1507134927000,
+  "isoDate": "2017-10-04T16:35:27.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U2MQD256V> Did you get the cleanenv() call into start.c? (ref: #969)",
+  "ts": "1507134917.000252",
+  "timestamp": 1507134917000,
+  "isoDate": "2017-10-04T16:35:17.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "I have not tested.  Will do so today and close if it is fixed.",
+  "ts": "1507134910.000108",
+  "timestamp": 1507134910000,
+  "isoDate": "2017-10-04T16:35:10.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "What about #956?",
+  "ts": "1507134664.000534",
+  "timestamp": 1507134664000,
+  "isoDate": "2017-10-04T16:31:04.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "ok, fantastic. Thank you!",
+  "ts": "1507134657.000716",
+  "timestamp": 1507134657000,
+  "isoDate": "2017-10-04T16:30:57.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Was done many days ago.",
+  "ts": "1507134649.000013",
+  "timestamp": 1507134649000,
+  "isoDate": "2017-10-04T16:30:49.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "That's done. ",
+  "ts": "1507134636.000509",
+  "timestamp": 1507134636000,
+  "isoDate": "2017-10-04T16:30:36.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U2MT7BF0V> Can you remind me... were you working on the `singularity pull docker://...` to re-exec `singularity build ...` or was I?",
+  "ts": "1507134584.000760",
+  "timestamp": 1507134584000,
+  "isoDate": "2017-10-04T16:29:44.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Is it testing the default squashfs image, or a writable one?",
+  "ts": "1507134414.000514",
+  "timestamp": 1507134414000,
+  "isoDate": "2017-10-04T16:26:54.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U5RJ04A4F> Do you have any insights as to what is happening with <https://github.com/singularityware/singularity/issues/962>?",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "I/O error / crash · Issue #962 · singularityware/singularity",
+      "title_link": "https://github.com/singularityware/singularity/issues/962",
+      "text": "Version of Singularity: 2.3.9-development.gc25f8e73 Expected behavior $ make test $ dmesg No I/O error Actual behavior $ dmesg ... [ 311.330340] blk_update_request: I/O error, dev loop0, sector 0...",
+      "fallback": "GitHub: I/O error / crash · Issue #962 · singularityware/singularity",
+      "from_url": "https://github.com/singularityware/singularity/issues/962",
+      "thumb_url": "https://avatars0.githubusercontent.com/u/3274134?v=4&s=400",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1507134390.000179",
+  "timestamp": 1507134390000,
+  "isoDate": "2017-10-04T16:26:30.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Sorry, it says 2 to 4 is recommended, not more",
+  "ts": "1507134033.000352",
+  "timestamp": 1507134033000,
+  "isoDate": "2017-10-04T16:20:33.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Do some of the tests run more than that?",
+  "ts": "1507133996.000117",
+  "timestamp": 1507133996000,
+  "isoDate": "2017-10-04T16:19:56.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "That says you can exhaust 3GB of memory, and don't run more than 4 or 6 processes in parallel within a job",
+  "ts": "1507133968.000442",
+  "timestamp": 1507133968000,
+  "isoDate": "2017-10-04T16:19:28.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "<https://docs.travis-ci.com/user/common-build-problems/#My-build-script-is-killed-without-any-error>",
+  "ts": "1507133941.000228",
+  "timestamp": 1507133941000,
+  "isoDate": "2017-10-04T16:19:01.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Don't listen to me, I know almost nothing about Travis. lol",
+  "ts": "1507133764.000690",
+  "timestamp": 1507133764000,
+  "isoDate": "2017-10-04T16:16:04.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "I see in an Ubunto log that it does 'sudo service docker start' but it never runs a docker command",
+  "ts": "1507133747.000447",
+  "timestamp": 1507133747000,
+  "isoDate": "2017-10-04T16:15:47.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Ahh, my bad then. I was noticing the services: -docker in the travis.yml, but perhaps I am just reading that wrong.",
+  "ts": "1507133657.000223",
+  "timestamp": 1507133657000,
+  "isoDate": "2017-10-04T16:14:17.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "gmk wrote above: \"Also, now it shows that we are running everything in Docker containers now. Were we before?\"  Where do you see everything in docker containers?  Ubuntu is not intentionally started in a docker container, but the two centos jobs are.  Unless just setting \"services: - docker\" starts the default job also into a docker container, but I don't think so.",
+  "ts": "1507133612.000439",
+  "timestamp": 1507133612000,
+  "isoDate": "2017-10-04T16:13:32.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I don't think it's timeout, I think it's threads",
+  "ts": "1507133210.000164",
+  "timestamp": 1507133210000,
+  "isoDate": "2017-10-04T16:06:50.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "The failures you pointed me to were jobs that only lasted a minute or too, so they can't be hitting the timeout",
+  "ts": "1507133052.000072",
+  "timestamp": 1507133052000,
+  "isoDate": "2017-10-04T16:04:12.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Ahh, anther good find",
+  "ts": "1507132983.000013",
+  "timestamp": 1507132983000,
+  "isoDate": "2017-10-04T16:03:03.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "They do not limit the total build, it's each individual job that they limit <https://stackoverflow.com/questions/32128422/travis-ci-how-is-time-limit-counted-for-builds-sum-of-all-jobs-or-time-of-lo>",
+  "attachments": [
+    {
+      "title": "Travis-CI - How is time limit counted for builds? (Sum of all jobs or time of longest one)?",
+      "title_link": "https://stackoverflow.com/questions/32128422/travis-ci-how-is-time-limit-counted-for-builds-sum-of-all-jobs-or-time-of-lo",
+      "text": "Let's say i have repo which for each push (build) starts 4 jobs (diffrent environment/compilers etc.). There is time limit for builds - 50min. Is it counted as sum of times of all builds (like in ...",
+      "fallback": "Travis-CI - How is time limit counted for builds? (Sum of all jobs or time of longest one)?",
+      "thumb_url": "https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded",
+      "from_url": "https://stackoverflow.com/questions/32128422/travis-ci-how-is-time-limit-counted-for-builds-sum-of-all-jobs-or-time-of-lo",
+      "thumb_width": 316,
+      "thumb_height": 316,
+      "service_icon": "https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d",
+      "service_name": "stackoverflow.com",
+      "id": 1
+    }
+  ],
+  "ts": "1507132967.000156",
+  "timestamp": 1507132967000,
+  "isoDate": "2017-10-04T16:02:47.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "I think it just does a test build",
+  "ts": "1507132959.000555",
+  "timestamp": 1507132959000,
+  "isoDate": "2017-10-04T16:02:39.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "BTW, I don't think the Centos6 build is doing very much",
+  "ts": "1507132938.000109",
+  "timestamp": 1507132938000,
+  "isoDate": "2017-10-04T16:02:18.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "I'd even propose just to do one.",
+  "ts": "1507132930.000634",
+  "timestamp": 1507132930000,
+  "isoDate": "2017-10-04T16:02:10.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "how about trying the concurrent setting first, maybe limit to 2",
+  "ts": "1507132916.000763",
+  "timestamp": 1507132916000,
+  "isoDate": "2017-10-04T16:01:56.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "ahh, gotcha",
+  "ts": "1507132896.000451",
+  "timestamp": 1507132896000,
+  "isoDate": "2017-10-04T16:01:36.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "yep",
+  "ts": "1507132888.000379",
+  "timestamp": 1507132888000,
+  "isoDate": "2017-10-04T16:01:28.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "It's 10 minutes with no log output, or 50 minutes total",
+  "ts": "1507132878.000764",
+  "timestamp": 1507132878000,
+  "isoDate": "2017-10-04T16:01:18.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "<https://docs.travis-ci.com/user/customizing-the-build/#Build-Timeouts>",
+  "ts": "1507132866.000491",
+  "timestamp": 1507132866000,
+  "isoDate": "2017-10-04T16:01:06.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "It will probably be likely we will hit that timeout if we serialize the tests",
+  "ts": "1507132865.000237",
+  "timestamp": 1507132865000,
+  "isoDate": "2017-10-04T16:01:05.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "the big difference is we are running 3 times the original tests at once",
+  "ts": "1507132842.000937",
+  "timestamp": 1507132842000,
+  "isoDate": "2017-10-04T16:00:42.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "yes I think travis has always been in containers",
+  "ts": "1507132832.000099",
+  "timestamp": 1507132832000,
+  "isoDate": "2017-10-04T16:00:32.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "it's 10 minutes",
+  "ts": "1507132820.000378",
+  "timestamp": 1507132820000,
+  "isoDate": "2017-10-04T16:00:20.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "yes and it would say Timeout or similar if it did",
+  "ts": "1507132818.000370",
+  "timestamp": 1507132818000,
+  "isoDate": "2017-10-04T16:00:18.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Also, now it shows that we are running everything in Docker containers now. Were we before?",
+  "ts": "1507132817.000184",
+  "timestamp": 1507132817000,
+  "isoDate": "2017-10-04T16:00:17.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "their free CI only supports a pretty short test IIRC.",
+  "ts": "1507132763.000543",
+  "timestamp": 1507132763000,
+  "isoDate": "2017-10-04T15:59:23.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "We also might need to be careful if the concurrent builds go over a certain time period, right?",
+  "ts": "1507132749.000112",
+  "timestamp": 1507132749000,
+  "isoDate": "2017-10-04T15:59:09.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "huh, I wonder if concurrent builds (eg, the three versions) are using the same resource?",
+  "ts": "1507132737.000432",
+  "timestamp": 1507132737000,
+  "isoDate": "2017-10-04T15:58:57.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "<https://docs.travis-ci.com/user/customizing-the-build#Limiting-Concurrent-Builds>",
+  "ts": "1507132713.000717",
+  "timestamp": 1507132713000,
+  "isoDate": "2017-10-04T15:58:33.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U2YQWJQ4T> and I are also discussing this",
+  "ts": "1507132678.000146",
+  "timestamp": 1507132678000,
+  "isoDate": "2017-10-04T15:57:58.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "sorry distracted - let me look that up",
+  "ts": "1507132653.000684",
+  "timestamp": 1507132653000,
+  "isoDate": "2017-10-04T15:57:33.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Is there a way to run the tests in serial?",
+  "ts": "1507132099.000794",
+  "timestamp": 1507132099000,
+  "isoDate": "2017-10-04T15:48:19.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "then we can set half of that",
+  "ts": "1507131891.000059",
+  "timestamp": 1507131891000,
+  "isoDate": "2017-10-04T15:44:51.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "we have an environment variable we can set... can we add an echo to travis first to see how many cores it does have?",
+  "ts": "1507131869.000751",
+  "timestamp": 1507131869000,
+  "isoDate": "2017-10-04T15:44:29.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "because it uses the max amount it can",
+  "ts": "1507131844.000317",
+  "timestamp": 1507131844000,
+  "isoDate": "2017-10-04T15:44:04.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Oh, that is a good point",
+  "ts": "1507131840.000360",
+  "timestamp": 1507131840000,
+  "isoDate": "2017-10-04T15:44:00.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "it's probably using too many threads",
+  "ts": "1507131824.000583",
+  "timestamp": 1507131824000,
+  "isoDate": "2017-10-04T15:43:44.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "and when we download layers so are we",
+  "ts": "1507131818.000313",
+  "timestamp": 1507131818000,
+  "isoDate": "2017-10-04T15:43:38.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "travis is running things in parallel",
+  "ts": "1507131812.000033",
+  "timestamp": 1507131812000,
+  "isoDate": "2017-10-04T15:43:32.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "ohh you know what",
+  "ts": "1507131806.000724",
+  "timestamp": 1507131806000,
+  "isoDate": "2017-10-04T15:43:26.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "This happened with my PR yesterday too, I just restarted and it worked fine",
+  "ts": "1507131767.000164",
+  "timestamp": 1507131767000,
+  "isoDate": "2017-10-04T15:42:47.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "that's when we are retriving webby things",
+  "ts": "1507131729.000486",
+  "timestamp": 1507131729000,
+  "isoDate": "2017-10-04T15:42:09.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "but when they fail randomly, it seems mostly to be in the python or docker tests",
+  "ts": "1507131705.000241",
+  "timestamp": 1507131705000,
+  "isoDate": "2017-10-04T15:41:45.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "it is very weird",
+  "ts": "1507131686.000411",
+  "timestamp": 1507131686000,
+  "isoDate": "2017-10-04T15:41:26.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Yeah, only the third failed",
+  "ts": "1507131683.000070",
+  "timestamp": 1507131683000,
+  "isoDate": "2017-10-04T15:41:23.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "for me the 1st and 2nd were green",
+  "ts": "1507131669.000192",
+  "timestamp": 1507131669000,
+  "isoDate": "2017-10-04T15:41:09.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<https://travis-ci.org/singularityware/singularity/jobs/283014074>",
+  "ts": "1507131665.000138",
+  "timestamp": 1507131665000,
+  "isoDate": "2017-10-04T15:41:05.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "did you save it?",
+  "ts": "1507131657.000017",
+  "timestamp": 1507131657000,
+  "isoDate": "2017-10-04T15:40:57.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "oh I didn't see it",
+  "ts": "1507131654.000594",
+  "timestamp": 1507131654000,
+  "isoDate": "2017-10-04T15:40:54.000Z"
+},{
+  "text": "shrugs... the second one has a Python trace",
+  "type": "message",
+  "subtype": "me_message",
+  "user": "U115P26TB",
+  "ts": "1507131631.000494",
+  "timestamp": 1507131631000,
+  "isoDate": "2017-10-04T15:40:31.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "did it just time out?",
+  "ts": "1507131606.000499",
+  "timestamp": 1507131606000,
+  "isoDate": "2017-10-04T15:40:06.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Thanks :slightly_smiling_face:",
+  "ts": "1507131577.000217",
+  "timestamp": 1507131577000,
+  "isoDate": "2017-10-04T15:39:37.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "looking",
+  "ts": "1507131549.000011",
+  "timestamp": 1507131549000,
+  "isoDate": "2017-10-04T15:39:09.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U245DTC59> and another... Any idea? <https://travis-ci.org/singularityware/singularity/builds/283242700?utm_source=email&amp;utm_medium=notification>",
+  "ts": "1507131531.000162",
+  "timestamp": 1507131531000,
+  "isoDate": "2017-10-04T15:38:51.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": ":cow2:",
+  "ts": "1507130753.000766",
+  "timestamp": 1507130753000,
+  "isoDate": "2017-10-04T15:25:53.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<https://github.com/singularityware/singularity/pull/1013>",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "fixing error with runscript for apps by vsoch · Pull Request #1013 · singularityware/singularity",
+      "title_link": "https://github.com/singularityware/singularity/pull/1013",
+      "text": "Description of the Pull Request (PR): I found a tiny bug with parsing the run script path relevant to an app, this fixes it. Attn: @singularityware-admin",
+      "fallback": "GitHub: fixing error with runscript for apps by vsoch · Pull Request #1013 · singularityware/singularity",
+      "from_url": "https://github.com/singularityware/singularity/pull/1013",
+      "thumb_url": "https://avatars0.githubusercontent.com/u/814322?v=4&s=400",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1507130688.000799",
+  "timestamp": 1507130688000,
+  "isoDate": "2017-10-04T15:24:48.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "BTW, instead of saying thank you on each pull request merge,... I am thinking I should do a lolcow!",
+  "ts": "1507130682.000124",
+  "timestamp": 1507130682000,
+  "isoDate": "2017-10-04T15:24:42.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Is it because DockerHub is being flakey?",
+  "ts": "1507130383.000585",
+  "timestamp": 1507130383000,
+  "isoDate": "2017-10-04T15:19:43.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U245DTC59>, for some reason the python tests have been randomly failing on travis. For example: <https://travis-ci.org/singularityware/singularity/builds/283014073?utm_source=email&amp;utm_medium=notification>",
+  "ts": "1507130359.000224",
+  "timestamp": 1507130359000,
+  "isoDate": "2017-10-04T15:19:19.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "oh! please let me know about those, shouldn't be the case",
+  "ts": "1507116438.000184",
+  "timestamp": 1507116438000,
+  "isoDate": "2017-10-04T11:27:18.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "Some links in the doc are dead (404 not found)",
+  "ts": "1507102561.000270",
+  "timestamp": 1507102561000,
+  "isoDate": "2017-10-04T07:36:01.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "Wow, great changes",
+  "ts": "1507102521.000306",
+  "timestamp": 1507102521000,
+  "isoDate": "2017-10-04T07:35:21.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I can show you the one in the docs (not released)",
+  "ts": "1507101480.000316",
+  "timestamp": 1507101480000,
+  "isoDate": "2017-10-04T07:18:00.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "it's in his head",
+  "ts": "1507101470.000118",
+  "timestamp": 1507101470000,
+  "isoDate": "2017-10-04T07:17:50.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "<@U115P26TB> is it possible to find some changelog for this new release ?",
+  "ts": "1507101434.000366",
+  "timestamp": 1507101434000,
+  "isoDate": "2017-10-04T07:17:14.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "/ bonk",
+  "ts": "1507082236.000025",
+  "timestamp": 1507082236000,
+  "isoDate": "2017-10-04T01:57:16.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "we made it last time, it's a github notification that goes out to those subscribed, singularityware-maintainers or something",
+  "ts": "1507082231.000003",
+  "timestamp": 1507082231000,
+  "isoDate": "2017-10-04T01:57:11.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "we do have a list",
+  "ts": "1507082210.000137",
+  "timestamp": 1507082210000,
+  "isoDate": "2017-10-04T01:56:50.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U247AF8DP> oh, that is a good point. This is about the best reminder list that we have right now, but we do need to set something up!",
+  "ts": "1507080830.000125",
+  "timestamp": 1507080830000,
+  "isoDate": "2017-10-04T01:33:50.000Z"
+},{
+  "type": "message",
+  "user": "U247AF8DP",
+  "text": "<@U245DTC59> <@U115P26TB> I ll try to update the vagrant box for the new version as possible. I am still on a reminder list for people who need to do something at version release ?\nAlso I am looking at what is involved to use xhive instead... Thanks",
+  "ts": "1507080287.000198",
+  "timestamp": 1507080287000,
+  "isoDate": "2017-10-04T01:24:47.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<!channel> I want to thank everyone for all of the effort put into making sure this release! All of our developers deserve massive amounts of credit, this is going to be such an awesome release!",
+  "ts": "1507078871.000103",
+  "reactions": [
+    {
+      "name": "partydinosaur",
+      "users": [
+        "U3E99RUG1"
+      ],
+      "count": 1
+    },
+    {
+      "name": "metal",
+      "users": [
+        "U3E99RUG1"
+      ],
+      "count": 1
+    }
+  ],
+  "timestamp": 1507078871000,
+  "isoDate": "2017-10-04T01:01:11.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "WB!",
+  "ts": "1507078689.000029",
+  "timestamp": 1507078689000,
+  "isoDate": "2017-10-04T00:58:09.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Anyway I’m back online now.",
+  "ts": "1507078655.000091",
+  "timestamp": 1507078655000,
+  "isoDate": "2017-10-04T00:57:35.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "<http://venturebrothers.wikia.com/wiki/Are_You_There,_God%3F_It%27s_Me,_Dean>",
+  "attachments": [
+    {
+      "service_name": "Venture Brothers Wiki",
+      "title": "Are You There, God? It's Me, Dean | Venture Brothers Wiki | FANDOM...",
+      "title_link": "http://venturebrothers.wikia.com/wiki/Are_You_There,_God%3F_It%27s_Me,_Dean",
+      "text": "\"Are You There, God? It's Me, Dean\" is the ninth episode in the first season of The Venture Bros. The Monarch has at long last somehow captured Team Venture. Bound by ropes, they hang over the...",
+      "fallback": "Venture Brothers Wiki: Are You There, God? It's Me, Dean | Venture Brothers Wiki | FANDOM...",
+      "from_url": "http://venturebrothers.wikia.com/wiki/Are_You_There,_God%3F_It%27s_Me,_Dean",
+      "service_icon": "https://vignette.wikia.nocookie.net/venturebrothers/images/b/bc/Wiki.png/revision/latest?cb=20100124003448",
+      "id": 1
+    }
+  ],
+  "ts": "1507078649.000039",
+  "timestamp": 1507078649000,
+  "isoDate": "2017-10-04T00:57:29.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "The book inspired the title of a Venture Bros episode.  Of which I am an obvious fan.",
+  "ts": "1507078646.000194",
+  "timestamp": 1507078646000,
+  "isoDate": "2017-10-04T00:57:26.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "and then I found a computer lol",
+  "ts": "1507075495.000028",
+  "timestamp": 1507075495000,
+  "isoDate": "2017-10-04T00:04:55.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I used to read multiple books a day",
+  "ts": "1507075483.000081",
+  "timestamp": 1507075483000,
+  "isoDate": "2017-10-04T00:04:43.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "lol I think I probably read that",
+  "ts": "1507075466.000044",
+  "timestamp": 1507075466000,
+  "isoDate": "2017-10-04T00:04:26.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Hrmm, I've never heard of such a book! lol",
+  "ts": "1507072810.000089",
+  "timestamp": 1507072810000,
+  "isoDate": "2017-10-03T23:20:10.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "<https://en.wikipedia.org/wiki/Are_You_There_God%3F_It%27s_Me,_Margaret.>",
+  "attachments": [
+    {
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/1/1b/AreYouThereGod.jpg",
+      "image_width": 219,
+      "image_height": 300,
+      "image_bytes": 28226,
+      "title": "Are You There God? It's Me, Margaret.",
+      "title_link": "https://en.wikipedia.org/wiki/Are_You_There_God%3F_It%27s_Me,_Margaret.",
+      "author_name": "Wikipedia",
+      "author_link": "http://en.wikipedia.org/",
+      "text": "Are You There God? It's Me, Margaret is a 1970 book by Judy Blume, typically categorized as a young adult novel, about a sixth-grade girl who has grown up without a religious affiliation, due to her parents' interfaith marriage. The novel explores her quest for a single religion. Margaret also confronts typical issues faced by pre-teen girls going through puberty, such as buying her first bra, having her first period, and feeling attracted to certain boys. The novel has been frequently challenged since the 1980s due to its frank discussions of sexual and religious topics.",
+      "fallback": "wikipedia: Are You There God? It's Me, Margaret.",
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/wikipedia.png",
+      "id": 1
+    }
+  ],
+  "ts": "1507072660.000203",
+  "timestamp": 1507072660000,
+  "isoDate": "2017-10-03T23:17:40.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Ok... Who is Margaret?",
+  "ts": "1507069517.000223",
+  "timestamp": 1507069517000,
+  "isoDate": "2017-10-03T22:25:17.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "I actually wanted to ask you about something but I just made a PR instead.  We can discuss there if you like.",
+  "ts": "1507068392.000166",
+  "timestamp": 1507068392000,
+  "isoDate": "2017-10-03T22:06:32.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Oh nevermind.  I figured everything out.  It’s just 42.",
+  "ts": "1507068353.000186",
+  "timestamp": 1507068353000,
+  "isoDate": "2017-10-03T22:05:53.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U2MT7BF0V> hello. Margaret?",
+  "ts": "1507068082.000175",
+  "timestamp": 1507068082000,
+  "isoDate": "2017-10-03T22:01:22.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Are you there <@U115P26TB>? It’s me, Margaret",
+  "ts": "1507065763.000277",
+  "timestamp": 1507065763000,
+  "isoDate": "2017-10-03T21:22:43.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "heya <@U115P26TB> are you around?",
+  "ts": "1507062745.000390",
+  "timestamp": 1507062745000,
+  "isoDate": "2017-10-03T20:32:25.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "getting nervous lol",
+  "ts": "1507056825.000661",
+  "timestamp": 1507056825000,
+  "isoDate": "2017-10-03T18:53:45.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I have a lot of work to do for shub",
+  "ts": "1507056821.000093",
+  "timestamp": 1507056821000,
+  "isoDate": "2017-10-03T18:53:41.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "hey guys how close are we to 2.4 release?",
+  "ts": "1507056811.000470",
+  "timestamp": 1507056811000,
+  "isoDate": "2017-10-03T18:53:31.000Z"
+},{
+  "type": "message",
+  "user": "U5W7U8K6C",
+  "text": "lol",
+  "ts": "1507055632.000154",
+  "timestamp": 1507055632000,
+  "isoDate": "2017-10-03T18:33:52.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": ":beers:",
+  "ts": "1507055607.000104",
+  "timestamp": 1507055607000,
+  "isoDate": "2017-10-03T18:33:27.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Oh man.  Better hide the good beer.  <@U5W7U8K6C> just showed up.",
+  "ts": "1507055599.000750",
+  "timestamp": 1507055599000,
+  "isoDate": "2017-10-03T18:33:19.000Z"
+},{
+  "type": "message",
+  "user": "U5W7U8K6C",
+  "text": "im here to spy",
+  "ts": "1507053763.000040",
+  "timestamp": 1507053763000,
+  "isoDate": "2017-10-03T18:02:43.000Z"
+},{
+  "user": "U5W7U8K6C",
+  "text": "<@U5W7U8K6C> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1507053747.000271",
+  "timestamp": 1507053747000,
+  "isoDate": "2017-10-03T18:02:27.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Ahhh.  Thought he already had that.",
+  "ts": "1507048464.000030",
+  "timestamp": 1507048464000,
+  "isoDate": "2017-10-03T16:34:24.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "jedi, ninja...",
+  "ts": "1507048391.000193",
+  "timestamp": 1507048391000,
+  "isoDate": "2017-10-03T16:33:11.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "rofl... the other kind of training!",
+  "ts": "1507048110.000489",
+  "timestamp": 1507048110000,
+  "isoDate": "2017-10-03T16:28:30.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Sorry.  That was just bad.",
+  "ts": "1507047976.000664",
+  "timestamp": 1507047976000,
+  "isoDate": "2017-10-03T16:26:16.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Learning to become a conductor?",
+  "ts": "1507047946.000370",
+  "timestamp": 1507047946000,
+  "isoDate": "2017-10-03T16:25:46.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": ":train: :train: :train: ?",
+  "ts": "1507047935.000335",
+  "timestamp": 1507047935000,
+  "isoDate": "2017-10-03T16:25:35.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "I am heading out for a training class, and will be back shortly",
+  "ts": "1507047903.000441",
+  "timestamp": 1507047903000,
+  "isoDate": "2017-10-03T16:25:03.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Oh, perfect. Thank you!",
+  "ts": "1507047896.000167",
+  "timestamp": 1507047896000,
+  "isoDate": "2017-10-03T16:24:56.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "change however you like, it was just to get us started",
+  "ts": "1507047838.000170",
+  "timestamp": 1507047838000,
+  "isoDate": "2017-10-03T16:23:58.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "combined some of them",
+  "ts": "1507047826.000040",
+  "timestamp": 1507047826000,
+  "isoDate": "2017-10-03T16:23:46.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I just added prose",
+  "ts": "1507047819.000505",
+  "timestamp": 1507047819000,
+  "isoDate": "2017-10-03T16:23:39.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "that's what I went from!",
+  "ts": "1507047817.000219",
+  "timestamp": 1507047817000,
+  "isoDate": "2017-10-03T16:23:37.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U245DTC59> I was going to use the main points on our roadmap for the announcement. Is there overlap?",
+  "ts": "1507047804.000235",
+  "timestamp": 1507047804000,
+  "isoDate": "2017-10-03T16:23:24.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "<@U115P26TB> feel free to use the list I started for 2.4 announce, and let me know if I forgot something",
+  "ts": "1507047112.000206",
+  "timestamp": 1507047112000,
+  "isoDate": "2017-10-03T16:11:52.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "lol",
+  "ts": "1507047086.000167",
+  "timestamp": 1507047086000,
+  "isoDate": "2017-10-03T16:11:26.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "ok I added the post",
+  "ts": "1507047012.000522",
+  "timestamp": 1507047012000,
+  "isoDate": "2017-10-03T16:10:12.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "can I have some money for popcorn?",
+  "ts": "1507046958.000392",
+  "timestamp": 1507046958000,
+  "isoDate": "2017-10-03T16:09:18.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "aww thanks Dad!",
+  "ts": "1507046951.000286",
+  "timestamp": 1507046951000,
+  "isoDate": "2017-10-03T16:09:11.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "I’ll take good care of your baby.  You can go to the movies.  It’s OK.",
+  "ts": "1507046928.000234",
+  "timestamp": 1507046928000,
+  "isoDate": "2017-10-03T16:08:48.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "I know.  I just want to tighten it up a bit.",
+  "ts": "1507046913.000076",
+  "timestamp": 1507046913000,
+  "isoDate": "2017-10-03T16:08:33.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "it's really important I spent a long time on that",
+  "ts": "1507046879.000620",
+  "timestamp": 1507046879000,
+  "isoDate": "2017-10-03T16:07:59.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "just keep the flow somewhere don;t remove it",
+  "ts": "1507046873.000735",
+  "timestamp": 1507046873000,
+  "isoDate": "2017-10-03T16:07:53.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "okay",
+  "ts": "1507046865.000544",
+  "timestamp": 1507046865000,
+  "isoDate": "2017-10-03T16:07:45.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "I’m working on it now.  lol",
+  "ts": "1507046862.000068",
+  "timestamp": 1507046862000,
+  "isoDate": "2017-10-03T16:07:42.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "Can I give a first go at changing, since I have the flow in my head?",
+  "ts": "1507046845.000121",
+  "timestamp": 1507046845000,
+  "isoDate": "2017-10-03T16:07:25.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "but maybe you think that is better for build?",
+  "ts": "1507046835.000607",
+  "timestamp": 1507046835000,
+  "isoDate": "2017-10-03T16:07:15.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "it's important for them to understand the flow, which is why I put it there",
+  "ts": "1507046826.000423",
+  "timestamp": 1507046826000,
+  "isoDate": "2017-10-03T16:07:06.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I just added the 2.4 news page I can add that",
+  "ts": "1507046793.000295",
+  "timestamp": 1507046793000,
+  "isoDate": "2017-10-03T16:06:33.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "okay should we merge into 2.4 first?",
+  "ts": "1507046785.000571",
+  "timestamp": 1507046785000,
+  "isoDate": "2017-10-03T16:06:25.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Just wanted to give you the heads up before I give you a PR and you see that there is a bunch of stuff changed.",
+  "ts": "1507045902.000422",
+  "timestamp": 1507045902000,
+  "isoDate": "2017-10-03T15:51:42.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "I also think the Container Guts section should not be on the quick start.  People should be going there to learn how to build and exec and such.",
+  "ts": "1507045870.000335",
+  "timestamp": 1507045870000,
+  "isoDate": "2017-10-03T15:51:10.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "I’m thinking of just giving users very basic pointers with links to more extensive docs so that a savvy user or one that just needs a reminder can quickly get info.",
+  "ts": "1507045817.000662",
+  "timestamp": 1507045817000,
+  "isoDate": "2017-10-03T15:50:17.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "I think I am going to try to tighten it up so that it is “quicker” lol.",
+  "ts": "1507045777.000300",
+  "timestamp": 1507045777000,
+  "isoDate": "2017-10-03T15:49:37.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Hey <@U245DTC59> I’m looking at the quick start right now.",
+  "ts": "1507045755.000452",
+  "timestamp": 1507045755000,
+  "isoDate": "2017-10-03T15:49:15.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I just added another file to go over environment variables",
+  "ts": "1506999714.000137",
+  "timestamp": 1506999714000,
+  "isoDate": "2017-10-03T03:01:54.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "okay!",
+  "ts": "1506999707.000082",
+  "timestamp": 1506999707000,
+  "isoDate": "2017-10-03T03:01:47.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Sounds awesome.  I’m getting ready to call it a night.  Will jump on it first thing in the AM.",
+  "ts": "1506999393.000011",
+  "timestamp": 1506999393000,
+  "isoDate": "2017-10-03T02:56:33.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "<@U2MT7BF0V> we are going to need a lot of your pro asciinema skills, because a lot of the old ones were for stuff we aren't advocating much anymore (eg, mount, create)",
+  "ts": "1506998745.000072",
+  "timestamp": 1506998745000,
+  "isoDate": "2017-10-03T02:45:45.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "hey everyone I've done YUUUGE changes for docs 2.4, and actually haven't even finished and looked over the rendered result, but I wanted to send along asap for others to work on. If someone wants to review quickly, and then merge into docs/2.4, we can then work on details (and others can do PRs easily, as this change has a lot of big changes that would make merging harder if not merged first) <https://github.com/singularityware/singularityware.github.io/pull/115>",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "Adding Docs/2.4 Image by vsoch · Pull Request #115 · singularityware/singularityware.github.io",
+      "title_link": "https://github.com/singularityware/singularityware.github.io/pull/115",
+      "text": "This is just an edit to the main site image - lots more to do!",
+      "fallback": "GitHub: Adding Docs/2.4 Image by vsoch · Pull Request #115 · singularityware/singularityware.github.io",
+      "from_url": "https://github.com/singularityware/singularityware.github.io/pull/115",
+      "thumb_url": "https://avatars0.githubusercontent.com/u/814322?v=4&s=400",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1506998708.000076",
+  "timestamp": 1506998708000,
+  "isoDate": "2017-10-03T02:45:08.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I completely agree",
+  "ts": "1506997446.000193",
+  "timestamp": 1506997446000,
+  "isoDate": "2017-10-03T02:24:06.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "But maybe I’m missing something.",
+  "ts": "1506997441.000002",
+  "timestamp": 1506997441000,
+  "isoDate": "2017-10-03T02:24:01.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "I personally don’t really advocate it.  :slightly_smiling_face:  Can’t see much of a use for it now that `build` can start with pretty much anything.",
+  "ts": "1506997433.000036",
+  "timestamp": 1506997433000,
+  "isoDate": "2017-10-03T02:23:53.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "`image.import` will of course be supported, but I don’t know if we are officially advocating it.",
+  "ts": "1506997396.000134",
+  "timestamp": 1506997396000,
+  "isoDate": "2017-10-03T02:23:16.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "I forgot about copy.  It is out.  <@U115P26TB> and I talked about it and we decided that sandbox would alleviate much of the need for copy.",
+  "ts": "1506997354.000181",
+  "timestamp": 1506997354000,
+  "isoDate": "2017-10-03T02:22:34.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Sorry for the delay <@U245DTC59>",
+  "ts": "1506997292.000115",
+  "timestamp": 1506997292000,
+  "isoDate": "2017-10-03T02:21:32.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "are we supporting (or should I say advocating) image.import?",
+  "ts": "1506995716.000149",
+  "timestamp": 1506995716000,
+  "isoDate": "2017-10-03T01:55:16.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I think im going to remove the add content page",
+  "ts": "1506995000.000124",
+  "timestamp": 1506995000000,
+  "isoDate": "2017-10-03T01:43:20.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "`singularity copy container.img -p /path/host/script.sh /bin`",
+  "ts": "1506994946.000089",
+  "timestamp": 1506994946000,
+  "isoDate": "2017-10-03T01:42:26.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "hey are we still supporting copy?",
+  "ts": "1506994924.000015",
+  "timestamp": 1506994924000,
+  "isoDate": "2017-10-03T01:42:04.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "too many channels for my tiny brain",
+  "ts": "1506993990.000080",
+  "timestamp": 1506993990000,
+  "isoDate": "2017-10-03T01:26:30.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "whoa I didn't know this was here",
+  "ts": "1506993985.000056",
+  "timestamp": 1506993985000,
+  "isoDate": "2017-10-03T01:26:25.000Z"
+},{
+  "user": "U245DTC59",
+  "inviter": "U2MT7BF0V",
+  "text": "<@U245DTC59> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1506993835.000151",
+  "timestamp": 1506993835000,
+  "isoDate": "2017-10-03T01:23:55.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "cool <@U245DTC59>  Want to talk here?",
+  "ts": "1506993829.000035",
+  "timestamp": 1506993829000,
+  "isoDate": "2017-10-03T01:23:49.000Z"
+},{
+  "user": "U3E99RUG1",
+  "text": "<@U3E99RUG1> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1502389604.262037",
+  "timestamp": 1502389604262,
+  "isoDate": "2017-08-10T18:26:44.262Z"
+},{
+  "user": "U3E99RUG1",
+  "text": "<@U3E99RUG1> has left the channel",
+  "type": "message",
+  "subtype": "channel_leave",
+  "ts": "1502389601.260461",
+  "timestamp": 1502389601260,
+  "isoDate": "2017-08-10T18:26:41.260Z"
+},{
+  "user": "U6LAG8YR2",
+  "text": "<@U6LAG8YR2> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1502288733.114022",
+  "timestamp": 1502288733114,
+  "isoDate": "2017-08-09T14:25:33.114Z"
+},{
+  "user": "U2H1DRV52",
+  "text": "<@U2H1DRV52> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1502185731.721778",
+  "timestamp": 1502185731721,
+  "isoDate": "2017-08-08T09:48:51.721Z"
+},{
+  "user": "U244X391D",
+  "text": "<@U244X391D> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1500479675.379819",
+  "timestamp": 1500479675379,
+  "isoDate": "2017-07-19T15:54:35.379Z"
+},{
+  "user": "U4E510TJL",
+  "text": "<@U4E510TJL> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1500297994.972627",
+  "timestamp": 1500297994972,
+  "isoDate": "2017-07-17T13:26:34.972Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U4BKCNE9K> Thanks for the bump! :wink:",
+  "ts": "1500159710.291662",
+  "reactions": [
+    {
+      "name": "metal",
+      "users": [
+        "U4BKCNE9K"
+      ],
+      "count": 1
+    }
+  ],
+  "timestamp": 1500159710291,
+  "isoDate": "2017-07-15T23:01:50.291Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "Bump\n<https://github.com/singularityware/singularity/pull/768>",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "Development - arm/ARCH support in debootstrap by remyd1 · Pull Request #768 · singularityware/singularity",
+      "title_link": "https://github.com/singularityware/singularity/pull/768",
+      "text": "Description of the Pull Request (PR): I tested/built successfully singularity on my rapsberry PI 2, using this tutorial (BTW, I think it would be helpful to specify needed packages (libtool, autoto...",
+      "fallback": "GitHub: Development - arm/ARCH support in debootstrap by remyd1 · Pull Request #768 · singularityware/singularity",
+      "from_url": "https://github.com/singularityware/singularity/pull/768",
+      "thumb_url": "https://avatars5.githubusercontent.com/u/929620?v=4&s=400",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1500113264.738772",
+  "timestamp": 1500113264738,
+  "isoDate": "2017-07-15T10:07:44.738Z"
+},{
+  "user": "U68D8JLCS",
+  "text": "<@U68D8JLCS> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1499958788.057259",
+  "timestamp": 1499958788057,
+  "isoDate": "2017-07-13T15:13:08.057Z"
+},{
+  "user": "U64KRMEDT",
+  "text": "<@U64KRMEDT> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1499324937.181478",
+  "timestamp": 1499324937181,
+  "isoDate": "2017-07-06T07:08:57.181Z"
+},{
+  "user": "U60ADBYP8",
+  "text": "<@U60ADBYP8> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1498486933.218404",
+  "timestamp": 1498486933218,
+  "isoDate": "2017-06-26T14:22:13.218Z"
+},{
+  "user": "U4BKCNE9K",
+  "text": "<@U4BKCNE9K> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1498051205.621442",
+  "timestamp": 1498051205621,
+  "isoDate": "2017-06-21T13:20:05.621Z"
+},{
+  "user": "U2MT7BF0V",
+  "text": "<@U2MT7BF0V> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1497361783.484266",
+  "timestamp": 1497361783484,
+  "isoDate": "2017-06-13T13:49:43.484Z"
+},{
+  "user": "U5RJ04A4F",
+  "text": "<@U5RJ04A4F> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1496947572.626426",
+  "timestamp": 1496947572626,
+  "isoDate": "2017-06-08T18:46:12.626Z"
+},{
+  "user": "U5MSWV6P4",
+  "text": "<@U5MSWV6P4> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1496417655.356596",
+  "timestamp": 1496417655356,
+  "isoDate": "2017-06-02T15:34:15.356Z"
+},{
+  "user": "U5FFKV6M6",
+  "text": "<@U5FFKV6M6> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1495434805.762326",
+  "timestamp": 1495434805762,
+  "isoDate": "2017-05-22T06:33:25.762Z"
+},{
+  "user": "U3E99RUG1",
+  "text": "<@U3E99RUG1> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1494286747.061868",
+  "timestamp": 1494286747061,
+  "isoDate": "2017-05-08T23:39:07.061Z"
+}]
