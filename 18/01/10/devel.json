@@ -1,0 +1,1399 @@
+[
+{
+  "user": "U272EC50C",
+  "text": "<@U272EC50C> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1515622729.000453",
+  "timestamp": 1515622729000,
+  "isoDate": "2018-01-10T22:18:49.000Z"
+},{
+  "user": "U52JD5D25",
+  "text": "<@U52JD5D25> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1515150693.000092",
+  "timestamp": 1515150693000,
+  "isoDate": "2018-01-05T11:11:33.000Z"
+},{
+  "user": "U8N9UTW9L",
+  "text": "<@U8N9UTW9L> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1514972686.000051",
+  "timestamp": 1514972686000,
+  "isoDate": "2018-01-03T09:44:46.000Z"
+},{
+  "type": "message",
+  "user": "U3E99RUG1",
+  "text": ":wink: :+1::skin-tone-3: ",
+  "ts": "1514559386.000341",
+  "timestamp": 1514559386000,
+  "isoDate": "2017-12-29T14:56:26.000Z"
+},{
+  "type": "message",
+  "user": "U837SHMK5",
+  "text": "good  luck on your implementation!",
+  "edited": {
+    "user": "U837SHMK5",
+    "ts": "1514559406.000000"
+  },
+  "ts": "1514559385.000039",
+  "timestamp": 1514559385000,
+  "isoDate": "2017-12-29T14:56:25.000Z"
+},{
+  "type": "message",
+  "user": "U837SHMK5",
+  "text": "for now i will just keep a virtualenv - its not a big deal but i thought that would be really cool :slightly_smiling_face:",
+  "ts": "1514559365.000248",
+  "timestamp": 1514559365000,
+  "isoDate": "2017-12-29T14:56:05.000Z"
+},{
+  "type": "message",
+  "user": "U837SHMK5",
+  "text": "ah interesting approach",
+  "ts": "1514559322.000036",
+  "timestamp": 1514559322000,
+  "isoDate": "2017-12-29T14:55:22.000Z"
+},{
+  "type": "message",
+  "user": "U3E99RUG1",
+  "text": "The safest way would be creating a socket on the host, and calling the socket from inside the container. The bin attached to the socket would run processes with the UID that launched it to the process pool. I'm working on it. On my singularity-go repo. Hope it will be ready on January. ",
+  "ts": "1514559306.000229",
+  "timestamp": 1514559306000,
+  "isoDate": "2017-12-29T14:55:06.000Z"
+},{
+  "type": "message",
+  "user": "U837SHMK5",
+  "text": "i wanted to run snakemake in a singularity container, but could i then invoke a sub-singularity container? i understand this would be a hack and not sure how comfortable i would be but just curious if anyone has tried it",
+  "ts": "1514559089.000127",
+  "timestamp": 1514559089000,
+  "isoDate": "2017-12-29T14:51:29.000Z"
+},{
+  "type": "message",
+  "user": "U887TL7M1",
+  "text": "but make test fails with: `urllib2.URLError: &lt;urlopen error [Errno 101] Network is unreachable&gt;`",
+  "ts": "1512580199.000222",
+  "timestamp": 1512580199000,
+  "isoDate": "2017-12-06T17:09:59.000Z"
+},{
+  "type": "message",
+  "user": "U887TL7M1",
+  "text": "yes",
+  "ts": "1512580166.000431",
+  "timestamp": 1512580166000,
+  "isoDate": "2017-12-06T17:09:26.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "but wget is probably returning a json object no?",
+  "ts": "1512580140.000460",
+  "timestamp": 1512580140000,
+  "isoDate": "2017-12-06T17:09:00.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "but from <@U5RJ04A4F> branch",
+  "ts": "1512580125.000189",
+  "timestamp": 1512580125000,
+  "isoDate": "2017-12-06T17:08:45.000Z"
+},{
+  "type": "message",
+  "user": "U887TL7M1",
+  "text": "wget on the url works (<https://www.singularity-hub.org/api/container/vsoch/singularity-hello-world:latest>)",
+  "ts": "1512580121.000712",
+  "timestamp": 1512580121000,
+  "isoDate": "2017-12-06T17:08:41.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "this is how I use it <https://github.com/singularityware/singularity-python/blob/master/singularity/build/scripts/singularity-prepare-instance.sh>",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "singularityware/singularity-python",
+      "title_link": "https://github.com/singularityware/singularity-python/blob/master/singularity/build/scripts/singularity-prepare-instance.sh",
+      "text": "singularity-python - command line tool for working with singularity hub and singularity containers",
+      "fallback": "GitHub: singularityware/singularity-python",
+      "from_url": "https://github.com/singularityware/singularity-python/blob/master/singularity/build/scripts/singularity-prepare-instance.sh",
+      "thumb_url": "https://avatars2.githubusercontent.com/u/20306680?s=400&v=4",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1512580117.000590",
+  "timestamp": 1512580117000,
+  "isoDate": "2017-12-06T17:08:37.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "secure build is a secure environment that singularity hub uses (and it maybe has been merged into development? not sure)",
+  "ts": "1512580112.000127",
+  "timestamp": 1512580112000,
+  "isoDate": "2017-12-06T17:08:32.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "ok cool I’ll rebase and give it another go",
+  "ts": "1512580110.000068",
+  "timestamp": 1512580110000,
+  "isoDate": "2017-12-06T17:08:30.000Z"
+},{
+  "type": "message",
+  "user": "U244QE97U",
+  "text": "<@U361W9CS3> `All tests passed` from `make test`\n```\n$ singularity --version\n2.4.1-development.g08dc27a\n```",
+  "ts": "1512580096.000458",
+  "timestamp": 1512580096000,
+  "isoDate": "2017-12-06T17:08:16.000Z"
+},{
+  "type": "message",
+  "user": "U887TL7M1",
+  "text": "and no it doesn't work with http(s)_proxy (lower or uppercase)",
+  "ts": "1512580084.000472",
+  "timestamp": 1512580084000,
+  "isoDate": "2017-12-06T17:08:04.000Z"
+},{
+  "type": "message",
+  "user": "U887TL7M1",
+  "text": "what's that?",
+  "ts": "1512580059.000321",
+  "timestamp": 1512580059000,
+  "isoDate": "2017-12-06T17:07:39.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "oh are you trying to do a secure build?",
+  "ts": "1512580042.000804",
+  "timestamp": 1512580042000,
+  "isoDate": "2017-12-06T17:07:22.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "it should, that fix was a while back",
+  "ts": "1512580024.000793",
+  "timestamp": 1512580024000,
+  "isoDate": "2017-12-06T17:07:04.000Z"
+},{
+  "type": "message",
+  "user": "U244QE97U",
+  "text": "Doesn't the development branch honor the HTTP_PROXY / HTTPS_PROXY env variables now?",
+  "ts": "1512579955.000772",
+  "timestamp": 1512579955000,
+  "isoDate": "2017-12-06T17:05:55.000Z"
+},{
+  "type": "message",
+  "user": "U887TL7M1",
+  "text": "about make test, anyone has a trick to run it behind a proxy?",
+  "ts": "1512579913.000933",
+  "timestamp": 1512579913000,
+  "isoDate": "2017-12-06T17:05:13.000Z"
+},{
+  "type": "message",
+  "user": "U244QE97U",
+  "text": "Yeah...",
+  "ts": "1512579680.000350",
+  "timestamp": 1512579680000,
+  "isoDate": "2017-12-06T17:01:20.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "as I believe sudo is required for `make test`",
+  "ts": "1512579663.000592",
+  "timestamp": 1512579663000,
+  "isoDate": "2017-12-06T17:01:03.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "not sure why it doesn’t just `sudo make secbuildimg`",
+  "edited": {
+    "user": "U361W9CS3",
+    "ts": "1512579670.000000"
+  },
+  "ts": "1512579657.000395",
+  "timestamp": 1512579657000,
+  "isoDate": "2017-12-06T17:00:57.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "have to run that as root",
+  "ts": "1512579641.000878",
+  "timestamp": 1512579641000,
+  "isoDate": "2017-12-06T17:00:41.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "yea I did that step already",
+  "ts": "1512579639.000634",
+  "timestamp": 1512579639000,
+  "isoDate": "2017-12-06T17:00:39.000Z"
+},{
+  "type": "message",
+  "user": "U244QE97U",
+  "text": "Guess something else is needed",
+  "ts": "1512579476.000468",
+  "timestamp": 1512579476000,
+  "isoDate": "2017-12-06T16:57:56.000Z"
+},{
+  "type": "message",
+  "user": "U244QE97U",
+  "text": "Hrmm...  \n```\n/usr/local/singularity/devel/libexec/singularity/bootstrap-scripts/secbuild.img is missing, build it as root by typing:\n\nmake secbuildimg\n```",
+  "ts": "1512579466.000166",
+  "timestamp": 1512579466000,
+  "isoDate": "2017-12-06T16:57:46.000Z"
+},{
+  "type": "message",
+  "user": "U244QE97U",
+  "text": "Just built devel branch, so I'll see what make test does on that",
+  "ts": "1512579404.000318",
+  "timestamp": 1512579404000,
+  "isoDate": "2017-12-06T16:56:44.000Z"
+},{
+  "type": "message",
+  "user": "U244QE97U",
+  "text": "Well, it was the release-2.4",
+  "ts": "1512579011.000833",
+  "timestamp": 1512579011000,
+  "isoDate": "2017-12-06T16:50:11.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "yea I’m talking about development branch",
+  "ts": "1512579011.000552",
+  "timestamp": 1512579011000,
+  "isoDate": "2017-12-06T16:50:11.000Z"
+},{
+  "type": "message",
+  "user": "U244QE97U",
+  "text": "missed the 1184 ... just glanced and noticed the `make test`",
+  "ts": "1512578991.000183",
+  "timestamp": 1512578991000,
+  "isoDate": "2017-12-06T16:49:51.000Z"
+},{
+  "type": "message",
+  "user": "U244QE97U",
+  "text": "Ahh... not dev, release.",
+  "ts": "1512578974.000474",
+  "timestamp": 1512578974000,
+  "isoDate": "2017-12-06T16:49:34.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "OK is that against latest development branch? I’ll try rebasing",
+  "ts": "1512578955.000417",
+  "timestamp": 1512578955000,
+  "isoDate": "2017-12-06T16:49:15.000Z"
+},{
+  "type": "message",
+  "user": "U244QE97U",
+  "text": "<@U361W9CS3> I had all tests pass when I ran `make test`",
+  "ts": "1512578095.000941",
+  "timestamp": 1512578095000,
+  "isoDate": "2017-12-06T16:34:55.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "just fyi running `make test` for #1184 I hit this error which is unrelated to the patch:\n\n```################################################################################\nTesting custom deffile options (script: 39-deffile.sh, testdir: /tmp/stest.Pd2iMv)\n\n + sudo singularity build -F /tmp/stest.Pd2iMv/container.img /tmp/stest.Pd2iMv/container.def     (retval=0) OK\n + singularity exec /tmp/stest.Pd2iMv/container.img true                                         (retval=0) OK\n + singularity run /tmp/stest.Pd2iMv/container.img                                             (retval=255) ERROR\nERROR  : Failed to execv() /.singularity.d/actions/run: Input/output error\nABORT  : Retval = 255\nFull output in: /tmp/stest.Pd2iMv\nERROR: Failed running test: 39-deffile.sh\nmake: *** [test] Error 1```\n\nIf I build the same container myself in that directory and run the test it works…",
+  "edited": {
+    "user": "U361W9CS3",
+    "ts": "1512575428.000000"
+  },
+  "ts": "1512575379.000394",
+  "timestamp": 1512575379000,
+  "isoDate": "2017-12-06T15:49:39.000Z"
+},{
+  "user": "U89JC7JQ5",
+  "text": "<@U89JC7JQ5> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1512415875.000069",
+  "timestamp": 1512415875000,
+  "isoDate": "2017-12-04T19:31:15.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "<@U2MQD256V> can you reproduce ? can't reproduce on a centos 6.7 too",
+  "ts": "1512163538.000261",
+  "timestamp": 1512163538000,
+  "isoDate": "2017-12-01T21:25:38.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "Slack is being a huge pita right now",
+  "ts": "1512162878.000107",
+  "timestamp": 1512162878000,
+  "isoDate": "2017-12-01T21:14:38.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "<@U115P26TB> Yes am avail to help",
+  "ts": "1512162872.000471",
+  "timestamp": 1512162872000,
+  "isoDate": "2017-12-01T21:14:32.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "oops you should get a warning",
+  "ts": "1512162290.000058",
+  "timestamp": 1512162290000,
+  "isoDate": "2017-12-01T21:04:50.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "I noticed when there is a space after yes/no value in config file, it doesn't detect correct value",
+  "ts": "1512162247.000038",
+  "timestamp": 1512162247000,
+  "isoDate": "2017-12-01T21:04:07.000Z"
+},{
+  "type": "message",
+  "subtype": "file_share",
+  "text": "<@U5RJ04A4F> uploaded a file: <https://singularity-container.slack.com/files/U5RJ04A4F/F88K9BS2G/-.txt|Untitled>",
+  "file": {
+    "id": "F88K9BS2G",
+    "created": 1512162196,
+    "timestamp": 1512162196,
+    "name": "-.txt",
+    "title": "Untitled",
+    "mimetype": "text/plain",
+    "filetype": "text",
+    "pretty_type": "Plain Text",
+    "user": "U5RJ04A4F",
+    "editable": true,
+    "size": 399,
+    "mode": "snippet",
+    "is_external": false,
+    "external_type": "",
+    "is_public": true,
+    "public_url_shared": false,
+    "display_as_bot": false,
+    "username": "",
+    "url_private": "https://files.slack.com/files-pri/T0YKGK200-F88K9BS2G/-.txt",
+    "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F88K9BS2G/download/-.txt",
+    "permalink": "https://singularity-container.slack.com/files/U5RJ04A4F/F88K9BS2G/-.txt",
+    "permalink_public": "https://slack-files.com/T0YKGK200-F88K9BS2G-1178151c89",
+    "edit_link": "https://singularity-container.slack.com/files/U5RJ04A4F/F88K9BS2G/-.txt/edit",
+    "preview": "        if ( root_default_caps == ROOT_DEFCAPS_ERROR ) {\r\n            singularity_message(WARNING, \"root default capabilities value in configuration is unknown, set to no\\n\");\r\n            singularity_registry_set(\"NO_PRIVS\", \"1\");\r\n            singularity_registry_set(\"KEEP_PRIVS\", NULL);\r\n\r",
+    "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>        if ( root_default_caps == ROOT_DEFCAPS_ERROR ) {</pre></div>\n<div><pre>            singularity_message(WARNING, &quot;root default capabilities value in configuration is unknown, set to no\\n&quot;);</pre></div>\n<div><pre>            singularity_registry_set(&quot;NO_PRIVS&quot;, &quot;1&quot;);</pre></div>\n<div><pre>            singularity_registry_set(&quot;KEEP_PRIVS&quot;, NULL);</pre></div>\n<div><pre></pre></div>\n<div><pre></pre></div>\n</div>\n</div>\n",
+    "lines": 8,
+    "lines_more": 3,
+    "preview_is_truncated": false,
+    "channels": [
+      "C24K0A087"
+    ],
+    "groups": [],
+    "ims": [],
+    "comments_count": 0
+  },
+  "user": "U5RJ04A4F",
+  "upload": true,
+  "display_as_bot": false,
+  "username": "cclerget",
+  "bot_id": null,
+  "ts": "1512162196.000540",
+  "timestamp": 1512162196000,
+  "isoDate": "2017-12-01T21:03:16.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "i wonder if you didn't reach this code :",
+  "ts": "1512162188.000039",
+  "timestamp": 1512162188000,
+  "isoDate": "2017-12-01T21:03:08.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "ok so I have to debug this",
+  "ts": "1512162130.000177",
+  "timestamp": 1512162130000,
+  "isoDate": "2017-12-01T21:02:10.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "It seems like we have a few more things to fix up still but these features are very exciting! Let's get them hammered out! <@U2MQD256V> Are you available to help?",
+  "ts": "1512162128.000066",
+  "timestamp": 1512162128000,
+  "isoDate": "2017-12-01T21:02:08.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "I didn't change anything",
+  "ts": "1512162077.000414",
+  "timestamp": 1512162077000,
+  "isoDate": "2017-12-01T21:01:17.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "# ROOT DEFAULT CAPABILITIES: [full/file/default/no]\n# DEFAULT: no\n# Define default root capability set kept during runtime\n# - full: keep all capabilities (same as --keep-privs)\n# - file: keep capabilities configured in ${prefix}/etc/singularity/capabilities/user.root\n# - default: keep capabilities required by singularity binary\n# - no: no capabilities (same as --no-privs)\nroot default capabilities = no\n\n\n# ALLOW_ROOT CAPABILITIES: [BOOL]\n# DEFAULT: yes\n# This allows root to gain/drop capabilities other than those defined\n# by root default capabilities.\n# Example:\n# If root default capabilities = file and allow root capabilities = no,\n# only capabilities defined in file ${prefix}/etc/singularity/capabilities/user.root\n# could be obtained by root\nallow root capabilities = yes",
+  "ts": "1512162070.000168",
+  "timestamp": 1512162070000,
+  "isoDate": "2017-12-01T21:01:10.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "root default mean for caps set when no option specified",
+  "ts": "1512162066.000012",
+  "timestamp": 1512162066000,
+  "isoDate": "2017-12-01T21:01:06.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "no \"root allow capabilities\" is set yo yes by default",
+  "ts": "1512162045.000486",
+  "timestamp": 1512162045000,
+  "isoDate": "2017-12-01T21:00:45.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "but even if I --keep-privs, it should allow it to work, right?",
+  "ts": "1512162030.000290",
+  "timestamp": 1512162030000,
+  "isoDate": "2017-12-01T21:00:30.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "oh crap... when did that get in there! hahaha",
+  "ts": "1512162005.000659",
+  "timestamp": 1512162005000,
+  "isoDate": "2017-12-01T21:00:05.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "root default capabilities = no",
+  "ts": "1512161994.000041",
+  "timestamp": 1512161994000,
+  "isoDate": "2017-12-01T20:59:54.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "which config?",
+  "ts": "1512161977.000271",
+  "timestamp": 1512161977000,
+  "isoDate": "2017-12-01T20:59:37.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "is your configuration file has been modified like \"root allow capabilities\"",
+  "ts": "1512161961.000463",
+  "timestamp": 1512161961000,
+  "isoDate": "2017-12-01T20:59:21.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "ok, I need to get ready for a call now.",
+  "ts": "1512161933.000369",
+  "timestamp": 1512161933000,
+  "isoDate": "2017-12-01T20:58:53.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "BTW, not sure if this is possible... But I think it would be very cool, if the daemon starts with no privs, dropping all capabilities, but you can shell into it either with caps or without caps.",
+  "ts": "1512161919.000445",
+  "timestamp": 1512161919000,
+  "isoDate": "2017-12-01T20:58:39.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U2MQD256V> I need to run into the office this afternoon. Can you assist on this?",
+  "ts": "1512161856.000145",
+  "timestamp": 1512161856000,
+  "isoDate": "2017-12-01T20:57:36.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "no go. :disappointed:",
+  "ts": "1512161833.000293",
+  "timestamp": 1512161833000,
+  "isoDate": "2017-12-01T20:57:13.000Z"
+},{
+  "type": "message",
+  "subtype": "file_share",
+  "text": "<@U115P26TB> uploaded a file: <https://singularity-container.slack.com/files/U115P26TB/F88K62NTE/-.txt|Untitled>",
+  "file": {
+    "id": "F88K62NTE",
+    "created": 1512161829,
+    "timestamp": 1512161829,
+    "name": "-.txt",
+    "title": "Untitled",
+    "mimetype": "text/plain",
+    "filetype": "text",
+    "pretty_type": "Plain Text",
+    "user": "U115P26TB",
+    "editable": true,
+    "size": 2029,
+    "mode": "snippet",
+    "is_external": false,
+    "external_type": "",
+    "is_public": true,
+    "public_url_shared": false,
+    "display_as_bot": false,
+    "username": "",
+    "url_private": "https://files.slack.com/files-pri/T0YKGK200-F88K62NTE/-.txt",
+    "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F88K62NTE/download/-.txt",
+    "permalink": "https://singularity-container.slack.com/files/U115P26TB/F88K62NTE/-.txt",
+    "permalink_public": "https://slack-files.com/T0YKGK200-F88K62NTE-1900b3fc74",
+    "edit_link": "https://singularity-container.slack.com/files/U115P26TB/F88K62NTE/-.txt/edit",
+    "preview": "gmk@gmkdev2:~/demo$ sudo singularity instance.start --keep-privs ubuntu foo\r\ngmk@gmkdev2:~/demo$ sudo singularity exec --keep-privs instance://foo apt-get update\r\nGet:1 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]\r\nHit:2 http://archive.ubuntu.com/ubuntu xenial InRelease                               \r\nGet:3 http://archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]              \r",
+    "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>gmk@gmkdev2:~/demo$ sudo singularity instance.start --keep-privs ubuntu foo</pre></div>\n<div><pre>gmk@gmkdev2:~/demo$ sudo singularity exec --keep-privs instance://foo apt-get update</pre></div>\n<div><pre>Get:1 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]</pre></div>\n<div><pre>Hit:2 http://archive.ubuntu.com/ubuntu xenial InRelease                               </pre></div>\n<div><pre>Get:3 http://archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]              </pre></div>\n<div><pre></pre></div>\n</div>\n</div>\n",
+    "lines": 24,
+    "lines_more": 19,
+    "preview_is_truncated": true,
+    "channels": [
+      "C24K0A087"
+    ],
+    "groups": [],
+    "ims": [],
+    "comments_count": 0
+  },
+  "user": "U115P26TB",
+  "upload": true,
+  "display_as_bot": false,
+  "username": "gmk",
+  "bot_id": null,
+  "ts": "1512161830.000094",
+  "timestamp": 1512161830000,
+  "isoDate": "2017-12-01T20:57:10.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "I didn't start the instance with --keep-privs... doing that now",
+  "ts": "1512161787.000076",
+  "timestamp": 1512161787000,
+  "isoDate": "2017-12-01T20:56:27.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "?? NO_PRIVS ??",
+  "ts": "1512161774.000748",
+  "timestamp": 1512161774000,
+  "isoDate": "2017-12-01T20:56:14.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "# cat ~/.singularity/daemon/gmkdev2/foo \nDAEMON_PID=25475\nDAEMON_IMAGE=/home/gmk/demo/ubuntu\nDAEMON_ROOTFS=/usr/local/var/singularity/mnt/final\nNO_PRIVS=1",
+  "ts": "1512161743.000376",
+  "timestamp": 1512161743000,
+  "isoDate": "2017-12-01T20:55:43.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "it should keep track of caps and keep priv",
+  "ts": "1512161734.000233",
+  "timestamp": 1512161734000,
+  "isoDate": "2017-12-01T20:55:34.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "what contains ~/.singularity/daemon/.../foo..",
+  "ts": "1512161711.000443",
+  "timestamp": 1512161711000,
+  "isoDate": "2017-12-01T20:55:11.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "same thing with keep-privs",
+  "ts": "1512161668.000600",
+  "timestamp": 1512161668000,
+  "isoDate": "2017-12-01T20:54:28.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "$ sudo singularity exec <instance://foo> su - _apt -c whoami\nsu: System error",
+  "ts": "1512161633.000404",
+  "timestamp": 1512161633000,
+  "isoDate": "2017-12-01T20:53:53.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "?",
+  "ts": "1512161632.000418",
+  "timestamp": 1512161632000,
+  "isoDate": "2017-12-01T20:53:52.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "if you specify --keep-privs with above command",
+  "ts": "1512161628.000564",
+  "timestamp": 1512161628000,
+  "isoDate": "2017-12-01T20:53:48.000Z"
+},{
+  "type": "message",
+  "subtype": "file_share",
+  "text": "<@U115P26TB> uploaded a file: <https://singularity-container.slack.com/files/U115P26TB/F89E2G31U/-.txt|Untitled>",
+  "file": {
+    "id": "F89E2G31U",
+    "created": 1512161581,
+    "timestamp": 1512161581,
+    "name": "-.txt",
+    "title": "Untitled",
+    "mimetype": "text/plain",
+    "filetype": "text",
+    "pretty_type": "Plain Text",
+    "user": "U115P26TB",
+    "editable": true,
+    "size": 1037,
+    "mode": "snippet",
+    "is_external": false,
+    "external_type": "",
+    "is_public": true,
+    "public_url_shared": false,
+    "display_as_bot": false,
+    "username": "",
+    "url_private": "https://files.slack.com/files-pri/T0YKGK200-F89E2G31U/-.txt",
+    "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F89E2G31U/download/-.txt",
+    "permalink": "https://singularity-container.slack.com/files/U115P26TB/F89E2G31U/-.txt",
+    "permalink_public": "https://slack-files.com/T0YKGK200-F89E2G31U-689da2a427",
+    "edit_link": "https://singularity-container.slack.com/files/U115P26TB/F89E2G31U/-.txt/edit",
+    "preview": "$ sudo singularity exec instance://foo apt-get update\r\nE: setgroups 65534 failed - setgroups (1: Operation not permitted)\r\nE: setegid 65534 failed - setegid (1: Operation not permitted)\r\nE: seteuid 104 failed - seteuid (1: Operation not permitted)\r\nE: setgroups 0 failed - setgroups (1: Operation not permitted)\r",
+    "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>$ sudo singularity exec instance://foo apt-get update</pre></div>\n<div><pre>E: setgroups 65534 failed - setgroups (1: Operation not permitted)</pre></div>\n<div><pre>E: setegid 65534 failed - setegid (1: Operation not permitted)</pre></div>\n<div><pre>E: seteuid 104 failed - seteuid (1: Operation not permitted)</pre></div>\n<div><pre>E: setgroups 0 failed - setgroups (1: Operation not permitted)</pre></div>\n<div><pre></pre></div>\n</div>\n</div>\n",
+    "lines": 16,
+    "lines_more": 11,
+    "preview_is_truncated": true,
+    "channels": [
+      "C24K0A087"
+    ],
+    "groups": [],
+    "ims": [],
+    "comments_count": 0
+  },
+  "user": "U115P26TB",
+  "upload": true,
+  "display_as_bot": false,
+  "username": "gmk",
+  "bot_id": null,
+  "ts": "1512161582.000164",
+  "timestamp": 1512161582000,
+  "isoDate": "2017-12-01T20:53:02.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "just default install",
+  "ts": "1512161548.000395",
+  "timestamp": 1512161548000,
+  "isoDate": "2017-12-01T20:52:28.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "nope",
+  "ts": "1512161542.000436",
+  "timestamp": 1512161542000,
+  "isoDate": "2017-12-01T20:52:22.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "you use grsec ?",
+  "ts": "1512161538.000264",
+  "timestamp": 1512161538000,
+  "isoDate": "2017-12-01T20:52:18.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "yep hmm strange, need a VM to see what happens there",
+  "ts": "1512161505.000639",
+  "timestamp": 1512161505000,
+  "isoDate": "2017-12-01T20:51:45.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "CapInh: 0000000000000000\nCapPrm: 0000000000000000\nCapEff: 0000000000000000\nCapBnd: 0000000000000000",
+  "ts": "1512161470.000318",
+  "timestamp": 1512161470000,
+  "isoDate": "2017-12-01T20:51:10.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "are you looking at these:",
+  "ts": "1512161469.000594",
+  "timestamp": 1512161469000,
+  "isoDate": "2017-12-01T20:51:09.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "tested on ubuntu 16.04 and mint 18 no problem, will test on centos 6",
+  "ts": "1512161432.000752",
+  "timestamp": 1512161432000,
+  "isoDate": "2017-12-01T20:50:32.000Z"
+},{
+  "type": "message",
+  "subtype": "file_share",
+  "text": "<@U115P26TB> uploaded a file: <https://singularity-container.slack.com/files/U115P26TB/F88N0HS8M/-.txt|Untitled>",
+  "file": {
+    "id": "F88N0HS8M",
+    "created": 1512161432,
+    "timestamp": 1512161432,
+    "name": "-.txt",
+    "title": "Untitled",
+    "mimetype": "text/plain",
+    "filetype": "text",
+    "pretty_type": "Plain Text",
+    "user": "U115P26TB",
+    "editable": true,
+    "size": 1121,
+    "mode": "snippet",
+    "is_external": false,
+    "external_type": "",
+    "is_public": true,
+    "public_url_shared": false,
+    "display_as_bot": false,
+    "username": "",
+    "url_private": "https://files.slack.com/files-pri/T0YKGK200-F88N0HS8M/-.txt",
+    "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F88N0HS8M/download/-.txt",
+    "permalink": "https://singularity-container.slack.com/files/U115P26TB/F88N0HS8M/-.txt",
+    "permalink_public": "https://slack-files.com/T0YKGK200-F88N0HS8M-c1264ca617",
+    "edit_link": "https://singularity-container.slack.com/files/U115P26TB/F88N0HS8M/-.txt/edit",
+    "preview": "gmk@gmkdev2:~/demo$ sudo singularity instance.start ubuntu foo\r\ngmk@gmkdev2:~/demo$ sudo singularity exec instance://foo cat /proc/self/status\r\nName:   cat\r\nState:  R (running)\r\nTgid:   3\r",
+    "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>gmk@gmkdev2:~/demo$ sudo singularity instance.start ubuntu foo</pre></div>\n<div><pre>gmk@gmkdev2:~/demo$ sudo singularity exec instance://foo cat /proc/self/status</pre></div>\n<div><pre>Name:   cat</pre></div>\n<div><pre>State:  R (running)</pre></div>\n<div><pre>Tgid:   3</pre></div>\n<div><pre></pre></div>\n</div>\n</div>\n",
+    "lines": 49,
+    "lines_more": 44,
+    "preview_is_truncated": true,
+    "channels": [
+      "C24K0A087"
+    ],
+    "groups": [],
+    "ims": [],
+    "comments_count": 0
+  },
+  "user": "U115P26TB",
+  "upload": true,
+  "display_as_bot": false,
+  "username": "gmk",
+  "bot_id": null,
+  "ts": "1512161432.000703",
+  "timestamp": 1512161432000,
+  "isoDate": "2017-12-01T20:50:32.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "what's gives sudo singularity exec <instance://foo> cat /proc/self/status ?",
+  "ts": "1512161281.000168",
+  "timestamp": 1512161281000,
+  "isoDate": "2017-12-01T20:48:01.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U5RJ04A4F> it seems to be an error with caps... Are you sure it is keeping privileges?",
+  "ts": "1512161230.000654",
+  "timestamp": 1512161230000,
+  "isoDate": "2017-12-01T20:47:10.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "$ cat /etc/lsb-release \nDISTRIB_ID=Ubuntu\nDISTRIB_RELEASE=14.04\nDISTRIB_CODENAME=trusty\nDISTRIB_DESCRIPTION=\"Ubuntu 14.04.5 LTS\"",
+  "ts": "1512160855.000379",
+  "timestamp": 1512160855000,
+  "isoDate": "2017-12-01T20:40:55.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Weird... I am running this on Ubuntu",
+  "ts": "1512160846.000028",
+  "timestamp": 1512160846000,
+  "isoDate": "2017-12-01T20:40:46.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "you use an ubuntu distro right ?",
+  "ts": "1512160845.000281",
+  "timestamp": 1512160845000,
+  "isoDate": "2017-12-01T20:40:45.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "hmm can't reproduce",
+  "ts": "1512160563.000056",
+  "timestamp": 1512160563000,
+  "isoDate": "2017-12-01T20:36:03.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "ok thanks !",
+  "ts": "1512160357.000050",
+  "timestamp": 1512160357000,
+  "isoDate": "2017-12-01T20:32:37.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "That is how to reproduce",
+  "ts": "1512160240.000445",
+  "timestamp": 1512160240000,
+  "isoDate": "2017-12-01T20:30:40.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "apt-get update",
+  "ts": "1512160236.000027",
+  "timestamp": 1512160236000,
+  "isoDate": "2017-12-01T20:30:36.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "sudo singularity shell <instance://foo>",
+  "ts": "1512160233.000715",
+  "timestamp": 1512160233000,
+  "isoDate": "2017-12-01T20:30:33.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "sudo singularity instance.start --boot ubuntu foo",
+  "ts": "1512160227.000819",
+  "timestamp": 1512160227000,
+  "isoDate": "2017-12-01T20:30:27.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "singularity build ubuntu <docker://ubuntu>",
+  "ts": "1512160219.000471",
+  "timestamp": 1512160219000,
+  "isoDate": "2017-12-01T20:30:19.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "I give it a try",
+  "ts": "1512160206.000189",
+  "timestamp": 1512160206000,
+  "isoDate": "2017-12-01T20:30:06.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Any idea on why this isn't working?",
+  "ts": "1512160197.000513",
+  "timestamp": 1512160197000,
+  "isoDate": "2017-12-01T20:29:57.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "and when you join it restore caps too",
+  "ts": "1512160179.000564",
+  "timestamp": 1512160179000,
+  "isoDate": "2017-12-01T20:29:39.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "normally it's set automatically to keep-privs with --boot",
+  "ts": "1512160162.000375",
+  "timestamp": 1512160162000,
+  "isoDate": "2017-12-01T20:29:22.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "on the instance line, or on the shell line?",
+  "ts": "1512160137.000240",
+  "timestamp": 1512160137000,
+  "isoDate": "2017-12-01T20:28:57.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "and if so, where do I add it?",
+  "ts": "1512160130.000440",
+  "timestamp": 1512160130000,
+  "isoDate": "2017-12-01T20:28:50.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "do I need to add --keep-privs?",
+  "ts": "1512160127.000106",
+  "timestamp": 1512160127000,
+  "isoDate": "2017-12-01T20:28:47.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "with instance --boot and shell to connect in",
+  "ts": "1512160120.000105",
+  "timestamp": 1512160120000,
+  "isoDate": "2017-12-01T20:28:40.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "with instance or shell ?",
+  "ts": "1512160109.000147",
+  "timestamp": 1512160109000,
+  "isoDate": "2017-12-01T20:28:29.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "W: Can't drop privileges for downloading as file '/var/lib/apt/lists/partial/archive.ubuntu.com_ubuntu_dists_xenial_InRelease' couldn't be accessed by user '_apt'. - pkgAcquire::Run (13: Permission denied)",
+  "ts": "1512160053.000031",
+  "timestamp": 1512160053000,
+  "isoDate": "2017-12-01T20:27:33.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U5RJ04A4F> I am still getting the following error on apt-get update:",
+  "ts": "1512160051.000576",
+  "timestamp": 1512160051000,
+  "isoDate": "2017-12-01T20:27:31.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Sory for the delay",
+  "ts": "1512156120.000074",
+  "reactions": [
+    {
+      "name": "+1",
+      "users": [
+        "U5RJ04A4F"
+      ],
+      "count": 1
+    }
+  ],
+  "timestamp": 1512156120000,
+  "isoDate": "2017-12-01T19:22:00.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Merged!",
+  "ts": "1512156114.000386",
+  "timestamp": 1512156114000,
+  "isoDate": "2017-12-01T19:21:54.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Ahh, wow. I didn't know that. Excellent work then!",
+  "ts": "1512156084.000043",
+  "timestamp": 1512156084000,
+  "isoDate": "2017-12-01T19:21:24.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "just tested with centos :slightly_smiling_face: and I confirm when using --boot hostname is taken from /etc/hostname even if you set it via sethostname syscall",
+  "ts": "1512155826.000311",
+  "timestamp": 1512155826000,
+  "isoDate": "2017-12-01T19:17:06.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "I don't think their version of systemd uses /etc/hostname...",
+  "ts": "1512155775.000239",
+  "timestamp": 1512155775000,
+  "isoDate": "2017-12-01T19:16:15.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "BTW, have you tested with RedHat/Centos?",
+  "ts": "1512155760.000870",
+  "timestamp": 1512155760000,
+  "isoDate": "2017-12-01T19:16:00.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Ahh, so you write a file in sessiondir, and bind to that. Gotcha and perfect!",
+  "ts": "1512155742.000667",
+  "timestamp": 1512155742000,
+  "isoDate": "2017-12-01T19:15:42.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "no I bind a temp file in session dir like passwd",
+  "ts": "1512155714.000614",
+  "timestamp": 1512155714000,
+  "isoDate": "2017-12-01T19:15:14.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Oh, no... don't bind. We want to set it either to localhost.localdomain, or whatever is passed via --hostname",
+  "ts": "1512155660.000364",
+  "timestamp": 1512155660000,
+  "isoDate": "2017-12-01T19:14:20.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "yes if it exists -&gt; bind",
+  "ts": "1512155449.000280",
+  "timestamp": 1512155449000,
+  "isoDate": "2017-12-01T19:10:49.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Then I would suggest we only write into that file the hostname if it exists. ... Is that what you are doing? lol",
+  "ts": "1512155350.000559",
+  "timestamp": 1512155350000,
+  "isoDate": "2017-12-01T19:09:10.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "Need to check, at first look that's what I observed",
+  "ts": "1512155164.000671",
+  "timestamp": 1512155164000,
+  "isoDate": "2017-12-01T19:06:04.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "So if /etc/hostname doesn't exist, it doesn't do anything?",
+  "ts": "1512154964.000280",
+  "timestamp": 1512154964000,
+  "isoDate": "2017-12-01T19:02:44.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "It happens when container has a /etc/hostname inside",
+  "ts": "1512154839.000144",
+  "timestamp": 1512154839000,
+  "isoDate": "2017-12-01T19:00:39.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "nobody has ever complained about that in Warewulf. very weird.",
+  "ts": "1512154713.000174",
+  "timestamp": 1512154713000,
+  "isoDate": "2017-12-01T18:58:33.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "hrmmm",
+  "ts": "1512154701.000575",
+  "timestamp": 1512154701000,
+  "isoDate": "2017-12-01T18:58:21.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "<@U115P26TB> I tested without binding hostname and it's indeed reset by systemd to localhost.localdomain",
+  "ts": "1512154663.000099",
+  "timestamp": 1512154663000,
+  "isoDate": "2017-12-01T18:57:43.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "I haven't seen that in Warewulf (which sets hostname before calling `/sbin/init`) for provisioning.",
+  "ts": "1512154245.000319",
+  "timestamp": 1512154245000,
+  "isoDate": "2017-12-01T18:50:45.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U5RJ04A4F> Question regarding #1173. Many distributions don't use or support `/etc/hostname` (e.g. RedHat derivatives). If we set hostname, you are saying that systemd (or other init system) will reset it?",
+  "ts": "1512154219.000402",
+  "timestamp": 1512154219000,
+  "isoDate": "2017-12-01T18:50:19.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "We could do that for sure!",
+  "ts": "1512154147.000447",
+  "timestamp": 1512154147000,
+  "isoDate": "2017-12-01T18:49:07.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "A doodle poll for a time would be good",
+  "ts": "1512154046.000334",
+  "timestamp": 1512154046000,
+  "isoDate": "2017-12-01T18:47:26.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Sounds good.  I will watch the google group for an announcement.  Please make it early in the California morning, I think there's at least one European contributor that would be interested.",
+  "ts": "1512154014.000270",
+  "timestamp": 1512154014000,
+  "isoDate": "2017-12-01T18:46:54.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Nope, but there will be shortly!",
+  "ts": "1512153897.000611",
+  "timestamp": 1512153897000,
+  "isoDate": "2017-12-01T18:44:57.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Are there regular conference calls within the singularity development team?  I think it would be a good idea to have a monthly call open to all developers, including those not on the core team but who submit pull requests.",
+  "ts": "1512153523.000059",
+  "timestamp": 1512153523000,
+  "isoDate": "2017-12-01T18:38:43.000Z"
+},{
+  "user": "U887TL7M1",
+  "text": "<@U887TL7M1> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1512136975.000278",
+  "timestamp": 1512136975000,
+  "isoDate": "2017-12-01T14:02:55.000Z"
+},{
+  "user": "U837SHMK5",
+  "text": "<@U837SHMK5> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1511213406.000094",
+  "timestamp": 1511213406000,
+  "isoDate": "2017-11-20T21:30:06.000Z"
+},{
+  "user": "U823R08GH",
+  "text": "<@U823R08GH> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1511042973.000087",
+  "timestamp": 1511042973000,
+  "isoDate": "2017-11-18T22:09:33.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Ok. Thanks.",
+  "ts": "1509061876.000271",
+  "timestamp": 1509061876000,
+  "isoDate": "2017-10-26T23:51:16.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "actually, I'm not sure, but I don't think it would hurt to leave it out",
+  "ts": "1509057738.000075",
+  "timestamp": 1509057738000,
+  "isoDate": "2017-10-26T22:42:18.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "hmm",
+  "ts": "1509057728.000012",
+  "timestamp": 1509057728000,
+  "isoDate": "2017-10-26T22:42:08.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I think that since we call it directly with /bin/sh",
+  "ts": "1509057717.000167",
+  "timestamp": 1509057717000,
+  "isoDate": "2017-10-26T22:41:57.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "I gotta go walk the dog :dog2: :walking:",
+  "ts": "1509056999.000169",
+  "timestamp": 1509056999000,
+  "isoDate": "2017-10-26T22:29:59.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Or just assume the user knows what they are doing and be cool?",
+  "ts": "1509056828.000245",
+  "timestamp": 1509056828000,
+  "isoDate": "2017-10-26T22:27:08.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "In other words, should Singularity insert `#!/bin/sh` into an apprunscript if no shebang is provided?",
+  "ts": "1509056805.000237",
+  "timestamp": 1509056805000,
+  "isoDate": "2017-10-26T22:26:45.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Is this true or is there something I am missing?",
+  "edited": {
+    "user": "U2MT7BF0V",
+    "ts": "1509056752.000000"
+  },
+  "ts": "1509056748.000308",
+  "timestamp": 1509056748000,
+  "isoDate": "2017-10-26T22:25:48.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "and then it occurred to me that the apprunscript could probably use the same treatment",
+  "ts": "1509056737.000052",
+  "timestamp": 1509056737000,
+  "isoDate": "2017-10-26T22:25:37.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "huge plus +1",
+  "ts": "1509056717.000253",
+  "timestamp": 1509056717000,
+  "isoDate": "2017-10-26T22:25:17.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "shebang!",
+  "ts": "1509056708.000169",
+  "reactions": [
+    {
+      "name": "aw_yeah",
+      "users": [
+        "U2MT7BF0V"
+      ],
+      "count": 1
+    }
+  ],
+  "timestamp": 1509056708000,
+  "isoDate": "2017-10-26T22:25:08.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "what did she do?",
+  "ts": "1509056706.000312",
+  "timestamp": 1509056706000,
+  "isoDate": "2017-10-26T22:25:06.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "But I think I want to write it as a function to avoid duplicating code in both run and start script",
+  "ts": "1509056706.000067",
+  "timestamp": 1509056706000,
+  "isoDate": "2017-10-26T22:25:06.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "sheebang sheebang shebang",
+  "ts": "1509056704.000124",
+  "timestamp": 1509056704000,
+  "isoDate": "2017-10-26T22:25:04.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "okay that's a good idea",
+  "ts": "1509056697.000164",
+  "timestamp": 1509056697000,
+  "isoDate": "2017-10-26T22:24:57.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Well right now I have something coded up that checks for the presence of a shebang in the first line of a user defined run/start script and only inserts `#!/bin/sh` if nothing exists.",
+  "ts": "1509056679.000232",
+  "timestamp": 1509056679000,
+  "isoDate": "2017-10-26T22:24:39.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "I won’t!  Thank you.",
+  "ts": "1509056612.000285",
+  "timestamp": 1509056612000,
+  "isoDate": "2017-10-26T22:23:32.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I also fixed the pull issue, so don't do that",
+  "ts": "1509056589.000022",
+  "timestamp": 1509056589000,
+  "isoDate": "2017-10-26T22:23:09.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "not runscripts, for deffiles",
+  "ts": "1509056581.000229",
+  "timestamp": 1509056581000,
+  "isoDate": "2017-10-26T22:23:01.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "hehe",
+  "ts": "1509056572.000300",
+  "timestamp": 1509056572000,
+  "isoDate": "2017-10-26T22:22:52.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I don't know good question",
+  "ts": "1509056571.000154",
+  "timestamp": 1509056571000,
+  "isoDate": "2017-10-26T22:22:51.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Why stick a shebang in at all?",
+  "ts": "1509056564.000004",
+  "timestamp": 1509056564000,
+  "isoDate": "2017-10-26T22:22:44.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I'm working on a linter for the runscripts",
+  "ts": "1509056562.000154",
+  "timestamp": 1509056562000,
+  "isoDate": "2017-10-26T22:22:42.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "I actually think that is what we should have been doing all along.",
+  "ts": "1509056552.000400",
+  "timestamp": 1509056552000,
+  "isoDate": "2017-10-26T22:22:32.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Oh don’t be sad.  I’m only joking",
+  "ts": "1509056538.000172",
+  "timestamp": 1509056538000,
+  "isoDate": "2017-10-26T22:22:18.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": ":disappointed:",
+  "ts": "1509056516.000385",
+  "timestamp": 1509056516000,
+  "isoDate": "2017-10-26T22:21:56.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Way to be different lol",
+  "ts": "1509056511.000173",
+  "timestamp": 1509056511000,
+  "isoDate": "2017-10-26T22:21:51.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "yes",
+  "ts": "1509056500.000256",
+  "timestamp": 1509056500000,
+  "isoDate": "2017-10-26T22:21:40.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Do you just copy whatever a user provides?",
+  "ts": "1509056495.000003",
+  "timestamp": 1509056495000,
+  "isoDate": "2017-10-26T22:21:35.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "But how does apprunscript work?",
+  "ts": "1509056482.000087",
+  "timestamp": 1509056482000,
+  "isoDate": "2017-10-26T22:21:22.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "yep and we should really check to see if they provide one",
+  "ts": "1509056480.000033",
+  "timestamp": 1509056480000,
+  "isoDate": "2017-10-26T22:21:20.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Currently we insert a `#!/bin/sh` at the top of runscript and startscript",
+  "ts": "1509056468.000221",
+  "timestamp": 1509056468000,
+  "isoDate": "2017-10-26T22:21:08.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "doolang doolang shebang",
+  "ts": "1509056465.000063",
+  "timestamp": 1509056465000,
+  "isoDate": "2017-10-26T22:21:05.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "<@U245DTC59> quick question for you.  I was just looking at the way we are handling shebangs pursuant to #1038",
+  "ts": "1509056434.000239",
+  "timestamp": 1509056434000,
+  "isoDate": "2017-10-26T22:20:34.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": ":crickets: :crickets:",
+  "ts": "1509056374.000349",
+  "timestamp": 1509056374000,
+  "isoDate": "2017-10-26T22:19:34.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Been kindof quiet in the <#C24K0A087|devel> channel recently",
+  "ts": "1509056368.000217",
+  "timestamp": 1509056368000,
+  "isoDate": "2017-10-26T22:19:28.000Z"
+},{
+  "user": "U7LHRKLKW",
+  "text": "<@U7LHRKLKW> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1508967341.000154",
+  "timestamp": 1508967341000,
+  "isoDate": "2017-10-25T21:35:41.000Z"
+}]

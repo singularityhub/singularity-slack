@@ -1,0 +1,1255 @@
+[
+{
+  "user": "U88NPN8GN",
+  "text": "<@U88NPN8GN> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1515616688.000497",
+  "timestamp": 1515616688000,
+  "isoDate": "2018-01-10T20:38:08.000Z"
+},{
+  "type": "message",
+  "user": "U61TBEPHP",
+  "text": "Nope, seems to build now",
+  "ts": "1515600405.000843",
+  "timestamp": 1515600405000,
+  "isoDate": "2018-01-10T16:06:45.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I'm still doing testing, is there a container you need me to look at?",
+  "ts": "1515597674.000036",
+  "timestamp": 1515597674000,
+  "isoDate": "2018-01-10T15:21:14.000Z"
+},{
+  "type": "message",
+  "user": "U61TBEPHP",
+  "text": "(just to know when I can check back)",
+  "ts": "1515593741.000269",
+  "timestamp": 1515593741000,
+  "isoDate": "2018-01-10T14:15:41.000Z"
+},{
+  "type": "message",
+  "user": "U61TBEPHP",
+  "text": "How long are you expecting this is going to take?",
+  "ts": "1515593731.000452",
+  "timestamp": 1515593731000,
+  "isoDate": "2018-01-10T14:15:31.000Z"
+},{
+  "type": "message",
+  "user": "U61TBEPHP",
+  "text": "Great, should've read this before :smile:",
+  "ts": "1515593715.000041",
+  "timestamp": 1515593715000,
+  "isoDate": "2018-01-10T14:15:15.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "hey everyone if you have builds running right now hold tight - the builders needed an update and I will be restarting the ones (that are hanging)",
+  "ts": "1515588674.000448",
+  "timestamp": 1515588674000,
+  "isoDate": "2018-01-10T12:51:14.000Z"
+},{
+  "user": "U8N9UTW9L",
+  "text": "<@U8N9UTW9L> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1514972667.000015",
+  "timestamp": 1514972667000,
+  "isoDate": "2018-01-03T09:44:27.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "hey everyone we are having discussion about integration of a security scanner (Clair) for sregistry, I'd like to get working on it soon! Please give your feedback on this thread --&gt; <https://github.com/singularityhub/sregistry/issues/14#issuecomment-338727120> My thinking is that this would most logically integrate as a webhook integration, but we would want a little more intimacy between the scanner and registry than that, as the scanner should send a notification sort of deal back to the server (and for example, flag and disable some image that has a vulnerability).",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "Proposal - Container security scanning with Clair · Issue #14 · singularityhub/sregistry",
+      "title_link": "https://github.com/singularityhub/sregistry/issues/14#issuecomment-338727120",
+      "text": "Clair is the CoreOS project for security static analysis of containers, scanning them for security issues (from databases of known CVEs). I'd like to propose adding support to sregistry for scannin...",
+      "fallback": "GitHub: Proposal - Container security scanning with Clair · Issue #14 · singularityhub/sregistry",
+      "from_url": "https://github.com/singularityhub/sregistry/issues/14#issuecomment-338727120",
+      "thumb_url": "https://avatars0.githubusercontent.com/u/4522799?s=400&v=4",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1513731282.000315",
+  "timestamp": 1513731282000,
+  "isoDate": "2017-12-20T00:54:42.000Z"
+},{
+  "user": "U8BF4Q6T0",
+  "text": "<@U8BF4Q6T0> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1512577969.000849",
+  "timestamp": 1512577969000,
+  "isoDate": "2017-12-06T16:32:49.000Z"
+},{
+  "user": "U89JC7JQ5",
+  "text": "<@U89JC7JQ5> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1512415897.000056",
+  "timestamp": 1512415897000,
+  "isoDate": "2017-12-04T19:31:37.000Z"
+},{
+  "user": "U837SHMK5",
+  "text": "<@U837SHMK5> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1512118481.000139",
+  "timestamp": 1512118481000,
+  "isoDate": "2017-12-01T08:54:41.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "hey everyone! The builder for 2.4.1 has been updated on Singularity Hub and is now default for new collections. Please give it a try (you will need to update collections already created to use it) and let me know if there are any issues.",
+  "ts": "1511709985.000048",
+  "timestamp": 1511709985000,
+  "isoDate": "2017-11-26T15:26:25.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "everyone the commit trigger for different branches has just been updated, if you have a weird issue I will likely be notified and fix it, otherwise please post an issue.",
+  "ts": "1511307605.000260",
+  "timestamp": 1511307605000,
+  "isoDate": "2017-11-21T23:40:05.000Z"
+},{
+  "user": "U823R08GH",
+  "text": "<@U823R08GH> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1511042962.000036",
+  "timestamp": 1511042962000,
+  "isoDate": "2017-11-18T22:09:22.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "hey everyone I just figured out the bug tht would make builds hang in waiting, working on it now",
+  "ts": "1510238620.000627",
+  "timestamp": 1510238620000,
+  "isoDate": "2017-11-09T14:43:40.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "np! good to know :slightly_smiling_face: I added a catch so you will get a message instead of the error next time :slightly_smiling_face:",
+  "ts": "1510223040.000356",
+  "timestamp": 1510223040000,
+  "isoDate": "2017-11-09T10:24:00.000Z"
+},{
+  "type": "message",
+  "user": "U61TBEPHP",
+  "text": "Thanks!",
+  "ts": "1510223020.000399",
+  "timestamp": 1510223020000,
+  "isoDate": "2017-11-09T10:23:40.000Z"
+},{
+  "type": "message",
+  "user": "U61TBEPHP",
+  "text": "Hub runs now quite well with our pipeline(s)",
+  "ts": "1510223018.000369",
+  "timestamp": 1510223018000,
+  "isoDate": "2017-11-09T10:23:38.000Z"
+},{
+  "type": "message",
+  "user": "U61TBEPHP",
+  "text": "Hey <@U245DTC59> I think I tried too fast yes :wink:",
+  "ts": "1510222969.000188",
+  "timestamp": 1510222969000,
+  "isoDate": "2017-11-09T10:22:49.000Z"
+},{
+  "type": "message",
+  "subtype": "file_share",
+  "text": "<@U245DTC59> uploaded a file: <https://singularity-container.slack.com/files/U245DTC59/F7WRVNX8Q/-.py|Untitled>",
+  "file": {
+    "id": "F7WRVNX8Q",
+    "created": 1510222955,
+    "timestamp": 1510222955,
+    "name": "-.py",
+    "title": "Untitled",
+    "mimetype": "text/plain",
+    "filetype": "python",
+    "pretty_type": "Python",
+    "user": "U245DTC59",
+    "editable": true,
+    "size": 305,
+    "mode": "snippet",
+    "is_external": false,
+    "external_type": "",
+    "is_public": true,
+    "public_url_shared": false,
+    "display_as_bot": false,
+    "username": "",
+    "url_private": "https://files.slack.com/files-pri/T0YKGK200-F7WRVNX8Q/-.py",
+    "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F7WRVNX8Q/download/-.py",
+    "permalink": "https://singularity-container.slack.com/files/U245DTC59/F7WRVNX8Q/-.py",
+    "permalink_public": "https://slack-files.com/T0YKGK200-F7WRVNX8Q-32234a1661",
+    "edit_link": "https://singularity-container.slack.com/files/U245DTC59/F7WRVNX8Q/-.py/edit",
+    "preview": " c.image\r\n'https://www.googleapis.com/download/storage/v1/b/singularityhub/o/singularityhub%2Fgithub.com%2Fqbicsoftware%2Fqbic-singularity-tophat2%2F68710e710780eb5c00aeb203fa64ba32442c8c5a%2F27d9fcd9c13f880caebb9a39420f0451%2F27d9fcd9c13f880caebb9a39420f0451.simg?generation=1510222606340267&alt=media'\r\n",
+    "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre> <span class=\"cm-variable\">c</span>.<span class=\"cm-property\">image</span></pre></div>\n<div><pre><span class=\"cm-string\">'https://www.googleapis.com/download/storage/v1/b/singularityhub/o/singularityhub%2Fgithub.com%2Fqbicsoftware%2Fqbic-singularity-tophat2%2F68710e710780eb5c00aeb203fa64ba32442c8c5a%2F27d9fcd9c13f880caebb9a39420f0451%2F27d9fcd9c13f880caebb9a39420f0451.simg?generation=1510222606340267&amp;alt=media'</span></pre></div>\n</div>\n</div>\n",
+    "lines": 3,
+    "lines_more": 0,
+    "preview_is_truncated": false,
+    "channels": [
+      "C3VU5JDHQ"
+    ],
+    "groups": [],
+    "ims": [],
+    "comments_count": 0
+  },
+  "user": "U245DTC59",
+  "upload": true,
+  "display_as_bot": false,
+  "username": "v",
+  "bot_id": null,
+  "ts": "1510222955.000201",
+  "timestamp": 1510222955000,
+  "isoDate": "2017-11-09T10:22:35.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "looks like you have an image now",
+  "ts": "1510222940.000133",
+  "timestamp": 1510222940000,
+  "isoDate": "2017-11-09T10:22:20.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "<@U61TBEPHP> it looks like you tried freezing a container that didn't have an associated image - I fixed the bug on the server but let me know if you need help with anything.",
+  "ts": "1510222782.000364",
+  "timestamp": 1510222782000,
+  "isoDate": "2017-11-09T10:19:42.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "I think a demo / documentation about it would be great too",
+  "ts": "1510215820.000394",
+  "timestamp": 1510215820000,
+  "isoDate": "2017-11-09T08:23:40.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "please file on Singularity board (not singularity hub)",
+  "ts": "1510183879.000039",
+  "timestamp": 1510183879000,
+  "isoDate": "2017-11-08T23:31:19.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "Yes you can definitely file a ticket for \"official\" support, but you can also use the hack I showed above to get it working quickly.",
+  "ts": "1510183855.000009",
+  "timestamp": 1510183855000,
+  "isoDate": "2017-11-08T23:30:55.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "I'd like to have some support in singularity for architecture aware information in container",
+  "ts": "1510183750.000364",
+  "timestamp": 1510183750000,
+  "isoDate": "2017-11-08T23:29:10.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "<@U245DTC59> <@U4BKCNE9K> did anyone create a ticket for this work. I suppose adding support for dynamic labels in container",
+  "ts": "1510183714.000149",
+  "timestamp": 1510183714000,
+  "isoDate": "2017-11-08T23:28:34.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "here you go! I made you a hack to add labels during build <https://vsoch.github.io/2017/container-labels/>",
+  "attachments": [
+    {
+      "service_name": "VanessaSaurus",
+      "title": "Adding Container Labels Dynamically",
+      "title_link": "https://vsoch.github.io/2017/container-labels/",
+      "text": "dinosaurs, programming, and parsnips",
+      "fallback": "VanessaSaurus: Adding Container Labels Dynamically",
+      "ts": 1509615660,
+      "from_url": "https://vsoch.github.io/2017/container-labels/",
+      "service_icon": "https://vsoch.github.io/assets/images/favicon/apple-icon-57x57.png",
+      "id": 1
+    }
+  ],
+  "ts": "1509727966.000675",
+  "reactions": [
+    {
+      "name": "beers",
+      "users": [
+        "U4BKCNE9K"
+      ],
+      "count": 1
+    }
+  ],
+  "timestamp": 1509727966000,
+  "isoDate": "2017-11-03T16:52:46.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "hasn't been thoroughly tested, but it's ther",
+  "ts": "1509727093.000579",
+  "timestamp": 1509727093000,
+  "isoDate": "2017-11-03T16:38:13.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "if you use Docker you can use an environment varaible to specify the manifest version you want",
+  "ts": "1509727084.000179",
+  "timestamp": 1509727084000,
+  "isoDate": "2017-11-03T16:38:04.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "from singularity perspective there should be a flag --arch-only that will make sure container passes architecture checks that are passed on via tags or just simply present in the containers as standard files in /.singularity",
+  "ts": "1509726792.000608",
+  "timestamp": 1509726792000,
+  "isoDate": "2017-11-03T16:33:12.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "non existing file or permissions...",
+  "ts": "1509726612.000576",
+  "timestamp": 1509726612000,
+  "isoDate": "2017-11-03T16:30:12.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "and it is easy to disable flags if we can't read it for any reason",
+  "edited": {
+    "user": "U4BKCNE9K",
+    "ts": "1509726644.000000"
+  },
+  "ts": "1509726604.000226",
+  "timestamp": 1509726604000,
+  "isoDate": "2017-11-03T16:30:04.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "Anyway, yes, I think reading /proc/cpuinfo would give many infos",
+  "ts": "1509726583.000044",
+  "timestamp": 1509726583000,
+  "isoDate": "2017-11-03T16:29:43.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "and I don't think any of us are working with singularity on it. I don't think it's possible. But, maybe one day... Windows 10 Pro already support Docker",
+  "ts": "1509726514.000286",
+  "timestamp": 1509726514000,
+  "isoDate": "2017-11-03T16:28:34.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "I know :slightly_smiling_face:",
+  "ts": "1509726465.000066",
+  "timestamp": 1509726465000,
+  "isoDate": "2017-11-03T16:27:45.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "i am not even considering windows at the moment",
+  "ts": "1509726453.000669",
+  "timestamp": 1509726453000,
+  "isoDate": "2017-11-03T16:27:33.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "*joke*",
+  "ts": "1509726437.000528",
+  "timestamp": 1509726437000,
+  "isoDate": "2017-11-03T16:27:17.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "It won't work on windows :stuck_out_tongue_winking_eye: :wink:",
+  "ts": "1509726426.000298",
+  "timestamp": 1509726426000,
+  "isoDate": "2017-11-03T16:27:06.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "assumes you has lsb_release and uname which are typically part of system maybe not lsb_release",
+  "ts": "1509726423.000664",
+  "timestamp": 1509726423000,
+  "isoDate": "2017-11-03T16:27:03.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "<https://bitbucket.org/hpcnow/snow-tools/src/9679c79ae2ac519f949162d2a2564b4d61307595/share/common.sh?at=master&amp;fileviewer=file-view-default>",
+  "ts": "1509726351.000371",
+  "timestamp": 1509726351000,
+  "isoDate": "2017-11-03T16:25:51.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "line 306 has a shell function to figure out the os distro",
+  "ts": "1509726348.000241",
+  "timestamp": 1509726348000,
+  "isoDate": "2017-11-03T16:25:48.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "Sure",
+  "ts": "1509726306.000252",
+  "timestamp": 1509726306000,
+  "isoDate": "2017-11-03T16:25:06.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "The OS flavor can be detected in advance to figure out which flavor of Linux you are using.",
+  "ts": "1509726187.000588",
+  "timestamp": 1509726187000,
+  "isoDate": "2017-11-03T16:23:07.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "or reading /proc/cpuinfo or /proc/something_else...",
+  "edited": {
+    "user": "U4BKCNE9K",
+    "ts": "1509725759.000000"
+  },
+  "ts": "1509725742.000275",
+  "timestamp": 1509725742000,
+  "isoDate": "2017-11-03T16:15:42.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "<@U68KP7Q07> I think what's <@U245DTC59> tried to say is we must avoid to be linux-dependent or distro-dependent. Most of commands you are talking about are at least linux-dependent. And installing an ocs-inventory agent with singularity is not a conceivable solution. But yes, `dmidecode`, `lshw` or `hostname` are linux standard tools.",
+  "ts": "1509725729.000486",
+  "timestamp": 1509725729000,
+  "isoDate": "2017-11-03T16:15:29.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "there are some labels generated by default from singularity, labels for architecture, cpu-model, can be added to make things apparent to users where this container was built. Even add hostname if needed.",
+  "ts": "1509725446.000309",
+  "timestamp": 1509725446000,
+  "isoDate": "2017-11-03T16:10:46.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "Yes it is not : hey take this singularity image from my usb key there's an awesome application inside ! (but no recipe, no optimization...)",
+  "ts": "1509725417.000834",
+  "timestamp": 1509725417000,
+  "isoDate": "2017-11-03T16:10:17.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I hope some day scientists don't have to do much other than select what they want to run in a web interface :slightly_smiling_face:",
+  "ts": "1509725290.000234",
+  "reactions": [
+    {
+      "name": "+1",
+      "users": [
+        "U247AF8DP"
+      ],
+      "count": 1
+    }
+  ],
+  "timestamp": 1509725290000,
+  "isoDate": "2017-11-03T16:08:10.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "maybe we can do better if building a single container is more of a collaborative effort, via groups working together on github repos, and then pulling the images",
+  "ts": "1509725257.000259",
+  "timestamp": 1509725257000,
+  "isoDate": "2017-11-03T16:07:37.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "or if users do not try to optimize anything",
+  "ts": "1509725223.000419",
+  "timestamp": 1509725223000,
+  "isoDate": "2017-11-03T16:07:03.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "IMHO the problem is still the same if the HPC admin just get a singularity image without the recipe",
+  "ts": "1509725205.000405",
+  "timestamp": 1509725205000,
+  "isoDate": "2017-11-03T16:06:45.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "It just requires to educate singularity users to build containers with a maximum of labels and environments values",
+  "ts": "1509725170.000229",
+  "timestamp": 1509725170000,
+  "isoDate": "2017-11-03T16:06:10.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "its a way to make containers \"other application\" friendly without needing to hard code anything into singularity",
+  "ts": "1509725082.000379",
+  "timestamp": 1509725082000,
+  "isoDate": "2017-11-03T16:04:42.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "then you can just parse over containers with inspect and find some subset with a label that is known to plug into your application",
+  "ts": "1509725055.000427",
+  "timestamp": 1509725055000,
+  "isoDate": "2017-11-03T16:04:15.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "eg <https://github.com/vsoch/singularity-nginx/blob/master/data/helloname.def>",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "vsoch/singularity-nginx",
+      "title_link": "https://github.com/vsoch/singularity-nginx/blob/master/data/helloname.def",
+      "text": "singularity-nginx - web application to serve (simple) singularity images",
+      "fallback": "GitHub: vsoch/singularity-nginx",
+      "from_url": "https://github.com/vsoch/singularity-nginx/blob/master/data/helloname.def",
+      "thumb_url": "https://avatars0.githubusercontent.com/u/814322?s=400&v=4",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1509725032.000241",
+  "timestamp": 1509725032000,
+  "isoDate": "2017-11-03T16:03:52.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "Yes, that is a possible solution",
+  "ts": "1509725025.000323",
+  "timestamp": 1509725025000,
+  "isoDate": "2017-11-03T16:03:45.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "for example, back when i made the singularity-nginx server (that served containers via a restful api) I used the labels to tell the application what rest paramteres to expose for each",
+  "ts": "1509724981.000395",
+  "timestamp": 1509724981000,
+  "isoDate": "2017-11-03T16:03:01.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I think labels are a great way to communicate infos to the user or manager of containers",
+  "ts": "1509724946.000509",
+  "timestamp": 1509724946000,
+  "isoDate": "2017-11-03T16:02:26.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "!",
+  "ts": "1509724905.000310",
+  "timestamp": 1509724905000,
+  "isoDate": "2017-11-03T16:01:45.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "Yeah, that would be a cool stuff",
+  "ts": "1509724898.000682",
+  "timestamp": 1509724898000,
+  "isoDate": "2017-11-03T16:01:38.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I have no idea about spack, but I'm down for dynamic recipes. But why not just extract this information at build time and add to the labels or environment?",
+  "ts": "1509724649.000020",
+  "timestamp": 1509724649000,
+  "isoDate": "2017-11-03T15:57:29.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "when the package are deployed (?)",
+  "ts": "1509723308.000433",
+  "timestamp": 1509723308000,
+  "isoDate": "2017-11-03T15:35:08.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "Is this how spack (<https://spack.io/>) is doing package optimization ?",
+  "edited": {
+    "user": "U4BKCNE9K",
+    "ts": "1509724027.000000"
+  },
+  "ts": "1509723296.000272",
+  "timestamp": 1509723296000,
+  "isoDate": "2017-11-03T15:34:56.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "automatically",
+  "ts": "1509723194.000869",
+  "timestamp": 1509723194000,
+  "isoDate": "2017-11-03T15:33:14.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "and this needs a way to retrieve local hardware informations",
+  "ts": "1509723188.000028",
+  "timestamp": 1509723188000,
+  "isoDate": "2017-11-03T15:33:08.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "but having dynamic recipes would be awesome.",
+  "ts": "1509723157.000040",
+  "timestamp": 1509723157000,
+  "isoDate": "2017-11-03T15:32:37.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "some months ago",
+  "ts": "1509722909.000671",
+  "timestamp": 1509722909000,
+  "isoDate": "2017-11-03T15:28:29.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "We already discussed it about creating a dedicated section about this",
+  "ts": "1509722900.000584",
+  "timestamp": 1509722900000,
+  "isoDate": "2017-11-03T15:28:20.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "or move these flags in `%environment`",
+  "ts": "1509722885.000224",
+  "timestamp": 1509722885000,
+  "isoDate": "2017-11-03T15:28:05.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "<@U245DTC59> as you said, I don't think an automatic way to retrieve informations about hardware is the right solution; I would go with tags/labels.\neg :\n```\n%labels\n   AUTHOR <mailto:remy.dernat@umontpellier.fr|remy.dernat@umontpellier.fr>\n   CPU_flags SSE2, AVX...\n...\n```\nIndeed an automatic way could fail.\n\nConcerning the optimizations, it's not MPI specific, and can be any other kind of optimizations.\nFor instance, `-O3` in gcc (or any of these flags  (  <https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html> ) , or even optimizations with make or another compiler (icc)\n\nAnother thing, would be to supply information for licences in labels or even define a new tag LICENSE b/c of some software limitations. I am thinking about it b/c icc is non free.",
+  "attachments": [
+    {
+      "title": "Using the GNU Compiler Collection (GCC): Optimize Options",
+      "title_link": "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html",
+      "text": "Using the GNU Compiler Collection (GCC): Optimize Options",
+      "fallback": "Using the GNU Compiler Collection (GCC): Optimize Options",
+      "from_url": "https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html",
+      "service_icon": "https://gcc.gnu.org/favicon.ico",
+      "service_name": "gcc.gnu.org",
+      "id": 1
+    }
+  ],
+  "edited": {
+    "user": "U4BKCNE9K",
+    "ts": "1509722561.000000"
+  },
+  "ts": "1509722538.000253",
+  "timestamp": 1509722538000,
+  "isoDate": "2017-11-03T15:22:18.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "yes that would be an interesting feature! It does sort of bias a container to be for HPC, and more explicitly, a very particular kind of HPC. I would definitely be in support of extraction of these metrics given that the extraction method has no chance of failure or producing incorrect information across legacy systems.",
+  "ts": "1509718562.000377",
+  "timestamp": 1509718562000,
+  "isoDate": "2017-11-03T14:16:02.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "if not the container may be build properly on host system but no where else, so there should be some sort of mechanism to have hooks to features like \"resource scheduler, network driver packages, etc...\"",
+  "ts": "1509718321.000160",
+  "timestamp": 1509718321000,
+  "isoDate": "2017-11-03T14:12:01.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "but there are many other things that can go wrong, for instance you build an application on top of MPI where MPI is compiled with a particular resource scheduler and maybe OFED/mellanox/ or Infiniband drivers. All of these changes need to be extracted from build system as part of bootstrap process",
+  "ts": "1509718136.000191",
+  "timestamp": 1509718136000,
+  "isoDate": "2017-11-03T14:08:56.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "I suppose once you have the architecture and maybe cpuflags will capture most of the content from build system",
+  "ts": "1509718050.000179",
+  "timestamp": 1509718050000,
+  "isoDate": "2017-11-03T14:07:30.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "unless you are using MPI or need some equivalent drivers in the container?",
+  "ts": "1509717565.000362",
+  "timestamp": 1509717565000,
+  "isoDate": "2017-11-03T13:59:25.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "and how important is the build environment really?",
+  "ts": "1509717537.000083",
+  "timestamp": 1509717537000,
+  "isoDate": "2017-11-03T13:58:57.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "That might be a hard task to get the right commands, across all os, we've even had trouble with tar/copy in the past",
+  "ts": "1509717528.000234",
+  "timestamp": 1509717528000,
+  "isoDate": "2017-11-03T13:58:48.000Z"
+},{
+  "type": "message",
+  "subtype": "file_share",
+  "text": "<@U245DTC59> uploaded a file: <https://singularity-container.slack.com/files/U245DTC59/F7UGUN9QA/-.py|Untitled>",
+  "file": {
+    "id": "F7UGUN9QA",
+    "created": 1509717496,
+    "timestamp": 1509717496,
+    "name": "-.py",
+    "title": "Untitled",
+    "mimetype": "text/plain",
+    "filetype": "python",
+    "pretty_type": "Python",
+    "user": "U245DTC59",
+    "editable": true,
+    "size": 185,
+    "mode": "snippet",
+    "is_external": false,
+    "external_type": "",
+    "is_public": true,
+    "public_url_shared": false,
+    "display_as_bot": false,
+    "username": "",
+    "url_private": "https://files.slack.com/files-pri/T0YKGK200-F7UGUN9QA/-.py",
+    "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F7UGUN9QA/download/-.py",
+    "permalink": "https://singularity-container.slack.com/files/U245DTC59/F7UGUN9QA/-.py",
+    "permalink_public": "https://slack-files.com/T0YKGK200-F7UGUN9QA-c03c2487e0",
+    "edit_link": "https://singularity-container.slack.com/files/U245DTC59/F7UGUN9QA/-.py/edit",
+    "preview": "ret = subprocess.Popen(\"\"\"lscpu | grep Model: | cut -f2 -d \":\" \"\"\",shell=True,stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.PIPE)\r\nmodel_num = int(ret.communicate()[0])",
+    "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">ret</span> = <span class=\"cm-variable\">subprocess</span>.<span class=\"cm-property\">Popen</span>(<span class=\"cm-string\">&quot;&quot;&quot;lscpu | grep Model: | cut -f2 -d &quot;:&quot; &quot;&quot;&quot;</span>,<span class=\"cm-variable\">shell</span>=<span class=\"cm-builtin\">True</span>,<span class=\"cm-variable\">stdin</span>=<span class=\"cm-variable\">subprocess</span>.<span class=\"cm-property\">PIPE</span>,<span class=\"cm-variable\">stdout</span>=<span class=\"cm-variable\">subprocess</span>.<span class=\"cm-property\">PIPE</span>,<span class=\"cm-variable\">stderr</span>=<span class=\"cm-variable\">subprocess</span>.<span class=\"cm-property\">PIPE</span>)</pre></div>\n<div><pre><span class=\"cm-variable\">model_num</span> = <span class=\"cm-builtin\">int</span>(<span class=\"cm-variable\">ret</span>.<span class=\"cm-property\">communicate</span>()[<span class=\"cm-number\">0</span>])</pre></div>\n</div>\n</div>\n",
+    "lines": 2,
+    "lines_more": 0,
+    "preview_is_truncated": false,
+    "channels": [
+      "C3VU5JDHQ"
+    ],
+    "groups": [],
+    "ims": [],
+    "comments_count": 0
+  },
+  "user": "U245DTC59",
+  "upload": true,
+  "display_as_bot": false,
+  "username": "v",
+  "bot_id": null,
+  "ts": "1509717497.000236",
+  "timestamp": 1509717497000,
+  "isoDate": "2017-11-03T13:58:17.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "ok so it comes down to pipeline commands to the shell to get architecture, and then adding them as labels",
+  "ts": "1509717483.000714",
+  "timestamp": 1509717483000,
+  "isoDate": "2017-11-03T13:58:03.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "The key to this is the function architecture_query()",
+  "ts": "1509717270.000169",
+  "timestamp": 1509717270000,
+  "isoDate": "2017-11-03T13:54:30.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "<https://github.com/easybuilders/easybuild-framework/pull/2332>",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "generating singularity definition files for centos image by shahzebsiddiqui · Pull Request #2332 · easybuilders/easybuild-framework",
+      "title_link": "https://github.com/easybuilders/easybuild-framework/pull/2332",
+      "text": "easybuild-framework - EasyBuild is a software installation framework in Python that allows you to install software in a structured and robust way.",
+      "fallback": "GitHub: generating singularity definition files for centos image by shahzebsiddiqui · Pull Request #2332 · easybuilders/easybuild-framework",
+      "from_url": "https://github.com/easybuilders/easybuild-framework/pull/2332",
+      "thumb_url": "https://avatars3.githubusercontent.com/u/12942230?s=400&v=4",
+      "thumb_width": 114,
+      "thumb_height": 114,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1509717218.000084",
+  "timestamp": 1509717218000,
+  "isoDate": "2017-11-03T13:53:38.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "I am working on a implementation in Easybuild for this just to give you an idea how this is done",
+  "ts": "1509717216.000344",
+  "timestamp": 1509717216000,
+  "isoDate": "2017-11-03T13:53:36.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "that's a great idea! Do you want to do a quick PR to collect these metrics for metadata?",
+  "ts": "1509717186.000143",
+  "timestamp": 1509717186000,
+  "isoDate": "2017-11-03T13:53:06.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "Any maybe also get cpu flags from cat /proc/cpuinfo | grep flags",
+  "ts": "1509717183.000516",
+  "timestamp": 1509717183000,
+  "isoDate": "2017-11-03T13:53:03.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "For starters, let's atleast have container be aware of the arch of the build system and its execution evironment",
+  "ts": "1509717109.000679",
+  "timestamp": 1509717109000,
+  "isoDate": "2017-11-03T13:51:49.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "What Singulariy can do is allow you to add labels, that seems reasonable, and it's up to the user to decide on what they are and how they are used",
+  "ts": "1509714237.000397",
+  "timestamp": 1509714237000,
+  "isoDate": "2017-11-03T13:03:57.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "Adding labels is definitely easy to do, the harder question is \"Which ones?\" And optimized for what and how? And how do we measure this? Figuring out optimization for a single container is a hard challenge because you have to test (arguably) a lot of the different options.",
+  "ts": "1509714190.000383",
+  "timestamp": 1509714190000,
+  "isoDate": "2017-11-03T13:03:10.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "Indeed some big HPC infrastructure (at least here in France T0) hesitate to use singularity b/c they think the users will provide singularity containers without any hardware optimaztions. These platform are generally evaluated on the code efficiency that are running on their platform. If containers are multiplied everywhere they will loose their advise part and optimization support for their users and will be badly evaluated.\n\nIf these parts are just managed with flags/labels, it would be easy to modify a basic singularity definition file or a Dockerfile to an \"optimized\" one for the platform.\n\nMaybe an automatic recipe conversion thourgh singularity-hub with our particular preferences would be perfect for this aim.\n\n<@U245DTC59> and <@U115P26TB> what do you think about it ?",
+  "ts": "1509702079.000103",
+  "timestamp": 1509702079000,
+  "isoDate": "2017-11-03T09:41:19.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "A huge :+1: to what <@U68KP7Q07> said. Scientific apps would benefit  a lot of such features. Adding label where you said optimized and on build on this arch with these flags (SSE, AVX...) / MPI version , ecc.",
+  "ts": "1509701668.000031",
+  "timestamp": 1509701668000,
+  "isoDate": "2017-11-03T09:34:28.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "i am thinking how containers could be tuned when testing on different arch",
+  "ts": "1509661209.000280",
+  "timestamp": 1509661209000,
+  "isoDate": "2017-11-02T22:20:09.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "yeah that is what we probably need",
+  "ts": "1509661169.000267",
+  "timestamp": 1509661169000,
+  "isoDate": "2017-11-02T22:19:29.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "you would want to write a script that loads the labels, derives some value, and then does some action",
+  "ts": "1509656425.000214",
+  "timestamp": 1509656425000,
+  "isoDate": "2017-11-02T21:00:25.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "labels are provided for metadata, they don't trigger anything",
+  "ts": "1509656412.000129",
+  "timestamp": 1509656412000,
+  "isoDate": "2017-11-02T21:00:12.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "singularity is agnostic to how a user .. uses a container",
+  "ts": "1509656401.000337",
+  "timestamp": 1509656401000,
+  "isoDate": "2017-11-02T21:00:01.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "That probably goes against the norms of containers where they can run anywhere but sadly that is not true for scientific apps",
+  "ts": "1509655610.000432",
+  "timestamp": 1509655610000,
+  "isoDate": "2017-11-02T20:46:50.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "documentation doesn't provide any details how singularity plans on using labels. The intent is to allow singularity with an additional option to run container based on arch",
+  "ts": "1509655543.000218",
+  "timestamp": 1509655543000,
+  "isoDate": "2017-11-02T20:45:43.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "Yea",
+  "ts": "1509655225.000057",
+  "timestamp": 1509655225000,
+  "isoDate": "2017-11-02T20:40:25.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "so maybe you would want to add a label during %post?",
+  "ts": "1509655178.000414",
+  "timestamp": 1509655178000,
+  "isoDate": "2017-11-02T20:39:38.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "It would be nice if container can have some labels created to put information for build system. It is important for scientific apps to know which architecture was used for building software. In particular scientific apps like FFTW that can be compiled with multiple vectorization SSE2, AVX, AVX2, AVX512. Building containers on newer architecture and running in old architecture will cause container to not operate and give invalid instruction set",
+  "ts": "1509654522.000042",
+  "reactions": [
+    {
+      "name": "+1",
+      "users": [
+        "U4BKCNE9K"
+      ],
+      "count": 1
+    }
+  ],
+  "timestamp": 1509654522000,
+  "isoDate": "2017-11-02T20:28:42.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "speaking of labels, I wanted to discuss something related to this topic.",
+  "ts": "1509654308.000115",
+  "timestamp": 1509654308000,
+  "isoDate": "2017-11-02T20:25:08.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "ahh I see",
+  "ts": "1509654287.000194",
+  "timestamp": 1509654287000,
+  "isoDate": "2017-11-02T20:24:47.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "so many places to put metadata :slightly_smiling_face:",
+  "ts": "1509654242.000362",
+  "timestamp": 1509654242000,
+  "isoDate": "2017-11-02T20:24:02.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "if you want your recipe to have labels specific to it (might be better for all those versions you got there) then add to `%labels`",
+  "ts": "1509654235.000315",
+  "timestamp": 1509654235000,
+  "isoDate": "2017-11-02T20:23:55.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "if you want your repo to have topic tags, then add them to the Github repo and they will show up",
+  "ts": "1509654211.000537",
+  "timestamp": 1509654211000,
+  "isoDate": "2017-11-02T20:23:31.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "`singularity pull shub://&lt;namespace&gt;/&lt;repo&gt;:&lt;tag&gt;`",
+  "edited": {
+    "user": "U245DTC59",
+    "ts": "1509654193.000000"
+  },
+  "ts": "1509654182.000427",
+  "timestamp": 1509654182000,
+  "isoDate": "2017-11-02T20:23:02.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "yes, tag",
+  "ts": "1509654160.000199",
+  "timestamp": 1509654160000,
+  "isoDate": "2017-11-02T20:22:40.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "oh my bad I meant tags",
+  "ts": "1509654154.000153",
+  "timestamp": 1509654154000,
+  "isoDate": "2017-11-02T20:22:34.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "so for centos, Singularity.centos-7.3.1611",
+  "ts": "1509654151.000420",
+  "timestamp": 1509654151000,
+  "isoDate": "2017-11-02T20:22:31.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "you call the recipes Singularity,&lt;tag&gt;",
+  "ts": "1509654135.000291",
+  "timestamp": 1509654135000,
+  "isoDate": "2017-11-02T20:22:15.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "is that the way I should do this?",
+  "ts": "1509654133.000261",
+  "timestamp": 1509654133000,
+  "isoDate": "2017-11-02T20:22:13.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "right, so with the new Singularity Hub",
+  "ts": "1509654127.000284",
+  "timestamp": 1509654127000,
+  "isoDate": "2017-11-02T20:22:07.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "Right now I have few containers I want to tag them \"centos-7.3.1611\", \"zlib-1.28\", etc... So i name my recipe file easybuild.centos-7.3.1611 easybuild.zlib-1.2.8",
+  "ts": "1509654116.000447",
+  "timestamp": 1509654116000,
+  "isoDate": "2017-11-02T20:21:56.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "<https://github.com/singularityhub/singularityhub.github.io/wiki>",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "singularityhub/singularityhub.github.io",
+      "title_link": "https://github.com/singularityhub/singularityhub.github.io/wiki",
+      "text": "<http://singularityhub.github.io|singularityhub.github.io> - redirect to main <http://www.singularity-hub.org> site",
+      "fallback": "GitHub: singularityhub/singularityhub.github.io",
+      "from_url": "https://github.com/singularityhub/singularityhub.github.io/wiki",
+      "thumb_url": "https://avatars3.githubusercontent.com/u/24552884?s=400&v=4",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1509654093.000054",
+  "timestamp": 1509654093000,
+  "isoDate": "2017-11-02T20:21:33.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "singularityhub",
+  "ts": "1509654084.000035",
+  "timestamp": 1509654084000,
+  "isoDate": "2017-11-02T20:21:24.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "you might want to read the new usage docs",
+  "ts": "1509654054.000172",
+  "timestamp": 1509654054000,
+  "isoDate": "2017-11-02T20:20:54.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "it can have any extension",
+  "ts": "1509654045.000302",
+  "timestamp": 1509654045000,
+  "isoDate": "2017-11-02T20:20:45.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "it doesn't need to be called Singularity",
+  "ts": "1509654036.000066",
+  "timestamp": 1509654036000,
+  "isoDate": "2017-11-02T20:20:36.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "I am doing via manual commit because my file is not called Singularity",
+  "ts": "1509654024.000041",
+  "timestamp": 1509654024000,
+  "isoDate": "2017-11-02T20:20:24.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "if you still have issue the hack fix is to export the variable SINGULARITY_DEFFILE_FROM in your environment",
+  "ts": "1509654014.000707",
+  "timestamp": 1509654014000,
+  "isoDate": "2017-11-02T20:20:14.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "and commit again",
+  "ts": "1509653987.000258",
+  "timestamp": 1509653987000,
+  "isoDate": "2017-11-02T20:19:47.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "choose the other one not selected",
+  "ts": "1509653984.000711",
+  "timestamp": 1509653984000,
+  "isoDate": "2017-11-02T20:19:44.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "the settings has a tab for the builder",
+  "ts": "1509653981.000319",
+  "timestamp": 1509653981000,
+  "isoDate": "2017-11-02T20:19:41.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "In your collection you have settings",
+  "ts": "1509653976.000273",
+  "timestamp": 1509653976000,
+  "isoDate": "2017-11-02T20:19:36.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "which option?",
+  "ts": "1509653725.000277",
+  "timestamp": 1509653725000,
+  "isoDate": "2017-11-02T20:15:25.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "switch your builder to the other option available.",
+  "ts": "1509653553.000284",
+  "timestamp": 1509653553000,
+  "isoDate": "2017-11-02T20:12:33.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "i am getting a strange error in shub with this container <https://www.singularity-hub.org/containers/656/log>",
+  "attachments": [
+    {
+      "service_name": "Singularity Hub",
+      "title": "singularity-hub",
+      "title_link": "https://www.singularity-hub.org/containers/656/log",
+      "text": "singularity container and workflow management",
+      "fallback": "Singularity Hub: singularity-hub",
+      "from_url": "https://www.singularity-hub.org/containers/656/log",
+      "service_icon": "https://www.singularity-hub.org/static/img/favicon.ico",
+      "id": 1
+    }
+  ],
+  "ts": "1509652527.000335",
+  "timestamp": 1509652527000,
+  "isoDate": "2017-11-02T19:55:27.000Z"
+},{
+  "user": "U60D16BT4",
+  "text": "<@U60D16BT4> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1509569566.000419",
+  "timestamp": 1509569566000,
+  "isoDate": "2017-11-01T20:52:46.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "shub is getting a restart, fyi",
+  "ts": "1509340553.000015",
+  "timestamp": 1509340553000,
+  "isoDate": "2017-10-30T05:15:53.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Will try to have Clair stuff a bit more polished when I submit a PR. :grinning:",
+  "ts": "1509022850.000122",
+  "timestamp": 1509022850000,
+  "isoDate": "2017-10-26T13:00:50.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Well - the docs are more yours than mine at this point!",
+  "ts": "1509022812.000062",
+  "timestamp": 1509022812000,
+  "isoDate": "2017-10-26T13:00:12.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Awesome. Thanks for all your wrangling and merging of my rushed code and docs! ",
+  "edited": {
+    "user": "U60JE7DD0",
+    "ts": "1509022772.000000"
+  },
+  "ts": "1509022706.000358",
+  "timestamp": 1509022706000,
+  "isoDate": "2017-10-26T12:58:26.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "woohoo <@U60JE7DD0> we now have LDAP authentication for the registry! <https://singularityhub.github.io/sregistry/plugins/ldap.html> and the starts of a plugins framework!!",
+  "attachments": [
+    {
+      "service_name": "sregistry",
+      "title": "ldap-auth - Authentication against LDAP directories",
+      "title_link": "https://singularityhub.github.io/sregistry/plugins/ldap.html",
+      "text": "storage and management of singularity images",
+      "fallback": "sregistry: ldap-auth - Authentication against LDAP directories",
+      "from_url": "https://singularityhub.github.io/sregistry/plugins/ldap.html",
+      "id": 1
+    }
+  ],
+  "ts": "1509020746.000060",
+  "reactions": [
+    {
+      "name": "+1::skin-tone-2",
+      "users": [
+        "U62952ZR7",
+        "U4BKCNE9K"
+      ],
+      "count": 2
+    }
+  ],
+  "timestamp": 1509020746000,
+  "isoDate": "2017-10-26T12:25:46.000Z"
+},{
+  "user": "U7LHRKLKW",
+  "text": "<@U7LHRKLKW> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1508967353.000400",
+  "timestamp": 1508967353000,
+  "isoDate": "2017-10-25T21:35:53.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "oh don't worry I won't - it's fun to learn a little bit, and I do want to get a most basic / simple use case working so I can test it",
+  "ts": "1508877316.000494",
+  "timestamp": 1508877316000,
+  "isoDate": "2017-10-24T20:35:16.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "I'd honestly not spend vast amounts of effort on LDAP docs. LDAP directories are infinitely variable and e.g. docs for an OpenLDAP setup aren't much use for AD.  I contributed a bit previously to LDAP support in Galaxy and here are their notes.... <https://galaxyproject.org/admin/config/external-user-auth/> ... showing one tricky exception at CRUK. Usually if you need to use LDAP you either built the directory (so you know what settings you are going to need), or you can ask the person that knows.",
+  "ts": "1508876808.000318",
+  "timestamp": 1508876808000,
+  "isoDate": "2017-10-24T20:26:48.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "which is actually good because I can write the documentation to be for someone who hasn't a clue how to use it :-)",
+  "ts": "1508876367.000515",
+  "timestamp": 1508876367000,
+  "isoDate": "2017-10-24T20:19:27.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "don't worry we will get this figured out! most of the issue is just that I have never used it before",
+  "ts": "1508876333.000561",
+  "timestamp": 1508876333000,
+  "isoDate": "2017-10-24T20:18:53.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I just went for a run, have been afk",
+  "ts": "1508876236.000352",
+  "timestamp": 1508876236000,
+  "isoDate": "2017-10-24T20:17:16.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "no i'm enjoying it!",
+  "ts": "1508876226.000316",
+  "timestamp": 1508876226000,
+  "isoDate": "2017-10-24T20:17:06.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "<@U245DTC59> - going crazy with LDAP yet? :scream:",
+  "ts": "1508875407.000280",
+  "timestamp": 1508875407000,
+  "isoDate": "2017-10-24T20:03:27.000Z"
+}]
