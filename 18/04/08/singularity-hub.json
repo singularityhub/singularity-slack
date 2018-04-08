@@ -1,0 +1,339 @@
+[
+{
+  "user": "U4BQ7KSMP",
+  "text": "<@U4BQ7KSMP> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1522859879.000160",
+  "timestamp": 1522859879000,
+  "isoDate": "2018-04-04T16:37:59.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I think a lot of genomics stuffs takes ~5 hours given downloads of all those things...",
+  "ts": "1521648666.000797",
+  "reactions": [
+    {
+      "name": "+1",
+      "users": [
+        "U4BQ7KSMP"
+      ],
+      "count": 1
+    }
+  ],
+  "timestamp": 1521648666000,
+  "isoDate": "2018-03-21T16:11:06.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "Feedback needed: how many hours is reasonable to allow a build? (right now is 2, I'm thinking 6 is more reasonable)",
+  "ts": "1521648594.000465",
+  "timestamp": 1521648594000,
+  "isoDate": "2018-03-21T16:09:54.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "Hey everyone! with the next version of Singularity coming out I'm going to be also updating the singularity Hub Builders to be a little more streamlined, and I have some ideas that might help support some kind of interactive logging. 1) if any of you have ideas in the meantime please share, and 2)  also if any of you have builds that are fussy know that the update will be likely within the next few weeks. Ty!!",
+  "client_msg_id": "67c4df79-dd0c-4ebc-a6d1-b4307fc875a7",
+  "ts": "1521582087.000114",
+  "timestamp": 1521582087000,
+  "isoDate": "2018-03-20T21:41:27.000Z"
+},{
+  "user": "U9DC1RN03",
+  "text": "<@U9DC1RN03> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1521205809.000246",
+  "timestamp": 1521205809000,
+  "isoDate": "2018-03-16T13:10:09.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "updates in the Gitter <https://gitter.im/singularityhub/lobby>",
+  "attachments": [
+    {
+      "title": "singularityhub/lobby",
+      "title_link": "https://gitter.im/singularityhub/lobby",
+      "text": "Where developers come to talk.",
+      "fallback": "singularityhub/lobby",
+      "thumb_url": "https://avatars-05.gitter.im/group/iv/4/5a889ce6d73408ce4f8d96a6",
+      "from_url": "https://gitter.im/singularityhub/lobby",
+      "thumb_width": 128,
+      "thumb_height": 128,
+      "service_icon": "http://cdn03.gitter.im/_s/708c5ff/images/favicon-normal.ico",
+      "service_name": "gitter.im",
+      "id": 1
+    }
+  ],
+  "ts": "1521049759.000837",
+  "timestamp": 1521049759000,
+  "isoDate": "2018-03-14T17:49:19.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "hey everyone I did some server work tonight - if anything fishy is up just report an issue and I'll look asap, I think I fixed the one error that I was aiming to get (for perspective I saw it once a few months ago and a second time tonight) but with any fix and testing, there of course can still be tiny bugs! Fingers crossed that's not the case... cuz I am so pooped :stuck_out_tongue:",
+  "ts": "1520999663.000222",
+  "timestamp": 1520999663000,
+  "isoDate": "2018-03-14T03:54:23.000Z"
+},{
+  "user": "U9K6EQ8EP",
+  "text": "<@U9K6EQ8EP> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1520467368.000313",
+  "timestamp": 1520467368000,
+  "isoDate": "2018-03-08T00:02:48.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "Gitter is more open (doesn't need invite) so we can bridge it with slack to reach more of the community",
+  "thread_ts": "1519086959.000125",
+  "parent_user_id": "U245DTC59",
+  "ts": "1519086995.000207",
+  "timestamp": 1519086995000,
+  "isoDate": "2018-02-20T00:36:35.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "and for those of you that like Gitter (I'm working on three projects now so it's really useful!) The Singularity Hub Container tools (Hub, Registry, Global Client, Python) will grow a community here --&gt; <https://gitter.im/singularityhub>",
+  "thread_ts": "1519086959.000125",
+  "reply_count": 1,
+  "replies": [
+    {
+      "user": "U245DTC59",
+      "ts": "1519086995.000207"
+    }
+  ],
+  "subscribed": true,
+  "last_read": "1519086995.000207",
+  "unread_count": 0,
+  "ts": "1519086959.000125",
+  "timestamp": 1519086959000,
+  "isoDate": "2018-02-20T00:35:59.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "lol @$#$ is that really 2k+ lines of code?! I have no idea.",
+  "thread_ts": "1519085029.000131",
+  "parent_user_id": "U245DTC59",
+  "ts": "1519085134.000012",
+  "timestamp": 1519085134000,
+  "isoDate": "2018-02-20T00:05:34.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "teams are coming soon (PR under review) for your singularity registry! See the docs and screenshots under files here : <https://github.com/singularityhub/sregistry/pull/97/files> then work on the builders and security scanner is focused underway! Your feedback as always is very valuable to guide development! :building_construction:",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "[WIP] adding contributors and admin settings by vsoch · Pull Request #97 · singularityhub/sregistry",
+      "title_link": "https://github.com/singularityhub/sregistry/pull/97/files",
+      "text": "This is the start of work for #89 - everything is subject to change and explosion, this is mostly for me to keep abreast of global changed.",
+      "fallback": "GitHub: [WIP] adding contributors and admin settings by vsoch · Pull Request #97 · singularityhub/sregistry",
+      "from_url": "https://github.com/singularityhub/sregistry/pull/97/files",
+      "thumb_url": "https://avatars0.githubusercontent.com/u/814322?s=400&v=4",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "thread_ts": "1519085029.000131",
+  "reply_count": 1,
+  "replies": [
+    {
+      "user": "U245DTC59",
+      "ts": "1519085134.000012"
+    }
+  ],
+  "subscribed": true,
+  "last_read": "1519085134.000012",
+  "unread_count": 0,
+  "ts": "1519085029.000131",
+  "timestamp": 1519085029000,
+  "isoDate": "2018-02-20T00:03:49.000Z"
+},{
+  "user": "U9BB1J6GK",
+  "text": "<@U9BB1J6GK> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1519072915.000231",
+  "timestamp": 1519072915000,
+  "isoDate": "2018-02-19T20:41:55.000Z"
+},{
+  "user": "U272EC50C",
+  "text": "<@U272EC50C> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1518482336.000086",
+  "timestamp": 1518482336000,
+  "isoDate": "2018-02-13T00:38:56.000Z"
+},{
+  "user": "U97BMQF7W",
+  "text": "<@U97BMQF7W> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1518380857.000033",
+  "timestamp": 1518380857000,
+  "isoDate": "2018-02-11T20:27:37.000Z"
+},{
+  "user": "U96RF2PRB",
+  "text": "<@U96RF2PRB> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1518191313.000018",
+  "timestamp": 1518191313000,
+  "isoDate": "2018-02-09T15:48:33.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "hey everyone just did some debugging of the builders! I'm going back to sleep but please ping if you see any issues. ty!",
+  "ts": "1518169281.000402",
+  "timestamp": 1518169281000,
+  "isoDate": "2018-02-09T09:41:21.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "hey everyone, quick brain fart note - I restarted the worker yesterday to make some server updates and forgot to restart him, so if you had a collection that mysteriously didn't build, the worker was taking the evening off, lol.",
+  "ts": "1517692562.000114",
+  "timestamp": 1517692562000,
+  "isoDate": "2018-02-03T21:16:02.000Z"
+},{
+  "user": "U8V0FLPTK",
+  "text": "<@U8V0FLPTK> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1517579340.000421",
+  "timestamp": 1517579340000,
+  "isoDate": "2018-02-02T13:49:00.000Z"
+},{
+  "user": "U93DA8W31",
+  "text": "<@U93DA8W31> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1517503080.000894",
+  "timestamp": 1517503080000,
+  "isoDate": "2018-02-01T16:38:00.000Z"
+},{
+  "user": "U8ZNNRX9V",
+  "text": "<@U8ZNNRX9V> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1516900963.000630",
+  "timestamp": 1516900963000,
+  "isoDate": "2018-01-25T17:22:43.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "cool I made a badge!! <https://github.com/sci-f/hello-world.scif> lol",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "sci-f/hello-world.scif",
+      "title_link": "https://github.com/sci-f/hello-world.scif",
+      "text": "hello-world.scif - A hello world example for a scientific filesystem",
+      "fallback": "GitHub: sci-f/hello-world.scif",
+      "from_url": "https://github.com/sci-f/hello-world.scif",
+      "thumb_url": "https://avatars1.githubusercontent.com/u/29413846?s=400&v=4",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1516835782.000049",
+  "timestamp": 1516835782000,
+  "isoDate": "2018-01-24T23:16:22.000Z"
+},{
+  "user": "U8XMB02HG",
+  "text": "<@U8XMB02HG> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1516781289.000177",
+  "timestamp": 1516781289000,
+  "isoDate": "2018-01-24T08:08:09.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "what kind of output do you expect, the build is expected to take 30mins approximately its building GCC",
+  "ts": "1516650072.000159",
+  "timestamp": 1516650072000,
+  "isoDate": "2018-01-22T19:41:12.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "it means it went over time and there was no output, and killed <https://github.com/singularityware/singularity-python/blob/master/singularity/build/scripts/singularity-build-latest.sh#L35>",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "singularityware/singularity-python",
+      "title_link": "https://github.com/singularityware/singularity-python/blob/master/singularity/build/scripts/singularity-build-latest.sh#L35",
+      "text": "singularity-python - command line tool for working with singularity hub and singularity containers",
+      "fallback": "GitHub: singularityware/singularity-python",
+      "from_url": "https://github.com/singularityware/singularity-python/blob/master/singularity/build/scripts/singularity-build-latest.sh#L35",
+      "thumb_url": "https://avatars2.githubusercontent.com/u/20306680?s=400&v=4",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1516649800.000643",
+  "timestamp": 1516649800000,
+  "isoDate": "2018-01-22T19:36:40.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "I dont understand this error in SHUB <https://www.singularity-hub.org/containers/1423/log>",
+  "attachments": [
+    {
+      "service_name": "Singularity Hub",
+      "title": "singularity-hub",
+      "title_link": "https://www.singularity-hub.org/containers/1423/log",
+      "text": "singularity container and workflow management",
+      "fallback": "Singularity Hub: singularity-hub",
+      "from_url": "https://www.singularity-hub.org/containers/1423/log",
+      "service_icon": "https://www.singularity-hub.org/static/img/favicon.ico",
+      "id": 1
+    }
+  ],
+  "ts": "1516649128.000217",
+  "timestamp": 1516649128000,
+  "isoDate": "2018-01-22T19:25:28.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "it's under settings, then Applications, then Oauth apps, find Singularity Hub, then click the red X to be a green check",
+  "ts": "1516637245.000376",
+  "timestamp": 1516637245000,
+  "isoDate": "2018-01-22T16:07:25.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "you need to go into your oauth apps and authorize the application to see the organization repos",
+  "ts": "1516637223.000179",
+  "timestamp": 1516637223000,
+  "isoDate": "2018-01-22T16:07:03.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "I need to build containers from repo <https://github.com/easybuilders/eb-singularity> but this is part of a github organization so I can't build them in shub. I can only see my fork copy and I need to get containers build under the org somehow. Is this something that can be done in Github or SHUB to allow access to github orgs",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "easybuilders/eb-singularity",
+      "title_link": "https://github.com/easybuilders/eb-singularity",
+      "text": "eb-singularity - Stuff related to integrating EasyBuild &amp; Singularity",
+      "fallback": "GitHub: easybuilders/eb-singularity",
+      "from_url": "https://github.com/easybuilders/eb-singularity",
+      "thumb_url": "https://avatars3.githubusercontent.com/u/29568382?s=400&v=4",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1516636885.000564",
+  "timestamp": 1516636885000,
+  "isoDate": "2018-01-22T16:01:25.000Z"
+}]
