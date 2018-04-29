@@ -1,0 +1,2282 @@
+[
+{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "hey can someone point me to the branch with secure build for the new release?",
+  "ts": "1524859553.000411",
+  "timestamp": 1524859553000,
+  "isoDate": "2018-04-27T20:05:53.000Z"
+},{
+  "user": "UAD5SHXS9",
+  "text": "<@UAD5SHXS9> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1524672464.000649",
+  "timestamp": 1524672464000,
+  "isoDate": "2018-04-25T16:07:44.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "Awesome, thanks!",
+  "ts": "1523978938.000416",
+  "timestamp": 1523978938000,
+  "isoDate": "2018-04-17T15:28:58.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Hi <@U361W9CS3> - the PR 1390 was merged so it can be included in the next RC step for 2.5. Thanks again",
+  "ts": "1523839982.000079",
+  "reactions": [
+    {
+      "name": "metal",
+      "users": [
+        "U361W9CS3"
+      ],
+      "count": 1
+    }
+  ],
+  "timestamp": 1523839982000,
+  "isoDate": "2018-04-16T00:53:02.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "that would be awesome thanks <@U60JE7DD0>",
+  "ts": "1523546364.000107",
+  "timestamp": 1523546364000,
+  "isoDate": "2018-04-12T15:19:24.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Given that the 2.5 RC timeline is somewhat slower I'll chase getting this further tested and included in a second RC if possible",
+  "ts": "1523546348.000247",
+  "timestamp": 1523546348000,
+  "isoDate": "2018-04-12T15:19:08.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Hi <@U361W9CS3> - we're sorry about this. Originally we didn't target this to 2.5, but 2.6 - since we were anticipating a quick RC to release timeline and there were some changes on that second PR",
+  "ts": "1523546304.000176",
+  "timestamp": 1523546304000,
+  "isoDate": "2018-04-12T15:18:24.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "I’m a bit disappointed 1390 didn’t make it to 2.5 - not really a feature as much as it is a fix for valid docker registries that exist in the wild (e.g. <http://nvcr.io|nvcr.io>). Seems folks keep hitting this too…",
+  "ts": "1523544982.000282",
+  "timestamp": 1523544982000,
+  "isoDate": "2018-04-12T14:56:22.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "just FYI docs are still referencing 2.4.5, e.g.\n```These docs are for Singularity Version 2.4.5```",
+  "edited": {
+    "user": "U361W9CS3",
+    "ts": "1523541185.000000"
+  },
+  "ts": "1523540844.000389",
+  "timestamp": 1523540844000,
+  "isoDate": "2018-04-12T13:47:24.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "yup 2.10.3 is what we have in use on el7 compute",
+  "ts": "1522178907.000030",
+  "timestamp": 1522178907000,
+  "isoDate": "2018-03-27T19:28:27.000Z"
+},{
+  "user": "U9WDRF1L1",
+  "text": "<@U9WDRF1L1> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1522173953.000424",
+  "timestamp": 1522173953000,
+  "isoDate": "2018-03-27T18:05:53.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "Just as another data point to round this off - new CDS Lustre system from DDN has the same issue. Client is lustre-client-2.10.3-1.el7.",
+  "ts": "1522172475.000270",
+  "timestamp": 1522172475000,
+  "isoDate": "2018-03-27T17:41:15.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "<@U60JE7DD0> <@U5RJ04A4F> I really appreciate the time and effort you put into helping me with this EL7 overlayfs business. Thank you many times.",
+  "ts": "1522170982.000149",
+  "timestamp": 1522170982000,
+  "isoDate": "2018-03-27T17:16:22.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "I was using a 2.7 with the DDN backports from newer versions... if I remember correctly sandboxes working on Lustre",
+  "ts": "1522170494.000780",
+  "timestamp": 1522170494000,
+  "isoDate": "2018-03-27T17:08:14.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "You may find sandboxes work then at some point.",
+  "ts": "1522170450.000151",
+  "timestamp": 1522170450000,
+  "isoDate": "2018-03-27T17:07:30.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "I think it's going from 2.4 to 2.10 or something like that.",
+  "ts": "1522170406.000137",
+  "timestamp": 1522170406000,
+  "isoDate": "2018-03-27T17:06:46.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "Lustre version is another thing that's in flux on our cluster right now.",
+  "ts": "1522170326.000470",
+  "timestamp": 1522170326000,
+  "isoDate": "2018-03-27T17:05:26.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Or... I could be remembering wrong and it never worked for me either",
+  "ts": "1522170066.000119",
+  "timestamp": 1522170066000,
+  "isoDate": "2018-03-27T17:01:06.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "I swear also, though, that I did do sandbox on lustre okay from EL7. Looking in the Lustre Intel Jira there are issues around d_type which overlay depends on, and we were running a latest DDN lustre version with lots of backports - so maybe that's the difference",
+  "ts": "1522170040.000762",
+  "timestamp": 1522170040000,
+  "isoDate": "2018-03-27T17:00:40.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Yeah, for EL6 I wrote some code to insert missing bind points when pulling from docker:// which we used at UTSW to avoid dealing with sandboxes when possible",
+  "ts": "1522169941.000715",
+  "timestamp": 1522169941000,
+  "isoDate": "2018-03-27T16:59:01.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "We have many bind points for various filesystems, which is forcing us to deal with sandboxes so much.",
+  "ts": "1522169859.000049",
+  "timestamp": 1522169859000,
+  "isoDate": "2018-03-27T16:57:39.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "We use sandboxes for complex installs we can't just roll with a recipe or pull from docker/shub. We use them a lot right now since we can't have overlays on EL6. However, since we're transitioning to EL7 this can and will change based on what I've learned.",
+  "ts": "1522169815.000038",
+  "timestamp": 1522169815000,
+  "isoDate": "2018-03-27T16:56:55.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Sorry I didn't mention earlier - assumed there was a reason for using sandbox specifically.",
+  "ts": "1522169664.000224",
+  "timestamp": 1522169664000,
+  "isoDate": "2018-03-27T16:54:24.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "This changes everything. We can manage this. I.e. all apps we can pull from shub or dockerhub will be in squashfs format, so overlays will work, which is the whole point. We can do manual bind points for sandboxes since we have complete control over those.",
+  "ts": "1522169628.000089",
+  "timestamp": 1522169628000,
+  "isoDate": "2018-03-27T16:53:48.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Image on lustre will be a lot faster than sandbox on lustre (if it worked) due to the way metadata handling is at the loop mount, not back to the lustre MDS",
+  "ts": "1522169551.000071",
+  "timestamp": 1522169551000,
+  "isoDate": "2018-03-27T16:52:31.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "when you have an image on lustre it is loopback mounted and the overlay stuff works on that mount, not directly on lustre",
+  "ts": "1522169493.000723",
+  "timestamp": 1522169493000,
+  "isoDate": "2018-03-27T16:51:33.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "<@U24J4NTLP> - yes expected",
+  "ts": "1522169470.000769",
+  "timestamp": 1522169470000,
+  "isoDate": "2018-03-27T16:51:10.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "Wait, this issue only holds for sandbox containers! I just ran an old ext3 image off of lustre and overlay to /dev/shm worked. Is that expected?",
+  "ts": "1522169452.000342",
+  "timestamp": 1522169452000,
+  "isoDate": "2018-03-27T16:50:52.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "for HPC use case, job execute software stack and wrote into scratch directory which is bound into container",
+  "edited": {
+    "user": "U5RJ04A4F",
+    "ts": "1522169423.000000"
+  },
+  "ts": "1522169409.000564",
+  "timestamp": 1522169409000,
+  "isoDate": "2018-03-27T16:50:09.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "I don't think it's I/O intensive as long you don't write in container image",
+  "ts": "1522169339.000087",
+  "timestamp": 1522169339000,
+  "isoDate": "2018-03-27T16:48:59.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "what lustre client/server version are you on?",
+  "ts": "1522169289.000845",
+  "timestamp": 1522169289000,
+  "isoDate": "2018-03-27T16:48:09.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "<@U24J4NTLP> - generally lustre isn't great anyway for sandbox containers, due to slowness of metadata ops addressing individual files. If you use image files on lustre it should work nicely, and be fast due to high b/w of lustre plus minimal metadata ops involved",
+  "ts": "1522169262.000143",
+  "timestamp": 1522169262000,
+  "isoDate": "2018-03-27T16:47:42.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "<@U24J4NTLP> unlucky on this one",
+  "ts": "1522169255.000789",
+  "timestamp": 1522169255000,
+  "isoDate": "2018-03-27T16:47:35.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "How much I/O does executing an singularity container generate?",
+  "ts": "1522169074.000792",
+  "timestamp": 1522169074000,
+  "isoDate": "2018-03-27T16:44:34.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "NFS-exported zfs also seems to work. So, only lustre is out of luck in our setup.",
+  "ts": "1522169018.000124",
+  "timestamp": 1522169018000,
+  "isoDate": "2018-03-27T16:43:38.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "right, my test was biased, I only put container image on ext4",
+  "ts": "1522168795.000270",
+  "timestamp": 1522168795000,
+  "isoDate": "2018-03-27T16:39:55.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "But this (container on lustre) doesn't:\n# /apps/singularity/2.4.5el7shm/bin/singularity exec -B /apps -B /ufrc test_bionic/ ls\nERROR  : Could not mount Singularity overlay: Invalid argument\nABORT  : Retval = 255",
+  "ts": "1522168716.000445",
+  "timestamp": 1522168716000,
+  "isoDate": "2018-03-27T16:38:36.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "works fine",
+  "ts": "1522168678.000274",
+  "timestamp": 1522168678000,
+  "isoDate": "2018-03-27T16:37:58.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "<@U5RJ04A4F> So, no difference between EL7 and CentOS7 as far as I can tell:\n/apps/singularity/2.4.5el7shm/bin/singularity exec -B /apps -B /ufrc /var/tmp/test_bionic/ ls\n1.0-ut_16.04  test2_bionic  test_bionic",
+  "ts": "1522168672.000743",
+  "timestamp": 1522168672000,
+  "isoDate": "2018-03-27T16:37:52.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "The lower fs seems to be the key. ext4 or xfs both work. Lustre doesn't work. Since we can't store all our container images in local storage on xfs it appears that we're out of luck with overlayfs on EL7 just as we were on EL6.",
+  "ts": "1522168623.000496",
+  "timestamp": 1522168623000,
+  "isoDate": "2018-03-27T16:37:03.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "is there any difference at kernel level between CentOS 7 and EL7 ? just tested on CentOS 7 with kernel 3.10.0-693.17.1.el7.x86_64, overlay worked fine with tmpfs and ext4 installation",
+  "ts": "1522168353.000075",
+  "timestamp": 1522168353000,
+  "isoDate": "2018-03-27T16:32:33.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "That has wobbled between releases",
+  "ts": "1522168135.000143",
+  "timestamp": 1522168135000,
+  "isoDate": "2018-03-27T16:28:55.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "At least for EL7.2 docs said: Only XFS is currently supported for use as a lower layer file system.\nThat's from <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/7.2_release_notes/technology-preview-file_systems>",
+  "ts": "1522168060.000371",
+  "timestamp": 1522168060000,
+  "isoDate": "2018-03-27T16:27:40.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "```\n    lowerdir=somedir: lowerdir is the directory you're going to lay your new filesystem over, if there are duplicates these get overwritten by (actually, hidden in favor of) upperdir's version\n    upperdir=somedir: upperdir is the directory you want to overlay lowerdir with. If duplicate filenames exist in lowerdir and upperdir, upperdir's version takes precedence.\n```",
+  "ts": "1522167972.000654",
+  "timestamp": 1522167972000,
+  "isoDate": "2018-03-27T16:26:12.000Z"
+},{
+  "type": "message",
+  "user": "U244QE97U",
+  "text": "<@U24J4NTLP>... I _think_ lower is that *base* structure. So in this case the `/` point in the container. Upper is the filesystem that gets written to for the overlay",
+  "edited": {
+    "user": "U244QE97U",
+    "ts": "1522167910.000000"
+  },
+  "ts": "1522167865.000275",
+  "timestamp": 1522167865000,
+  "isoDate": "2018-03-27T16:24:25.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "I don't even know the terminology, will read up.",
+  "ts": "1522167769.000289",
+  "timestamp": 1522167769000,
+  "isoDate": "2018-03-27T16:22:49.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "What's the 'upper' vs 'lower' fs?",
+  "ts": "1522167760.000367",
+  "timestamp": 1522167760000,
+  "isoDate": "2018-03-27T16:22:40.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "This comes up in docker issues too a lot",
+  "ts": "1522167744.000488",
+  "timestamp": 1522167744000,
+  "isoDate": "2018-03-27T16:22:24.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Okay so overlay needs d_type supported on the upper fs",
+  "ts": "1522167650.000236",
+  "timestamp": 1522167650000,
+  "isoDate": "2018-03-27T16:20:50.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Yeah - I think that's expected",
+  "ts": "1522167574.000534",
+  "timestamp": 1522167574000,
+  "isoDate": "2018-03-27T16:19:34.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "3.10.0-693.17.1.el7.x86_64",
+  "ts": "1522167565.000374",
+  "timestamp": 1522167565000,
+  "isoDate": "2018-03-27T16:19:25.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "Dmesg: [2814709.683703] overlayfs: filesystem on '/dev/shm/var/singularity/mnt/container' not supported",
+  "ts": "1522167551.000860",
+  "timestamp": 1522167551000,
+  "isoDate": "2018-03-27T16:19:11.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "<@U5RJ04A4F> 7.4",
+  "ts": "1522167523.000736",
+  "timestamp": 1522167523000,
+  "isoDate": "2018-03-27T16:18:43.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "<@U24J4NTLP> which EL7 release is this?",
+  "ts": "1522167515.000174",
+  "timestamp": 1522167515000,
+  "isoDate": "2018-03-27T16:18:35.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "<@U5RJ04A4F> same error with /dev/shm",
+  "ts": "1522167404.000510",
+  "timestamp": 1522167404000,
+  "isoDate": "2018-03-27T16:16:44.000Z"
+},{
+  "type": "message",
+  "subtype": "file_share",
+  "text": "<@U24J4NTLP> uploaded a file: <https://singularity-container.slack.com/files/U24J4NTLP/F9WSLLYBE/2_4_5_el7__dev_shm_localstatedir.sh|2.4.5 EL7 /dev/shm localstatedir>",
+  "file": {
+    "id": "F9WSLLYBE",
+    "created": 1522167387,
+    "timestamp": 1522167387,
+    "name": "2_4_5_EL7__dev_shm_localstatedir.sh",
+    "title": "2.4.5 EL7 /dev/shm localstatedir",
+    "mimetype": "text/plain",
+    "filetype": "shell",
+    "pretty_type": "Shell",
+    "user": "U24J4NTLP",
+    "editable": true,
+    "size": 5106,
+    "mode": "snippet",
+    "is_external": false,
+    "external_type": "",
+    "is_public": true,
+    "public_url_shared": false,
+    "display_as_bot": false,
+    "username": "",
+    "url_private": "https://files.slack.com/files-pri/T0YKGK200-F9WSLLYBE/2_4_5_el7__dev_shm_localstatedir.sh",
+    "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F9WSLLYBE/download/2_4_5_el7__dev_shm_localstatedir.sh",
+    "permalink": "https://singularity-container.slack.com/files/U24J4NTLP/F9WSLLYBE/2_4_5_el7__dev_shm_localstatedir.sh",
+    "permalink_public": "https://slack-files.com/T0YKGK200-F9WSLLYBE-4855590874",
+    "edit_link": "https://singularity-container.slack.com/files/U24J4NTLP/F9WSLLYBE/2_4_5_el7__dev_shm_localstatedir.sh/edit",
+    "preview": "DEBUG   [U=0,P=42005]      singularity_sessiondir()                  Setting sessiondir\r\nVERBOSE [U=0,P=42005]      singularity_sessiondir()                  Using session directory: /dev/shm/var/singularity/mnt/session\r\nDEBUG   [U=0,P=42005]      singularity_sessiondir()                  Checking for session directory: /dev/shm/var/singularity/mnt/session\r\nDEBUG   [U=0,P=42005]      singularity_sessiondir()                  Obtaining the default sessiondir size\r\nDEBUG   [U=0,P=42005]      singularity_config_get_value_impl()       Returning configuration value sessiondir max size='16'\r",
+    "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>DEBUG   <span class=\"cm-def\">[U</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">0</span><span class=\"cm-def\">,P</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">42005</span>]      singularity_sessiondir()                  Setting sessiondir</pre></div>\n<div><pre>VERBOSE <span class=\"cm-def\">[U</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">0</span><span class=\"cm-def\">,P</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">42005</span>]      singularity_sessiondir()                  Using session directory: /dev/shm/var/singularity/mnt/session</pre></div>\n<div><pre>DEBUG   <span class=\"cm-def\">[U</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">0</span><span class=\"cm-def\">,P</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">42005</span>]      singularity_sessiondir()                  Checking <span class=\"cm-keyword\">for</span> session directory: /dev/shm/var/singularity/mnt/session</pre></div>\n<div><pre>DEBUG   <span class=\"cm-def\">[U</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">0</span><span class=\"cm-def\">,P</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">42005</span>]      singularity_sessiondir()                  Obtaining the default sessiondir size</pre></div>\n<div><pre>DEBUG   <span class=\"cm-def\">[U</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">0</span><span class=\"cm-def\">,P</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">42005</span>]      singularity_config_get_value_impl()       Returning configuration value sessiondir max <span class=\"cm-def\">size</span><span class=\"cm-operator\">=</span><span class=\"cm-string\">'16'</span></pre></div>\n</div>\n</div>\n",
+    "lines": 41,
+    "lines_more": 36,
+    "preview_is_truncated": true,
+    "channels": [
+      "C24K0A087"
+    ],
+    "groups": [],
+    "ims": [],
+    "comments_count": 0
+  },
+  "user": "U24J4NTLP",
+  "upload": true,
+  "display_as_bot": false,
+  "username": "malex",
+  "bot_id": null,
+  "ts": "1522167388.000225",
+  "timestamp": 1522167388000,
+  "isoDate": "2018-03-27T16:16:28.000Z"
+},{
+  "user": "U9XUZE3PH",
+  "inviter": "U3E99RUG1",
+  "text": "<@U9XUZE3PH> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1522167216.000268",
+  "timestamp": 1522167216000,
+  "isoDate": "2018-03-27T16:13:36.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "<@U24J4NTLP> crappy test, if you put localstatedir on tmpfs : `make maintainer-clean &amp;&amp; ./autogen.sh &amp;&amp; ./configure --prefix=/somewhere/here --localstatedir=/dev/shm/var &amp;&amp; make &amp;&amp; sudo make install`",
+  "ts": "1522167187.000028",
+  "timestamp": 1522167187000,
+  "isoDate": "2018-03-27T16:13:07.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "That's what I see in dmesg",
+  "ts": "1522167008.000746",
+  "timestamp": 1522167008000,
+  "isoDate": "2018-03-27T16:10:08.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "[2761821.428118] TECH PREVIEW: Overlay filesystem may not be fully supported.\nPlease review provided documentation for limitations.\n[2761821.446587] overlayfs: filesystem on '/apps/singularity/2.4.5el7/var/singularity/mnt/container' not supported\n[2764703.395033] overlayfs: filesystem on '/apps/singularity/2.4.5el7/var/singularity/mnt/container' not supported\n[2764714.174423] overlayfs: filesystem on '/apps/singularity/2.4.5el7/var/singularity/mnt/container' not supported\n[2813991.176449] overlayfs: filesystem on '/var/singularity/mnt/container' not supported\n[2813995.375172] overlayfs: filesystem on '/var/singularity/mnt/container' not supported\n[2814073.398138] overlayfs: filesystem on '/var/singularity/mnt/container' not supported",
+  "ts": "1522167003.000413",
+  "timestamp": 1522167003000,
+  "isoDate": "2018-03-27T16:10:03.000Z"
+},{
+  "type": "message",
+  "user": "U244QE97U",
+  "text": "Any errors on the MDS?",
+  "ts": "1522166887.000184",
+  "timestamp": 1522166887000,
+  "isoDate": "2018-03-27T16:08:07.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "That's what I'm getting after a rebuild when image is on Lustre. I get a shell with no errors in a local copy of the same image in /var/tmp/",
+  "ts": "1522166808.000309",
+  "timestamp": 1522166808000,
+  "isoDate": "2018-03-27T16:06:48.000Z"
+},{
+  "type": "message",
+  "subtype": "file_share",
+  "text": "<@U24J4NTLP> uploaded a file: <https://singularity-container.slack.com/files/U24J4NTLP/F9WT8TW10/2_4_5_el7_overlay.sh|2.4.5 EL7 overlay>",
+  "file": {
+    "id": "F9WT8TW10",
+    "created": 1522166773,
+    "timestamp": 1522166773,
+    "name": "2_4_5_EL7_overlay.sh",
+    "title": "2.4.5 EL7 overlay",
+    "mimetype": "text/plain",
+    "filetype": "shell",
+    "pretty_type": "Shell",
+    "user": "U24J4NTLP",
+    "editable": true,
+    "size": 5462,
+    "mode": "snippet",
+    "is_external": false,
+    "external_type": "",
+    "is_public": true,
+    "public_url_shared": false,
+    "display_as_bot": false,
+    "username": "",
+    "url_private": "https://files.slack.com/files-pri/T0YKGK200-F9WT8TW10/2_4_5_el7_overlay.sh",
+    "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F9WT8TW10/download/2_4_5_el7_overlay.sh",
+    "permalink": "https://singularity-container.slack.com/files/U24J4NTLP/F9WT8TW10/2_4_5_el7_overlay.sh",
+    "permalink_public": "https://slack-files.com/T0YKGK200-F9WT8TW10-41e4cce74a",
+    "edit_link": "https://singularity-container.slack.com/files/U24J4NTLP/F9WT8TW10/2_4_5_el7_overlay.sh/edit",
+    "preview": "DEBUG   [U=0,P=24591]      singularity_runtime_ns_mnt()              Virtualizing FS namespace\r\nDEBUG   [U=0,P=24591]      singularity_runtime_ns_mnt()              Virtualizing mount namespace\r\nDEBUG   [U=0,P=24591]      singularity_priv_drop()                   Running as root, not changing privileges\r\nDEBUG   [U=0,P=24591]      singularity_runtime_ns_mnt()              Making mounts slave\r\nDEBUG   [U=0,P=24591]      singularity_registry_get()                Returning NULL on 'DAEMON_JOIN'\r",
+    "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>DEBUG   <span class=\"cm-def\">[U</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">0</span><span class=\"cm-def\">,P</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">24591</span>]      singularity_runtime_ns_mnt()              Virtualizing FS namespace</pre></div>\n<div><pre>DEBUG   <span class=\"cm-def\">[U</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">0</span><span class=\"cm-def\">,P</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">24591</span>]      singularity_runtime_ns_mnt()              Virtualizing mount namespace</pre></div>\n<div><pre>DEBUG   <span class=\"cm-def\">[U</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">0</span><span class=\"cm-def\">,P</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">24591</span>]      singularity_priv_drop()                   Running as root, not changing privileges</pre></div>\n<div><pre>DEBUG   <span class=\"cm-def\">[U</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">0</span><span class=\"cm-def\">,P</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">24591</span>]      singularity_runtime_ns_mnt()              Making mounts slave</pre></div>\n<div><pre>DEBUG   <span class=\"cm-def\">[U</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">0</span><span class=\"cm-def\">,P</span><span class=\"cm-operator\">=</span><span class=\"cm-number\">24591</span>]      singularity_registry_get()                Returning NULL on <span class=\"cm-string\">'DAEMON_JOIN'</span></pre></div>\n</div>\n</div>\n",
+    "lines": 47,
+    "lines_more": 42,
+    "preview_is_truncated": true,
+    "channels": [
+      "C24K0A087"
+    ],
+    "groups": [],
+    "ims": [],
+    "comments_count": 0
+  },
+  "user": "U24J4NTLP",
+  "upload": true,
+  "display_as_bot": false,
+  "username": "malex",
+  "bot_id": null,
+  "ts": "1522166774.000182",
+  "timestamp": 1522166774000,
+  "isoDate": "2018-03-27T16:06:14.000Z"
+},{
+  "type": "message",
+  "user": "U244QE97U",
+  "text": "in `<http://configure.ac|configure.ac>` you'll have `CONTAINER_MOUNTDIR` set at `LOCALSTATEDIR \"/singularity/mnt/container\"` ....  in the C code, it should be accessing `CONTAINER_MOUNTDIR` everywhere",
+  "ts": "1522166629.000253",
+  "timestamp": 1522166629000,
+  "isoDate": "2018-03-27T16:03:49.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "./configure --prefix=/apps/singularity/2.4.5el7lsd --localstatedir=/var",
+  "ts": "1522166567.000438",
+  "timestamp": 1522166567000,
+  "isoDate": "2018-03-27T16:02:47.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "rebuilding",
+  "ts": "1522166551.000682",
+  "timestamp": 1522166551000,
+  "isoDate": "2018-03-27T16:02:31.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "I ran distclean already. ok, reconfiguring and running maintainer-clean",
+  "ts": "1522166499.000806",
+  "timestamp": 1522166499000,
+  "isoDate": "2018-03-27T16:01:39.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "I see.",
+  "ts": "1522166489.000028",
+  "timestamp": 1522166489000,
+  "isoDate": "2018-03-27T16:01:29.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "maintainer-clean? I don't see a target like that",
+  "ts": "1522166448.000797",
+  "timestamp": 1522166448000,
+  "isoDate": "2018-03-27T16:00:48.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "yeah <@U244QE97U> is right",
+  "ts": "1522166414.000189",
+  "timestamp": 1522166414000,
+  "isoDate": "2018-03-27T16:00:14.000Z"
+},{
+  "type": "message",
+  "user": "U244QE97U",
+  "text": "distclean _should_ work since you need to run configure again, but...",
+  "ts": "1522166409.000159",
+  "timestamp": 1522166409000,
+  "isoDate": "2018-03-27T16:00:09.000Z"
+},{
+  "type": "message",
+  "user": "U244QE97U",
+  "text": "I'd go for `maintainer-clean` ... just to be really sure",
+  "ts": "1522166390.000336",
+  "timestamp": 1522166390000,
+  "isoDate": "2018-03-27T15:59:50.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "make distclean",
+  "ts": "1522166377.000127",
+  "timestamp": 1522166377000,
+  "isoDate": "2018-03-27T15:59:37.000Z"
+},{
+  "type": "message",
+  "user": "U244QE97U",
+  "text": "<@U24J4NTLP>.... `make maintainer-clean &amp;&amp; ./autogen.sh &amp;&amp; ./configure --prefix=/somewhere/here --localstatedir=/var &amp;&amp; make &amp;&amp; sudo make install`",
+  "ts": "1522166375.000456",
+  "reactions": [
+    {
+      "name": "white_check_mark",
+      "users": [
+        "U2MT7BF0V"
+      ],
+      "count": 1
+    }
+  ],
+  "timestamp": 1522166375000,
+  "isoDate": "2018-03-27T15:59:35.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "can you recompile",
+  "ts": "1522166372.000556",
+  "timestamp": 1522166372000,
+  "isoDate": "2018-03-27T15:59:32.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "weird",
+  "ts": "1522166353.000675",
+  "timestamp": 1522166353000,
+  "isoDate": "2018-03-27T15:59:13.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "mount is done on `/var/singularity/mnt/container`",
+  "ts": "1522166347.000131",
+  "timestamp": 1522166347000,
+  "isoDate": "2018-03-27T15:59:07.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "<@U5RJ04A4F> what do you suggest I do?",
+  "ts": "1522166313.000057",
+  "timestamp": 1522166313000,
+  "isoDate": "2018-03-27T15:58:33.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "Since prefix is /apps/singularity/2.4.5el7 and localstatedir is /var the resulting path is wrong.",
+  "ts": "1522166259.000116",
+  "timestamp": 1522166259000,
+  "isoDate": "2018-03-27T15:57:39.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "yes but it must point to an hardcoded value at build time CONTAINER_MOUNTDIR which should be same for the two lines I pasted",
+  "ts": "1522166246.000582",
+  "timestamp": 1522166246000,
+  "isoDate": "2018-03-27T15:57:26.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "I think make install sets a variable somewhere with $(prefix)/$(localstatedir} instead of $(localstatedir)",
+  "ts": "1522166217.000014",
+  "timestamp": 1522166217000,
+  "isoDate": "2018-03-27T15:56:57.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "mixed build env ?",
+  "ts": "1522166177.000855",
+  "timestamp": 1522166177000,
+  "isoDate": "2018-03-27T15:56:17.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "<@U5RJ04A4F> I copied the sandbox container to /var/tmp/ as a test <@U60JE7DD0> suggested. The singularity is built with --localstatedir=/var as another test that was suggested.",
+  "ts": "1522166172.000387",
+  "timestamp": 1522166172000,
+  "isoDate": "2018-03-27T15:56:12.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "second line is supposed to be `Checking if container is valid at: /var/singularity/mnt/container`",
+  "ts": "1522166160.000200",
+  "timestamp": 1522166160000,
+  "isoDate": "2018-03-27T15:56:00.000Z"
+},{
+  "type": "message",
+  "user": "U5RJ04A4F",
+  "text": "<@U24J4NTLP> the following two lines are a bit confusing ```DEBUG   [U=0,P=45624]      singularity_image_dir_mount()             Mounting container directory /var/tmp/test2_bionic-&gt;/var/singularity/mnt/container\n\nDEBUG   [U=0,P=45624]      action_ready()                            Checking if container is valid at: /apps/singularity/2.4.5el7/var/singularity/mnt/container```",
+  "ts": "1522166118.000898",
+  "timestamp": 1522166118000,
+  "isoDate": "2018-03-27T15:55:18.000Z"
+},{
+  "type": "message",
+  "user": "U244QE97U",
+  "text": "<@U24J4NTLP> Can you do:  `SINGULARITY_SHELL=/bin/dash singularity shell /var/tmp/test2_bionic`",
+  "ts": "1522166070.000187",
+  "timestamp": 1522166070000,
+  "isoDate": "2018-03-27T15:54:30.000Z"
+},{
+  "type": "message",
+  "subtype": "file_share",
+  "text": "<@U24J4NTLP> uploaded a file: <https://singularity-container.slack.com/files/U24J4NTLP/F9X1LLXNZ/2_4_5_el7_issue.sh|2.4.5 EL7 issue>",
+  "file": {
+    "id": "F9X1LLXNZ",
+    "created": 1522165127,
+    "timestamp": 1522165127,
+    "name": "2_4_5_EL7_issue.sh",
+    "title": "2.4.5 EL7 issue",
+    "mimetype": "text/plain",
+    "filetype": "shell",
+    "pretty_type": "Shell",
+    "user": "U24J4NTLP",
+    "editable": true,
+    "size": 16774,
+    "mode": "snippet",
+    "is_external": false,
+    "external_type": "",
+    "is_public": true,
+    "public_url_shared": false,
+    "display_as_bot": false,
+    "username": "",
+    "url_private": "https://files.slack.com/files-pri/T0YKGK200-F9X1LLXNZ/2_4_5_el7_issue.sh",
+    "url_private_download": "https://files.slack.com/files-pri/T0YKGK200-F9X1LLXNZ/download/2_4_5_el7_issue.sh",
+    "permalink": "https://singularity-container.slack.com/files/U24J4NTLP/F9X1LLXNZ/2_4_5_el7_issue.sh",
+    "permalink_public": "https://slack-files.com/T0YKGK200-F9X1LLXNZ-e9ae9df2e2",
+    "edit_link": "https://singularity-container.slack.com/files/U24J4NTLP/F9X1LLXNZ/2_4_5_el7_issue.sh/edit",
+    "preview": "Enabling debugging\r\nEnding argument loop\r\nSingularity version: 2.4.5-dist\r\nExec'ing: /apps/singularity/2.4.5el7lsd/libexec/singularity/cli/shell.exec\r\nEvaluating args: 'test2_bionic/'\r",
+    "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text/plain',window.getSelection().toString().replace(/\\u200b/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>Enabling debugging</pre></div>\n<div><pre>Ending argument loop</pre></div>\n<div><pre>Singularity version: <span class=\"cm-number\">2</span>.4.5-dist</pre></div>\n<div><pre>Exec<span class=\"cm-string\">'ing: /apps/singularity/2.4.5el7lsd/libexec/singularity/cli/shell.exec</span></pre></div>\n<div><pre>Evaluating args: <span class=\"cm-string\">'test2_bionic/'</span></pre></div>\n</div>\n</div>\n",
+    "lines": 149,
+    "lines_more": 144,
+    "preview_is_truncated": true,
+    "channels": [
+      "C24K0A087"
+    ],
+    "groups": [],
+    "ims": [],
+    "comments_count": 0
+  },
+  "user": "U24J4NTLP",
+  "upload": true,
+  "display_as_bot": false,
+  "username": "malex",
+  "bot_id": null,
+  "ts": "1522165127.000702",
+  "timestamp": 1522165127000,
+  "isoDate": "2018-03-27T15:38:47.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Can you post a snippet of the complete output of `singularity -d shell ...` and hopefully that contains enough info to point to something. Thanks.",
+  "ts": "1522164479.000261",
+  "timestamp": 1522164479000,
+  "isoDate": "2018-03-27T15:27:59.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "I'm going to have to ping <@U5RJ04A4F> to see if he has any ideas when he is able to take look",
+  "ts": "1522164390.000514",
+  "timestamp": 1522164390000,
+  "isoDate": "2018-03-27T15:26:30.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Hmmmm. This is a tough one. I'm running on a CentOS7 here 2.4.5-dist and can't find a way to reproduce yet",
+  "ts": "1522163837.000638",
+  "timestamp": 1522163837000,
+  "isoDate": "2018-03-27T15:17:17.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "Copied sandbox (created with 2.4.5) to /var/tmp/:\ntmp]# /apps/singularity/2.4.5el7lsd/bin/singularity exec test2_bionic/ ls\nERROR  : No valid /bin/sh in container\nABORT  : Retval = 255\n\ntmp]# /apps/singularity/2.4.2/bin/singularity exec test2_bionic/ ls\nWARNING: Non existent bind point (file) in container: '/etc/localtime'\nWARNING: Non existent bind point (directory) in container: '/ufrc'\nWARNING: Non existent bind point (directory) in container: '/orange'\nWARNING: Non existent bind point (directory) in container: '/bio'\nWARNING: Non existent bind point (directory) in container: '/rlts'\nWARNING: Non existent bind point (directory) in container: '/scratch/local'\n...\n\nAs you can see 2.4.2 is fine again, but 2.4.5 fails.",
+  "ts": "1522163662.000911",
+  "timestamp": 1522163662000,
+  "isoDate": "2018-03-27T15:14:22.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "yes",
+  "ts": "1522161491.000073",
+  "timestamp": 1522161491000,
+  "isoDate": "2018-03-27T14:38:11.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Would you be able to `cp -a` it into e.g. /tmp and try there to see if same error?",
+  "ts": "1522161454.000070",
+  "timestamp": 1522161454000,
+  "isoDate": "2018-03-27T14:37:34.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "mount: /ufrc on /ufrc type lustre (rw,localflock,lazystatfs)",
+  "ts": "1522161358.000645",
+  "timestamp": 1522161358000,
+  "isoDate": "2018-03-27T14:35:58.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "Lustre",
+  "ts": "1522161342.000573",
+  "timestamp": 1522161342000,
+  "isoDate": "2018-03-27T14:35:42.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "What's the fs, and mount options, for the filesytem the sandbox is sitting on here?",
+  "ts": "1522161335.000887",
+  "timestamp": 1522161335000,
+  "isoDate": "2018-03-27T14:35:35.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "# /apps/singularity/2.4.5el7lsd/bin/singularity exec test2_bionic/ /bin/sh\nERROR  : No valid /bin/sh in container\nABORT  : Retval = 255",
+  "ts": "1522161301.000750",
+  "timestamp": 1522161301000,
+  "isoDate": "2018-03-27T14:35:01.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "run gives the same error",
+  "ts": "1522161283.000115",
+  "timestamp": 1522161283000,
+  "isoDate": "2018-03-27T14:34:43.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "and if you directly do `singularity exec sandbox_dir /bin/sh`?",
+  "edited": {
+    "user": "U60JE7DD0",
+    "ts": "1522161279.000000"
+  },
+  "ts": "1522161268.000442",
+  "timestamp": 1522161268000,
+  "isoDate": "2018-03-27T14:34:28.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "<@U24J4NTLP> - do you get the same error if you do a `singularity run` as `singularity shell`",
+  "ts": "1522161242.000611",
+  "timestamp": 1522161242000,
+  "isoDate": "2018-03-27T14:34:02.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "# ls -al test2_bionic/bin/sh\nlrwxrwxrwx 1 root root 4 Feb 24 15:43 test2_bionic/bin/sh -&gt; dash",
+  "ts": "1522161143.000257",
+  "timestamp": 1522161143000,
+  "isoDate": "2018-03-27T14:32:23.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "<@U2MT7BF0V> yes, of course.",
+  "ts": "1522161113.000240",
+  "timestamp": 1522161113000,
+  "isoDate": "2018-03-27T14:31:53.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "<@U24J4NTLP> if you create a sandbox can you peek inside and verify that it has a valid `/bin/sh`?",
+  "ts": "1522151747.000430",
+  "timestamp": 1522151747000,
+  "isoDate": "2018-03-27T11:55:47.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "On my machine looking at bionic, `/bin/sh` in a sandbox is a valid link to `/bin/dash` and things work as expected",
+  "ts": "1522151674.000077",
+  "timestamp": 1522151674000,
+  "isoDate": "2018-03-27T11:54:34.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "So `/bin/sh` in the container sandbox is not being seen as exectuable or a link.",
+  "ts": "1522151640.000310",
+  "timestamp": 1522151640000,
+  "isoDate": "2018-03-27T11:54:00.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "The output comes from this test: ```if ( is_exec(joinpath(CONTAINER_MOUNTDIR, \"/bin/sh\")) != 0 &amp;&amp; is_link(joinpa\nth(CONTAINER_MOUNTDIR, \"/bin/sh\")) != 0 ) {\n        singularity_message(ERROR, \"No valid /bin/sh in container\\n\");\n        ABORT(255);\n    }```",
+  "ts": "1522151607.000062",
+  "timestamp": 1522151607000,
+  "isoDate": "2018-03-27T11:53:27.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "I believe initially there was a local state dir issue causing the overlay errors. Invalid argument can come up when the underlying fs for the state dirs isn't supported by overlayfs. Now it's something different.",
+  "ts": "1522151510.000254",
+  "timestamp": 1522151510000,
+  "isoDate": "2018-03-27T11:51:50.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "If it was a problem with the localstatedir the error would have been different I think.\n```\n$ ~/sing-dev/bin/singularity run <docker://godlovedc/lolcow>\nDocker image path: <http://index.docker.io/godlovedc/lolcow:latest|index.docker.io/godlovedc/lolcow:latest>\nCache folder set to /home/ubuntu/.singularity/docker\nCreating container runtime...\nExploding layer: sha256:9fb6c798fa41e509b58bccc5c29654c3ff4648b608f5daa67c1aab6a7d02c118.tar.gz\nExploding layer: sha256:3b61febd4aefe982e0cb9c696d415137384d1a01052b50a85aae46439e15e49a.tar.gz\nExploding layer: sha256:9d99b9777eb02b8943c0e72d7a7baec5c782f8fd976825c9d3fb48b3101aacc2.tar.gz\nExploding layer: sha256:d010c8cf75d7eb5d2504d5ffa0d19696e8d745a457dd8d28ec6dd41d3763617e.tar.gz\nExploding layer: sha256:7fac07fb303e0589b9c23e6f49d5dc1ff9d6f3c8c88cabe768b430bdb47f03a9.tar.gz\nExploding layer: sha256:8e860504ff1ee5dc7953672d128ce1e4aa4d8e3716eb39fe710b849c64b20945.tar.gz\nExploding layer: sha256:736a219344fbca3099ce5bd1d2dbfea74b22b830bac0e85ecca812c2983390cd.tar.gz\nERROR  : Session directory does not exist: /var/singularity/mnt/session\nABORT  : Retval = 255\n```",
+  "ts": "1522151218.000432",
+  "timestamp": 1522151218000,
+  "isoDate": "2018-03-27T11:46:58.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "should've worked out of the box.",
+  "ts": "1522119168.000100",
+  "timestamp": 1522119168000,
+  "isoDate": "2018-03-27T02:52:48.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "It's on the same node, so according to documentation, make install created correct local state dirs, which I double-checked.",
+  "ts": "1522119154.000152",
+  "timestamp": 1522119154000,
+  "isoDate": "2018-03-27T02:52:34.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "# ./configure --prefix=/apps/singularity/2.4.5el7lsd --localstatedir=/var\n# make; make install\n# /apps/singularity/2.4.5el7lsd/bin/singularity build --sandbox test2_bionic/ <docker://ubuntu:bionic>\nDocker image path: <http://index.docker.io/library/ubuntu:bionic|index.docker.io/library/ubuntu:bionic>\nCache folder set to /root/.singularity/docker\nImporting: base Singularity environment\nImporting: /root/.singularity/docker/sha256:c5cc0d8681c121e34eab689b1a348b61128b1c3d6643aac74358f3afd4e1051d.tar.gz\n\nImporting: /root/.singularity/docker/sha256:25992ae88689bae0fd012854058ad51aff0f2144522bbaf9a6fdddcf5f361b69.tar.gz\nImporting: /root/.singularity/docker/sha256:92b293e28b639065d678f2f218d234533945ff173f6c8a663d8cdcb1f89d0674.tar.gz\nImporting: /root/.singularity/docker/sha256:5e97fb8c1b1b91155f2cbc379d73086402584b7e1459d4f0daa31b664ad0b81c.tar.gz\nImporting: /root/.singularity/docker/sha256:e89d6de98e440f92b2aaae29e60ab6baa67b9ec4234b8f4bde4caa14c572aa5f.tar.gz\nImporting: /root/.singularity/metadata/sha256:c6a9ef4b9995d615851d7786fbc2fe72f72321bee1a87d66919b881a0336525a.tar.gz\nSingularity container built: test2_bionic/\nCleaning up...\n\n# /apps/singularity/2.4.5el7lsd/bin/singularity shell -d test2_bionic/\n\nDEBUG   [U=0,P=3807]       singularity_image_dir_mount()             Mounting container directory /ufrc/apps/singularity/images/ufrc/test2_bionic-&gt;/var/singularity/mnt/container\nDEBUG   [U=0,P=3807]       action_ready()                            Checking if container is valid at: /apps/singularity/2.4.5el7/var/singularity/mnt/container\nERROR   [U=0,P=3807]       action_ready()                            No valid /bin/sh in container\nABORT   [U=0,P=3807]       action_ready()                            Retval = 255\n\nI don't even.",
+  "ts": "1522119056.000176",
+  "timestamp": 1522119056000,
+  "isoDate": "2018-03-27T02:50:56.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "<@U60JE7DD0> Thanks!",
+  "ts": "1522118831.000201",
+  "timestamp": 1522118831000,
+  "isoDate": "2018-03-27T02:47:11.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "I did another build of 2.4.5 on EL7 with localstatedir=/var (for /var/singularity/mnt...) and now I'm getting\nERROR  : No valid /bin/sh in container\nABORT  : Retval = 255\nwith all containers.",
+  "ts": "1522118818.000037",
+  "timestamp": 1522118818000,
+  "isoDate": "2018-03-27T02:46:58.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "I'm going to have to drop off here now, but will be back tomorrow. Cheers",
+  "ts": "1522118297.000220",
+  "timestamp": 1522118297000,
+  "isoDate": "2018-03-27T02:38:17.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "If you can try pointing the --localstatedir at build time to a different filesystem that would be a good step to further the diagnosis.",
+  "ts": "1522118286.000125",
+  "timestamp": 1522118286000,
+  "isoDate": "2018-03-27T02:38:06.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Yes on EL7 you should be able to do that with overlayfs",
+  "ts": "1522117822.000219",
+  "timestamp": 1522117822000,
+  "isoDate": "2018-03-27T02:30:22.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "I was hoping I would be able to pull from docker or shub and run those containers without modifying them like creating bind points in EL7 with overlayfs.",
+  "ts": "1522117557.000202",
+  "timestamp": 1522117557000,
+  "isoDate": "2018-03-27T02:25:57.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "In 2.4.2 I explicitly disable overlay (because of EL6) and create the above bind points in all our container images.",
+  "ts": "1522117492.000277",
+  "timestamp": 1522117492000,
+  "isoDate": "2018-03-27T02:24:52.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Hmmm. And this is working on 2.4.2?",
+  "ts": "1522117465.000141",
+  "timestamp": 1522117465000,
+  "isoDate": "2018-03-27T02:24:25.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "Even with a new container:\n# /apps/singularity/2.4.5el7/bin/singularity exec test_bionic/ ls\nERROR  : Could not mount Singularity overlay: Invalid argument\nABORT  : Retval = 255\n\nbut shell works:\n# /apps/singularity/2.4.5el7/bin/singularity shell -w test_bionic/\nWARNING: Non existent bind point (file) in container: '/etc/localtime'\nWARNING: Non existent bind point (directory) in container: '/ufrc'\nWARNING: Non existent bind point (directory) in container: '/orange'\nWARNING: Non existent bind point (directory) in container: '/bio'\nWARNING: Non existent bind point (directory) in container: '/rlts'\nWARNING: Non existent bind point (directory) in container: '/scratch/local'\nSingularity: Invoking an interactive shell within container...\n\nSingularity test_bionic:~&gt;\n\nAlthough the above seems to indicate that overlay is not working",
+  "ts": "1522117400.000067",
+  "timestamp": 1522117400000,
+  "isoDate": "2018-03-27T02:23:20.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "It's a build time thing I'm afraid",
+  "ts": "1522117278.000100",
+  "timestamp": 1522117278000,
+  "isoDate": "2018-03-27T02:21:18.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Per the notes at <http://singularity.lbl.gov/admin-guide#prefix-in-special-places-localstatedir>",
+  "edited": {
+    "user": "U60JE7DD0",
+    "ts": "1522117270.000000"
+  },
+  "ts": "1522117259.000023",
+  "timestamp": 1522117259000,
+  "isoDate": "2018-03-27T02:20:59.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "Is that just a singularity.conf change or do I need to rebuild something?",
+  "ts": "1522117254.000268",
+  "timestamp": 1522117254000,
+  "isoDate": "2018-03-27T02:20:54.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Ideally you'd have the ..../var/singularity/mount stuff under a local (non-network) fs",
+  "ts": "1522117218.000101",
+  "timestamp": 1522117218000,
+  "isoDate": "2018-03-27T02:20:18.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "NFS",
+  "ts": "1522117155.000107",
+  "timestamp": 1522117155000,
+  "isoDate": "2018-03-27T02:19:15.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "What's the fs for /apps/...",
+  "ts": "1522117152.000193",
+  "timestamp": 1522117152000,
+  "isoDate": "2018-03-27T02:19:12.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "But it's a pretty nondescript error :confused:",
+  "ts": "1522117116.000402",
+  "timestamp": 1522117116000,
+  "isoDate": "2018-03-27T02:18:36.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "I've seen 'Invalid Argument' for overlayfs mounts mainly where the underlying FS isn't supported",
+  "ts": "1522117087.000097",
+  "timestamp": 1522117087000,
+  "isoDate": "2018-03-27T02:18:07.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "<@U60JE7DD0> yes, I am not sure what the issue on EL7 is. Let me try spinning up a new pristine container without pre-made bind directories and such to make sure.",
+  "ts": "1522116955.000257",
+  "timestamp": 1522116955000,
+  "isoDate": "2018-03-27T02:15:55.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "What do you think is the \"Could not mount Singularity overlay: Invalid argument\" EL7 error all about?",
+  "ts": "1522116917.000118",
+  "timestamp": 1522116917000,
+  "isoDate": "2018-03-27T02:15:17.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "No problem - the EL7 one still an issue I wonder?",
+  "ts": "1522116900.000045",
+  "timestamp": 1522116900000,
+  "isoDate": "2018-03-27T02:15:00.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "So, it was all my fauilt for not checking the build environment.",
+  "ts": "1522116860.000027",
+  "timestamp": 1522116860000,
+  "isoDate": "2018-03-27T02:14:20.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "I just did a rebuild on another dev node with the latest 2.6.32 kernel and the PR_SET_NO_NEW_PRIVS error went away.",
+  "ts": "1522116845.000123",
+  "timestamp": 1522116845000,
+  "isoDate": "2018-03-27T02:14:05.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "<@U60JE7DD0> we have multiple dev nodes and it looks like I did an earlier build of 2.4.5 on a node with a slightly older 2.6.32 kernel.",
+  "ts": "1522116813.000135",
+  "timestamp": 1522116813000,
+  "isoDate": "2018-03-27T02:13:33.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "<@U60JE7DD0> I was wrong. You are right.",
+  "ts": "1522116788.000234",
+  "timestamp": 1522116788000,
+  "isoDate": "2018-03-27T02:13:08.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Ok - Will have to refer this to someone else to have a look at tomorrow as this is out of my depth in this area.",
+  "ts": "1522116749.000176",
+  "timestamp": 1522116749000,
+  "isoDate": "2018-03-27T02:12:29.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "EL6 supports PR_SET_NO_NEW_PRIVS above a particular release, which escapes me now",
+  "ts": "1522116535.000011",
+  "timestamp": 1522116535000,
+  "isoDate": "2018-03-27T02:08:55.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "EL7 has a different problem as you can see above.",
+  "ts": "1522116500.000194",
+  "timestamp": 1522116500000,
+  "isoDate": "2018-03-27T02:08:20.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "That's correct, but it was also correct for 2.4.2 since EL6 kernel doesn't support PR_NO_NEW_SET_PRIVS, but yet 2.4.2 runs.",
+  "ts": "1522116487.000255",
+  "timestamp": 1522116487000,
+  "isoDate": "2018-03-27T02:08:07.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Hmmm, That EL6 error is raised in a block here.... ```#ifndef SINGULARITY_NO_NEW_PRIVS\n        singularity_message(WARNING, \"Not mounting user requested home: host does not support PR_SET_NO_NEW_PRIVS\\n\");\n        ABORT(255);\n#endif``` - which seems to suggest at build time PR_NO_NEW_SET_PRIVS was not recognized on the host.",
+  "ts": "1522116439.000115",
+  "timestamp": 1522116439000,
+  "isoDate": "2018-03-27T02:07:19.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "EL7 built sg-2.4.5 executing on EL7 (overlay = yes) $ /apps/singularity/2.4.5el7/bin/singularity -d exec -B /apps /ufrc/apps/singularity/images/ufrc/1.0-ut_16.04/ echo \"Hello, World\"\nDEBUG   [U=1005,P=27392]   singularity_runtime_overlayfs()           Mounting overlay tmpfs: /apps/singularity/2.4.5el7/var/singularity/mnt/overlay\nDEBUG   [U=1005,P=27392]   singularity_priv_escalate()               Temporarily escalating privileges (U=1005)\nDEBUG   [U=0,P=27392]      singularity_priv_escalate()               Clearing supplementary GIDs.\nDEBUG   [U=0,P=27392]      singularity_runtime_overlayfs()           Creating upper overlay directory: /apps/singularity/2.4.5el7/var/singularity/mnt/overlay/upper\nDEBUG   [U=0,P=27392]      s_mkpath()                                Creating directory: /apps/singularity/2.4.5el7/var/singularity/mnt/overlay/upper\nDEBUG   [U=0,P=27392]      singularity_runtime_overlayfs()           Creating overlay work directory: /apps/singularity/2.4.5el7/var/singularity/mnt/overlay/work\nDEBUG   [U=0,P=27392]      s_mkpath()                                Creating directory: /apps/singularity/2.4.5el7/var/singularity/mnt/overlay/work\nDEBUG   [U=0,P=27392]      singularity_priv_drop()                   Dropping privileges to UID=1005, GID=1000 (10 supplementary GIDs)\nDEBUG   [U=0,P=27392]      singularity_priv_drop()                   Restoring supplementary groups\nDEBUG   [U=1005,P=27392]   singularity_priv_drop()                   Confirming we have correct UID/GID\nVERBOSE [U=1005,P=27392]   singularity_runtime_overlayfs()           Mounting overlay with options: lowerdir=/apps/singularity/2.4.5el7/var/singularity/mnt/container,upperdir=/apps/singularity/2.4.5el7/var/singularity/mnt/overlay/upper,workdir=/apps/singularity/2.4.5el7/var/singularity/mnt/overlay/work\nERROR   [U=1005,P=27392]   singularity_runtime_overlayfs()           Could not mount Singularity overlay: Invalid argument\nABORT   [U=1005,P=27392]   singularity_runtime_overlayfs()           Retval = 255",
+  "ts": "1522116413.000010",
+  "timestamp": 1522116413000,
+  "isoDate": "2018-03-27T02:06:53.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "E.g. EL6 built sg-2.4.5 executing on EL7 (overlay not enabled, so same config as 2.4.2) - \nDEBUG   [U=130007,P=1]     singularity_registry_get()                Returning value from registry: 'SESSIONDIR' = '/apps/singularity/2.4.5/var/singularity/mnt/session'\nDEBUG   [U=130007,P=1]     singularity_config_get_bool_char_impl()   Called singularity_config_get_bool(mount home, yes)\nDEBUG   [U=130007,P=1]     singularity_config_get_value_impl()       Returning configuration value mount home='yes'\nDEBUG   [U=130007,P=1]     singularity_config_get_bool_char_impl()   Return singularity_config_get_bool(mount home, yes) = 1\nDEBUG   [U=130007,P=1]     singularity_runtime_mount_home()          Checking that home directry is configured: /srv\nDEBUG   [U=130007,P=1]     singularity_runtime_mount_home()          Checking if home directories are being influenced by user\nDEBUG   [U=130007,P=1]     singularity_registry_get()                Returning value from registry: 'HOME' = '/tmp/in4RlGxWbg:/srv'\nWARNING [U=130007,P=1]     singularity_runtime_mount_home()          Not mounting user requested home: host does not support PR_SET_NO_NEW_PRIVS\nABORT   [U=130007,P=1]     singularity_runtime_mount_home()          Retval = 255\nDEBUG   [U=130007,P=447]   wait_child()                              SIGCHLD raised, parent is exiting",
+  "ts": "1522116254.000170",
+  "timestamp": 1522116254000,
+  "isoDate": "2018-03-27T02:04:14.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "EL7: 3.10.0-693.17.1",
+  "ts": "1522116152.000074",
+  "timestamp": 1522116152000,
+  "isoDate": "2018-03-27T02:02:32.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "EL6: 2.6.32-642",
+  "ts": "1522116138.000178",
+  "timestamp": 1522116138000,
+  "isoDate": "2018-03-27T02:02:18.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Okay, thanks - that's good to know",
+  "ts": "1522116129.000202",
+  "timestamp": 1522116129000,
+  "isoDate": "2018-03-27T02:02:09.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "yes, 2.4.2 was built in the same environment.",
+  "ts": "1522116102.000225",
+  "timestamp": 1522116102000,
+  "isoDate": "2018-03-27T02:01:42.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Reason for asking is looking at the code, the error text thrown there is from one of two places, and one of those places is wrapped in a #ifdef - so decided at compile time if it is thrown",
+  "ts": "1522116026.000113",
+  "timestamp": 1522116026000,
+  "isoDate": "2018-03-27T02:00:26.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Was the 2.4.2 that you rolled back to built on the same host?",
+  "ts": "1522115966.000156",
+  "timestamp": 1522115966000,
+  "isoDate": "2018-03-27T01:59:26.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Also - what is the OS &amp; kernel version where the version throwing the PR_SET_NO_NEW_PRIVS error was built, and is being run?",
+  "ts": "1522115758.000050",
+  "timestamp": 1522115758000,
+  "isoDate": "2018-03-27T01:55:58.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "<@U24J4NTLP> - would you be able to raise an issue with trace using '-d' for debug info?",
+  "ts": "1522115704.000142",
+  "timestamp": 1522115704000,
+  "isoDate": "2018-03-27T01:55:04.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "If I build an overlay-enabled version on EL7 I get a different error:\nERROR  : Could not mount Singularity overlay: Invalid argument\nABORT  : Retval = 255",
+  "ts": "1522115520.000067",
+  "timestamp": 1522115520000,
+  "isoDate": "2018-03-27T01:52:00.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "That's both on el6 and el7. Overlay is disabled and containers have bind directories created i.e. the setup that works with 2.4.2.",
+  "ts": "1522115401.000090",
+  "timestamp": 1522115401000,
+  "isoDate": "2018-03-27T01:50:01.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "WARNING: Not mounting user requested home: host does not support PR_SET_NO_NEW_PRIVS\nABORT  : Retval = 255\nwhen it's trying to bind home",
+  "ts": "1522115352.000170",
+  "timestamp": 1522115352000,
+  "isoDate": "2018-03-27T01:49:12.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "/apps/singularity/2.4.5/bin/singularity exec --home /tmp/in4RlGxWbg:/srv --bind /cvmfs \\\n        --bind /tmp/in4RlGxWbg:/srv --pwd /srv --scratch /var/tmp --scratch /tmp \\\n        --containall /cvmfs/singularity.opensciencegrid.org/bbockelm/cms:rhel6 echo Hello World OR grep Hello World",
+  "ts": "1522115334.000141",
+  "timestamp": 1522115334000,
+  "isoDate": "2018-03-27T01:48:54.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "singularity 2.4.5 throws the following error:",
+  "ts": "1522115327.000085",
+  "timestamp": 1522115327000,
+  "isoDate": "2018-03-27T01:48:47.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "<@U2MT7BF0V> The situation is:",
+  "ts": "1522115308.000179",
+  "timestamp": 1522115308000,
+  "isoDate": "2018-03-27T01:48:28.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Heya <@U24J4NTLP> could you elaborate a bit?",
+  "ts": "1522112040.000071",
+  "timestamp": 1522112040000,
+  "isoDate": "2018-03-27T00:54:00.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "I had to roll back from 2.4.5 to 2.4.2 because CMS reported a --home bind error. Interesting.",
+  "ts": "1522103151.000200",
+  "timestamp": 1522103151000,
+  "isoDate": "2018-03-26T22:25:51.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "oh cool I'll check it out! I once spent a lot of time customizing my editors and such, and then I crashed my computer and lost spirit to do it. But I should try again.",
+  "edited": {
+    "user": "U245DTC59",
+    "ts": "1521559552.000000"
+  },
+  "ts": "1521559544.000982",
+  "timestamp": 1521559544000,
+  "isoDate": "2018-03-20T15:25:44.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "a plugin/theme etc. framework for zsh",
+  "ts": "1521559296.000354",
+  "timestamp": 1521559296000,
+  "isoDate": "2018-03-20T15:21:36.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "what is ohmyzsh?",
+  "ts": "1521559009.000497",
+  "timestamp": 1521559009000,
+  "isoDate": "2018-03-20T15:16:49.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "woohoo!",
+  "ts": "1521558995.000002",
+  "timestamp": 1521558995000,
+  "isoDate": "2018-03-20T15:16:35.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "haha nice!",
+  "ts": "1521558654.000545",
+  "timestamp": 1521558654000,
+  "isoDate": "2018-03-20T15:10:54.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "also... I just noticed I seem to be using your eponymous ohmyzsh theme on a machine - thanks for that too <@U361W9CS3> :slightly_smiling_face:",
+  "ts": "1521558638.000364",
+  "timestamp": 1521558638000,
+  "isoDate": "2018-03-20T15:10:38.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Thank you!",
+  "ts": "1521558579.000419",
+  "timestamp": 1521558579000,
+  "isoDate": "2018-03-20T15:09:39.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "<@U60JE7DD0> <@U245DTC59> updated #1390 as requested and added some tests",
+  "ts": "1521557582.001004",
+  "timestamp": 1521557582001,
+  "isoDate": "2018-03-20T14:53:02.001Z"
+},{
+  "user": "U94NPDY8L",
+  "text": "<@U94NPDY8L> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1521515346.000211",
+  "timestamp": 1521515346000,
+  "isoDate": "2018-03-20T03:09:06.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "<@U60JE7DD0> <@U245DTC59> responded to things in #1390",
+  "ts": "1521471824.000444",
+  "timestamp": 1521471824000,
+  "isoDate": "2018-03-19T15:03:44.000Z"
+},{
+  "user": "U96RF2PRB",
+  "text": "<@U96RF2PRB> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1520980761.000441",
+  "timestamp": 1520980761000,
+  "isoDate": "2018-03-13T22:39:21.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "once that’s merged should be able to close #1159, #1184, and #1383",
+  "ts": "1520973875.000268",
+  "timestamp": 1520973875000,
+  "isoDate": "2018-03-13T20:44:35.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "will see how it goes. thanks!",
+  "ts": "1520973847.000374",
+  "timestamp": 1520973847000,
+  "isoDate": "2018-03-13T20:44:07.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "would be great to have in 2.5 but understand if it needs to be pushed back to 2.6",
+  "ts": "1520973812.000138",
+  "timestamp": 1520973812000,
+  "isoDate": "2018-03-13T20:43:32.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "that should fix private registries like <http://nvcr.io|nvcr.io>",
+  "ts": "1520973794.000574",
+  "timestamp": 1520973794000,
+  "isoDate": "2018-03-13T20:43:14.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "<@U60JE7DD0> <https://github.com/singularityware/singularity/pull/1390>",
+  "attachments": [
+    {
+      "author_name": "jtriley",
+      "fallback": "#1390  update_token: make scope,service params optional",
+      "text": "*Description of the Pull Request (PR):*\n\nThis PR updates the `Www-Authenticate` challenge parsing code in the `update_token` function in the python docker client to make `service` and `scope` params optional. These params are then conditionally used when building the token URL based on whether they were present in the auth challenge. The realm parameter is still required as that's the endpoint used for auth.\n\nNot all private docker registries provide scope and service params in the auth challenge. For example, NVIDIA's private registry, `<http://nvcr.io|nvcr.io>`, returns only the bearer realm as part of their proxy authentication flow and this is supported by the native docker client.\n\n*This fixes or addresses the following GitHub issues:*\n\n• Ref: <https://github.com/singularityware/singularity/issues/1159#issuecomment-347593106|#1159 (comment)>\n• Ref: <https://github.com/singularityware/singularity/pull/1184|singularityware/singularity#1184> (proxy auth flow piece)\n• Ref: <https://github.com/singularityware/singularity/pull/1383|singularityware/singularity#1383> (proxy auth flow piece)\n\n*Checkoff for all PRs:*\n\n☑︎ I have read the <https://github.com/singularityware/singularity/blob/master/CONTRIBUTING.md|Guidelines for Contributing>, and this PR conforms to the stated requirements.\n☐ I have added changes to the <https://github.com/singularityware/singularity/blob/development/CHANGELOG.md|CHANGELOG> and and documentation updates to the <https://www.github.com/singularityware/singularityware.github.io|singularityware> documentation base.\n☐ I have tested this PR locally with a `make test`\n☑︎ This PR is NOT against the project's master branch\n☑︎ I have added myself as a contributor to the <https://github.com/singularityware/singularity/blob/master/CONTRIBUTORS.md|contributors's file>\n☐ This PR is ready for review and/or merge\n\nAttn: @singularityware-admin",
+      "title": "#1390  update_token: make scope,service params optional",
+      "footer": "<https://github.com/singularityware/singularity|singularityware/singularity>",
+      "id": 1,
+      "title_link": "https://github.com/singularityware/singularity/pull/1390",
+      "author_link": "https://github.com/jtriley",
+      "author_icon": "https://avatars3.githubusercontent.com/u/46910?v=4",
+      "footer_icon": "https://assets-cdn.github.com/favicon.ico",
+      "ts": 1520973288,
+      "color": "36a64f",
+      "fields": [
+        {
+          "title": "Comments",
+          "value": "2",
+          "short": true
+        }
+      ],
+      "mrkdwn_in": [
+        "text"
+      ],
+      "bot_id": "B9G2T2ZC5",
+      "app_unfurl_url": "https://github.com/singularityware/singularity/pull/1390",
+      "is_app_unfurl": true
+    }
+  ],
+  "ts": "1520973776.000132",
+  "timestamp": 1520973776000,
+  "isoDate": "2018-03-13T20:42:56.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "great will do",
+  "ts": "1520873990.000243",
+  "timestamp": 1520873990000,
+  "isoDate": "2018-03-12T16:59:50.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "If the auth header portion is a fix for a potential security thing, it would be good to have that separate",
+  "ts": "1520873464.000608",
+  "timestamp": 1520873464000,
+  "isoDate": "2018-03-12T16:51:04.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "so you’re good with filing them separately or prefer to keep it as-is?",
+  "ts": "1520872565.000523",
+  "timestamp": 1520872565000,
+  "isoDate": "2018-03-12T16:36:05.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Ok.. understood",
+  "ts": "1520872092.000203",
+  "timestamp": 1520872092000,
+  "isoDate": "2018-03-12T16:28:12.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "reason I had them in one PR is that they’re both needed to work with <http://nvcr.io|nvcr.io> registries",
+  "edited": {
+    "user": "U361W9CS3",
+    "ts": "1520871715.000000"
+  },
+  "ts": "1520871709.000240",
+  "timestamp": 1520871709000,
+  "isoDate": "2018-03-12T16:21:49.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "that bit isn’t changing…",
+  "ts": "1520871600.000066",
+  "timestamp": 1520871600000,
+  "isoDate": "2018-03-12T16:20:00.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "<@U60JE7DD0> so that PR is really two-in-one. There’s the nvcr auth flow piece and then the authorization header piece. I could split these out and we could get the auth flow bit merged?",
+  "ts": "1520871574.000043",
+  "timestamp": 1520871574000,
+  "isoDate": "2018-03-12T16:19:34.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "woot! Lol, +1 from rainbow man",
+  "ts": "1520867266.000889",
+  "timestamp": 1520867266000,
+  "isoDate": "2018-03-12T15:07:46.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "The golang implementation will use `containers/image` which isn't docker per se, but does handle this properly.",
+  "ts": "1520866412.000327",
+  "reactions": [
+    {
+      "name": "thumbsup_all",
+      "users": [
+        "U361W9CS3"
+      ],
+      "count": 1
+    }
+  ],
+  "timestamp": 1520866412000,
+  "isoDate": "2018-03-12T14:53:32.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "however this particular issue will go away under golang presumably given that the native docker libs can be leveraged which handles this properly",
+  "ts": "1520865895.000665",
+  "timestamp": 1520865895000,
+  "isoDate": "2018-03-12T14:44:55.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "and yea not being able to pull in external libs like requests means having to deal with a lot of solved problems such as this",
+  "edited": {
+    "user": "U361W9CS3",
+    "ts": "1520865928.000000"
+  },
+  "ts": "1520865866.000183",
+  "timestamp": 1520865866000,
+  "isoDate": "2018-03-12T14:44:26.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "yup been using that for a while works great!",
+  "ts": "1520865817.000790",
+  "timestamp": 1520865817000,
+  "isoDate": "2018-03-12T14:43:37.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "did you guys see the guy that made requests created another library? <https://github.com/pyenv/pyenv> it looks kind of neat :slightly_smiling_face:",
+  "attachments": [
+    {
+      "fallback": "pyenv/pyenv",
+      "text": "Simple Python version management",
+      "title": "pyenv/pyenv",
+      "footer": "<https://github.com/pyenv/pyenv|pyenv/pyenv>",
+      "id": 1,
+      "footer_icon": "https://assets-cdn.github.com/favicon.ico",
+      "ts": 1346396272,
+      "color": "24292f",
+      "fields": [
+        {
+          "title": "Watchers",
+          "value": "288",
+          "short": true
+        },
+        {
+          "title": "Stars",
+          "value": "10330",
+          "short": true
+        },
+        {
+          "title": "Forks",
+          "value": "901",
+          "short": true
+        },
+        {
+          "title": "Last updated",
+          "value": "2 hours ago",
+          "short": true
+        }
+      ],
+      "mrkdwn_in": [
+        "text",
+        "fields"
+      ],
+      "bot_id": "B9G2T2ZC5",
+      "app_unfurl_url": "https://github.com/pyenv/pyenv",
+      "is_app_unfurl": true
+    }
+  ],
+  "ts": "1520865791.000198",
+  "timestamp": 1520865791000,
+  "isoDate": "2018-03-12T14:43:11.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "This is accurate, the original implementation was severely limited in now allowing to use requests, the implementation I did in Singularity Python Global client (that does use requests) is reflective of what I am saying (not the urllib stuffs)",
+  "ts": "1520865696.000761",
+  "timestamp": 1520865696000,
+  "isoDate": "2018-03-12T14:41:36.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "make sense?",
+  "ts": "1520865123.000356",
+  "timestamp": 1520865123000,
+  "isoDate": "2018-03-12T14:32:03.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "Also the patch won’t blindly strip them on a redirect - it will inspect the destination and if it’s a different subdomain (and possibly port…need to read up on that) then it will strip them",
+  "ts": "1520865113.000302",
+  "timestamp": 1520865113000,
+  "isoDate": "2018-03-12T14:31:53.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "Stripping the auth headers is a security improvement and also fixes the issue with downloading layers from secured s3 backed registries (ie  the error from S3 due to presence of Authorization header)",
+  "ts": "1520865022.000455",
+  "timestamp": 1520865022000,
+  "isoDate": "2018-03-12T14:30:22.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "which links to <http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=2014-1829>",
+  "attachments": [
+    {
+      "title": "CVE - CVE-2014-1829 ",
+      "title_link": "http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=2014-1829",
+      "text": "Common Vulnerabilities and Exposures (CVE®) is a list of entries — each containing an identification number, a description, and at least one public reference — for publicly known cybersecurity vulnerabilities. Assigned by CVE Numbering Authorities (CNAs) from around the world, use of CVE Entries ensures confidence among parties when used to discuss or share information about a unique software vulnerability, provides a baseline for tool evaluation, and enables data exchange for cybersecurity automation.",
+      "fallback": "CVE - CVE-2014-1829 ",
+      "from_url": "http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=2014-1829",
+      "service_icon": "http://www.cve.mitre.org/favicon.ico",
+      "service_name": "cve.mitre.org",
+      "id": 1
+    }
+  ],
+  "ts": "1520864896.000086",
+  "timestamp": 1520864896000,
+  "isoDate": "2018-03-12T14:28:16.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "specifically <https://github.com/requests/requests/issues/2949#issuecomment-167664262>",
+  "attachments": [
+    {
+      "author_name": "Lukasa",
+      "fallback": "Comment on #2949",
+      "text": "Yup, so that's somewhat deliberate: we're very aggressive with stripping authorization headers when redirected to a new host. This is a safety feature to deal with <http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=2014-1829|CVE 2014-1829>, which was caused by us persisting headers on off-host redirects.\n\nHowever, from a certain perspective we've still got a bug here, because you set the Authorization header on the `Session`, not the request. In principle, what this means is \"I don't care where the redirect goes, add the header\". I still _think_ I'd rather have this approach, which at least ensures that we're not open to any form of attack, even if it makes this specific instance somewhat trickier. However, I'm open to being convinced that we're being too paranoid here.",
+      "title": "Comment on #2949 Session's Authorization header isn't sent on redirect",
+      "footer": "<https://github.com/requests/requests|requests/requests>",
+      "id": 1,
+      "title_link": "https://github.com/requests/requests/issues/2949#issuecomment-167664262",
+      "author_link": "https://github.com/Lukasa",
+      "author_icon": "https://avatars1.githubusercontent.com/u/1382556?v=4",
+      "footer_icon": "https://assets-cdn.github.com/favicon.ico",
+      "ts": 1451339535,
+      "color": "24292f",
+      "mrkdwn_in": [
+        "text"
+      ],
+      "bot_id": "B9G2T2ZC5",
+      "app_unfurl_url": "https://github.com/requests/requests/issues/2949#issuecomment-167664262",
+      "is_app_unfurl": true
+    }
+  ],
+  "ts": "1520864889.000256",
+  "timestamp": 1520864889000,
+  "isoDate": "2018-03-12T14:28:09.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "if we were using python requests this sort of thing is handled already…",
+  "ts": "1520864878.000835",
+  "timestamp": 1520864878000,
+  "isoDate": "2018-03-12T14:27:58.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "see for example <https://github.com/requests/requests/issues/2949>",
+  "attachments": [
+    {
+      "author_name": "jwineinger",
+      "fallback": "#2949 Session's Authorization header isn't sent on redirect",
+      "text": "I'm using requests to hit <http://developer-api.nest.com|developer-api.nest.com> and setting an Authorization header with a bearer token. On some requests, that API responds with an 307 redirect. When that happens, I still need the Authorization header to be sent on the subsequent request. I've tried using `requests.get()` as well as a session.\n\nI suppose I could work around this by not allowing redirects, detecting the 307 and then issuing the new request myself but I'm wondering if this is a bug. Should I expect that the Authorization header would be sent on all requests made within the context of a session?\n\n```python\nIn [41]: s = requests.Session()\n\nIn [42]: s.headers\nOut[42]: {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Connection': 'keep-alive', 'User-Agent': 'python-requests/2.7.0 CPython/3.4.3 Darwin/15.2.0'}\n\nIn [43]: s.headers['Authorization'] = \"Bearer &lt;snip&gt;\"\n\nIn [45]: s.get(\"<https://developer-api.nest.com/devices/thermostats/>\")\nOut[45]: &lt;Response [401]&gt;\n\nIn [46]: s.get(\"<https://developer-api.nest.com/devices/thermostats/>\")\nOut[46]: &lt;Response [200]&gt;\n\nIn [49]: Out[45].history\nOut[49]: [&lt;Response [307]&gt;]\n\nIn [50]: Out[46].history\nOut[50]: []\n\nIn [51]: Out[45].request.headers\nOut[51]: {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Connection': 'keep-alive', 'User-Agent': 'python-requests/2.7.0 CPython/3.4.3 Darwin/15.2.0'}\n\nIn [52]: Out[46].request.headers\nOut[52]: {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Connection': 'keep-alive', 'User-Agent': 'python-requests/2.7.0 CPython/3.4.3 Darwin/15.2.0', 'Authorization': 'Bearer &lt;snip&gt;'}\n```",
+      "title": "#2949 Session's Authorization header isn't sent on redirect",
+      "footer": "<https://github.com/requests/requests|requests/requests>",
+      "id": 1,
+      "title_link": "https://github.com/requests/requests/issues/2949",
+      "author_link": "https://github.com/jwineinger",
+      "author_icon": "https://avatars2.githubusercontent.com/u/287161?v=4",
+      "footer_icon": "https://assets-cdn.github.com/favicon.ico",
+      "ts": 1451339054,
+      "color": "36a64f",
+      "fields": [
+        {
+          "title": "Labels",
+          "value": "Bug",
+          "short": true
+        },
+        {
+          "title": "Comments",
+          "value": "27",
+          "short": true
+        }
+      ],
+      "mrkdwn_in": [
+        "text"
+      ],
+      "bot_id": "B9G2T2ZC5",
+      "app_unfurl_url": "https://github.com/requests/requests/issues/2949",
+      "is_app_unfurl": true
+    }
+  ],
+  "ts": "1520864869.000046",
+  "timestamp": 1520864869000,
+  "isoDate": "2018-03-12T14:27:49.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "<@U245DTC59> sorry not sure we’re talking about the same thing. When we go to download the actual layers we make an http/https request via urllib which, by default, doesn’t strip authorization headers on a redirect to a different domain which is a security issue",
+  "ts": "1520864864.000217",
+  "timestamp": 1520864864000,
+  "isoDate": "2018-03-12T14:27:44.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "it's really kind of nuts, lol",
+  "ts": "1520864674.000799",
+  "timestamp": 1520864674000,
+  "isoDate": "2018-03-12T14:24:34.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "<@U361W9CS3> I don't think we need stripping for redirects, we need a refresh of the Accept header based on the response returned. It also comes down to just really quickly changing (and not always greatly documented) APIs that we are using! For example, the fact that we've gone from version 1, to version 2 (sometimes) to the list, and now a separate manifest entirely for config (that is at the blob endpoint!)",
+  "ts": "1520864650.000645",
+  "timestamp": 1520864650000,
+  "isoDate": "2018-03-12T14:24:10.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "It's up to you. If it's significantly different to the original patch then I would start from a fresh PR against development-2.x and we can close the old ones when it's there. If it's a smallish change then you can add commits to existing PR (either one)",
+  "ts": "1520863655.000612",
+  "timestamp": 1520863655000,
+  "isoDate": "2018-03-12T14:07:35.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "Should I make a new branch and PR or how do you want to do this?",
+  "ts": "1520863193.000292",
+  "timestamp": 1520863193000,
+  "isoDate": "2018-03-12T13:59:53.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Thank you!",
+  "ts": "1520863117.000514",
+  "timestamp": 1520863117000,
+  "isoDate": "2018-03-12T13:58:37.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "<@U60JE7DD0> comment added",
+  "ts": "1520862962.000719",
+  "timestamp": 1520862962000,
+  "isoDate": "2018-03-12T13:56:02.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "yup no problem will do",
+  "ts": "1520862714.000077",
+  "timestamp": 1520862714000,
+  "isoDate": "2018-03-12T13:51:54.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "We're working up 2.5 atm, so would be great to have it on there so all can see status",
+  "ts": "1520862577.000145",
+  "timestamp": 1520862577000,
+  "isoDate": "2018-03-12T13:49:37.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Would you be able to add a brief comment on the PR about this?",
+  "ts": "1520862542.000757",
+  "timestamp": 1520862542000,
+  "isoDate": "2018-03-12T13:49:02.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "and re-test",
+  "edited": {
+    "user": "U361W9CS3",
+    "ts": "1520862123.000000"
+  },
+  "ts": "1520862119.000094",
+  "timestamp": 1520862119000,
+  "isoDate": "2018-03-12T13:41:59.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "awesome I can code that up",
+  "ts": "1520862114.000048",
+  "timestamp": 1520862114000,
+  "isoDate": "2018-03-12T13:41:54.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Right, I think it'd be great to have that instead",
+  "ts": "1520862109.000037",
+  "timestamp": 1520862109000,
+  "isoDate": "2018-03-12T13:41:49.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "it’s also security related…",
+  "ts": "1520862095.000464",
+  "timestamp": 1520862095000,
+  "isoDate": "2018-03-12T13:41:35.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "I believe that’s how docker client is handling this given that the http lib in golang is doing this by default",
+  "ts": "1520862092.000650",
+  "timestamp": 1520862092000,
+  "isoDate": "2018-03-12T13:41:32.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "I think there’s a more general fix here that should be implemented instead which is to always strip authorization headers when being redirected",
+  "ts": "1520862078.000027",
+  "timestamp": 1520862078000,
+  "isoDate": "2018-03-12T13:41:18.000Z"
+},{
+  "type": "message",
+  "user": "U60JE7DD0",
+  "text": "Ahh.. ok...",
+  "ts": "1520862063.000039",
+  "timestamp": 1520862063000,
+  "isoDate": "2018-03-12T13:41:03.000Z"
+},{
+  "type": "message",
+  "user": "U361W9CS3",
+  "text": "<@U60JE7DD0> thanks for rebasing the PR to the proper place. I did some thinking about that code and have some new opinions haha …",
+  "ts": "1520862038.000439",
+  "timestamp": 1520862038000,
+  "isoDate": "2018-03-12T13:40:38.000Z"
+},{
+  "type": "message",
+  "user": "U9BB1J6GK",
+  "text": "Thank you",
+  "thread_ts": "1519073567.000421",
+  "parent_user_id": "U115P26TB",
+  "ts": "1519442784.000019",
+  "timestamp": 1519442784000,
+  "isoDate": "2018-02-24T03:26:24.000Z"
+},{
+  "user": "U60JE7DD0",
+  "text": "<@U60JE7DD0> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1519327259.000560",
+  "timestamp": 1519327259000,
+  "isoDate": "2018-02-22T19:20:59.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Yep, totally can! I'd recommend an instance for this. :slightly_smiling_face:",
+  "thread_ts": "1519073567.000421",
+  "reply_count": 1,
+  "replies": [
+    {
+      "user": "U9BB1J6GK",
+      "ts": "1519442784.000019"
+    }
+  ],
+  "subscribed": false,
+  "unread_count": 1,
+  "ts": "1519073567.000421",
+  "timestamp": 1519073567000,
+  "isoDate": "2018-02-19T20:52:47.000Z"
+},{
+  "type": "message",
+  "user": "U9BB1J6GK",
+  "text": "Can someone clarify if it is possible to run MySQL or PostgreSQL within a singularity sandbox or img?",
+  "ts": "1519073124.000189",
+  "timestamp": 1519073124000,
+  "isoDate": "2018-02-19T20:45:24.000Z"
+},{
+  "user": "U9BB1J6GK",
+  "text": "<@U9BB1J6GK> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1519072893.000309",
+  "timestamp": 1519072893000,
+  "isoDate": "2018-02-19T20:41:33.000Z"
+},{
+  "user": "U97BMQF7W",
+  "text": "<@U97BMQF7W> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1518380861.000143",
+  "timestamp": 1518380861000,
+  "isoDate": "2018-02-11T20:27:41.000Z"
+},{
+  "user": "U96TNPEET",
+  "text": "<@U96TNPEET> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1518218256.000137",
+  "timestamp": 1518218256000,
+  "isoDate": "2018-02-09T23:17:36.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "BTW... if anyone wants to see the site that's in development, we just updated DNS: <http://www.sylabs.io/>",
+  "ts": "1518048165.000154",
+  "reactions": [
+    {
+      "name": "+1",
+      "users": [
+        "U7GM0N64T"
+      ],
+      "count": 1
+    }
+  ],
+  "timestamp": 1518048165000,
+  "isoDate": "2018-02-08T00:02:45.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "There are financial hurtles by doing that (e.g. we are now using better GitHub issue tracking with Zenhub etc) which will make it difficult not to be under a single organization. But your point was well taken, and addressing it on our new website.",
+  "ts": "1518048138.000091",
+  "timestamp": 1518048138000,
+  "isoDate": "2018-02-08T00:02:18.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "Ok I didn't know that, that's good.  I also discussed with Greg separately that I think the open source community would be more comfortable if the github open source repository is not associated with the company name.  It would give a very visible indication that the project has a level of independence from the company.",
+  "ts": "1518042689.000075",
+  "reactions": [
+    {
+      "name": "+1",
+      "users": [
+        "U93DA8W31"
+      ],
+      "count": 1
+    }
+  ],
+  "timestamp": 1518042689000,
+  "isoDate": "2018-02-07T22:31:29.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Does this assuage your fears <@U2YQWJQ4T>?",
+  "ts": "1518039423.000359",
+  "timestamp": 1518039423000,
+  "isoDate": "2018-02-07T21:37:03.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "Every link to `<http://github.com/singularityware/singularity|github.com/singularityware/singularity>` will automatically redirect to the new location of the repository. So all links to PRs, comments, commits, etc.. will all be really nicely handled by Github",
+  "ts": "1518036874.000046",
+  "reactions": [
+    {
+      "name": "aw_yeah",
+      "users": [
+        "U2MT7BF0V"
+      ],
+      "count": 1
+    }
+  ],
+  "timestamp": 1518036874000,
+  "isoDate": "2018-02-07T20:54:34.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "Github is really good at handling people moving repositories to different orginizations",
+  "ts": "1518036831.000280",
+  "timestamp": 1518036831000,
+  "isoDate": "2018-02-07T20:53:51.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "Oops, accidentally hit enter lol",
+  "ts": "1518036809.000199",
+  "timestamp": 1518036809000,
+  "isoDate": "2018-02-07T20:53:29.000Z"
+},{
+  "type": "message",
+  "user": "U2MQD256V",
+  "text": "<@U2YQWJQ4T>",
+  "ts": "1518036799.000264",
+  "timestamp": 1518036799000,
+  "isoDate": "2018-02-07T20:53:19.000Z"
+},{
+  "user": "U2D6J632P",
+  "text": "<@U2D6J632P> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1518032929.000717",
+  "timestamp": 1518032929000,
+  "isoDate": "2018-02-07T19:48:49.000Z"
+},{
+  "type": "message",
+  "user": "U2YQWJQ4T",
+  "text": "<@U115P26TB> Regarding the planned move of singularity source code to be under the 'sylabs' github repository, a concern I have is that it will break many hyperlinks, especially to issues and PRs.",
+  "ts": "1518030680.000715",
+  "timestamp": 1518030680000,
+  "isoDate": "2018-02-07T19:11:20.000Z"
+},{
+  "type": "message",
+  "user": "U344T92FJ",
+  "text": "done reviewing the talk, it's transcoding now, shouldn't take too long for it to become available...",
+  "ts": "1517701100.000071",
+  "timestamp": 1517701100000,
+  "isoDate": "2018-02-03T23:38:20.000Z"
+},{
+  "type": "message",
+  "user": "U33HBM1UH",
+  "text": "<@U344T92FJ> welcome, I was mentioning it to <@U115P26TB> ",
+  "ts": "1517700615.000086",
+  "timestamp": 1517700615000,
+  "isoDate": "2018-02-03T23:30:15.000Z"
+},{
+  "type": "message",
+  "user": "U344T92FJ",
+  "text": "video should be up soon",
+  "ts": "1517700103.000065",
+  "timestamp": 1517700103000,
+  "isoDate": "2018-02-03T23:21:43.000Z"
+},{
+  "type": "message",
+  "user": "U344T92FJ",
+  "text": "guilty...",
+  "ts": "1517700100.000016",
+  "timestamp": 1517700100000,
+  "isoDate": "2018-02-03T23:21:40.000Z"
+},{
+  "user": "U344T92FJ",
+  "text": "<@U344T92FJ> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1517700096.000056",
+  "timestamp": 1517700096000,
+  "isoDate": "2018-02-03T23:21:36.000Z"
+},{
+  "type": "message",
+  "user": "U33HBM1UH",
+  "text": "very  busy room",
+  "ts": "1517699787.000034",
+  "timestamp": 1517699787000,
+  "isoDate": "2018-02-03T23:16:27.000Z"
+},{
+  "type": "message",
+  "user": "U33HBM1UH",
+  "text": "we are still waiting for the vidio <https://fosdem.org/2018/schedule/event/how_to_make_package_managers_cry/>",
+  "attachments": [
+    {
+      "title": "FOSDEM 2018 - How To Make Package Managers Cry",
+      "title_link": "https://fosdem.org/2018/schedule/event/how_to_make_package_managers_cry/",
+      "fallback": "FOSDEM 2018 - How To Make Package Managers Cry",
+      "image_url": "https://fosdem.org/2018/assets/style/logo-gear-7204a6874eb0128932db10ff4030910401ac06f4e907f8b4a40da24ba592b252.png",
+      "from_url": "https://fosdem.org/2018/schedule/event/how_to_make_package_managers_cry/",
+      "image_width": 200,
+      "image_height": 200,
+      "image_bytes": 9557,
+      "service_icon": "https://fosdem.org/2018/apple-touch-icon.png",
+      "service_name": "fosdem.org",
+      "id": 1
+    }
+  ],
+  "ts": "1517699770.000088",
+  "timestamp": 1517699770000,
+  "isoDate": "2018-02-03T23:16:10.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Oh?",
+  "ts": "1517699731.000018",
+  "timestamp": 1517699731000,
+  "isoDate": "2018-02-03T23:15:31.000Z"
+},{
+  "type": "message",
+  "user": "U33HBM1UH",
+  "text": "<@U115P26TB> kenneth gave a pretty funny talk today",
+  "ts": "1517699726.000071",
+  "timestamp": 1517699726000,
+  "isoDate": "2018-02-03T23:15:26.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "And remember to spread the Singularity love! Haha",
+  "ts": "1517699726.000051",
+  "timestamp": 1517699726000,
+  "isoDate": "2018-02-03T23:15:26.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Take lots of pictures and share! Lol",
+  "ts": "1517699713.000001",
+  "timestamp": 1517699713000,
+  "isoDate": "2018-02-03T23:15:13.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Very cool! ",
+  "ts": "1517699698.000023",
+  "timestamp": 1517699698000,
+  "isoDate": "2018-02-03T23:14:58.000Z"
+},{
+  "type": "message",
+  "user": "U33HBM1UH",
+  "text": "didn't run into him yet. HPC room is tomorrow thoguh",
+  "ts": "1517699586.000078",
+  "timestamp": 1517699586000,
+  "isoDate": "2018-02-03T23:13:06.000Z"
+},{
+  "type": "message",
+  "user": "U33HBM1UH",
+  "text": "<@U115P26TB> I'm there",
+  "ts": "1517699565.000037",
+  "timestamp": 1517699565000,
+  "isoDate": "2018-02-03T23:12:45.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U33HBM1UH> are you heading there too?",
+  "ts": "1517699557.000076",
+  "timestamp": 1517699557000,
+  "isoDate": "2018-02-03T23:12:37.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<@U33HBM1UH> yep, <@U2MQD256V> is on his way there now!",
+  "ts": "1517699541.000078",
+  "timestamp": 1517699541000,
+  "isoDate": "2018-02-03T23:12:21.000Z"
+},{
+  "type": "message",
+  "user": "U33HBM1UH",
+  "text": "<@U115P26TB> is there anyone at fosdem btw? ",
+  "ts": "1517699430.000065",
+  "timestamp": 1517699430000,
+  "isoDate": "2018-02-03T23:10:30.000Z"
+},{
+  "type": "message",
+  "user": "U33HBM1UH",
+  "text": "<@U115P26TB> based on what i heard at the easybuild meeting this is not a surprise. We all look forward to the future development :)",
+  "ts": "1517699417.000072",
+  "timestamp": 1517699417000,
+  "isoDate": "2018-02-03T23:10:17.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Yep, as <@U245DTC59> said, just the organization. :slightly_smiling_face:",
+  "ts": "1517697724.000094",
+  "timestamp": 1517697724000,
+  "isoDate": "2018-02-03T22:42:04.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "Thanks for the clarification",
+  "client_msg_id": "04fbd4dd-5e06-4921-8dd0-529cd728e1d3",
+  "ts": "1517689751.000055",
+  "timestamp": 1517689751000,
+  "isoDate": "2018-02-03T20:29:11.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "just organization",
+  "ts": "1517689736.000005",
+  "timestamp": 1517689736000,
+  "isoDate": "2018-02-03T20:28:56.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "Or do you mean you'll change the repos on GitHub from singularityware to sylabs?",
+  "client_msg_id": "5f53dd60-73b3-4bc4-80b1-639c6b6c486c",
+  "ts": "1517689729.000091",
+  "timestamp": 1517689729000,
+  "isoDate": "2018-02-03T20:28:49.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "If you're moving the code",
+  "client_msg_id": "8fc7f1fc-c9d1-4844-8532-2da9119db280",
+  "ts": "1517689680.000128",
+  "timestamp": 1517689680000,
+  "isoDate": "2018-02-03T20:28:00.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "No, like are you going to host a gitlab instance or something?",
+  "client_msg_id": "d651558d-647e-4e25-a7bc-f23dfe61b42c",
+  "ts": "1517689635.000029",
+  "timestamp": 1517689635000,
+  "isoDate": "2018-02-03T20:27:15.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "Oh, like what are we doing to support the project financially?",
+  "ts": "1517689589.000013",
+  "timestamp": 1517689589000,
+  "isoDate": "2018-02-03T20:26:29.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "What's on the backend for git @ sylabs?",
+  "client_msg_id": "e96d5d27-83bd-4bc9-8697-82742a1070c3",
+  "ts": "1517689561.000008",
+  "timestamp": 1517689561000,
+  "isoDate": "2018-02-03T20:26:01.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "that is an art apparently!",
+  "ts": "1517689524.000101",
+  "timestamp": 1517689524000,
+  "isoDate": "2018-02-03T20:25:24.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "we haven't done any search engine optimization. lol",
+  "ts": "1517689514.000089",
+  "timestamp": 1517689514000,
+  "isoDate": "2018-02-03T20:25:14.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "Ahh, down the Google search list, sorry.",
+  "client_msg_id": "c9fdffdb-76db-4bdf-89a5-9fd829e1c584",
+  "ts": "1517689500.000101",
+  "timestamp": 1517689500000,
+  "isoDate": "2018-02-03T20:25:00.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "what is there is a hack that I built right before SC.",
+  "ts": "1517689500.000022",
+  "timestamp": 1517689500000,
+  "isoDate": "2018-02-03T20:25:00.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "so expect a new website",
+  "ts": "1517689492.000006",
+  "timestamp": 1517689492000,
+  "isoDate": "2018-02-03T20:24:52.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "But.... next week we will be doing our formal release annoucnement and parties!",
+  "ts": "1517689483.000030",
+  "timestamp": 1517689483000,
+  "isoDate": "2018-02-03T20:24:43.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<http://www.sylabs.io|www.sylabs.io> :wink:",
+  "ts": "1517689469.000102",
+  "timestamp": 1517689469000,
+  "isoDate": "2018-02-03T20:24:29.000Z"
+},{
+  "type": "message",
+  "user": "U24J4NTLP",
+  "text": "Sylabs like <http://sylabs-dz.com> ?",
+  "client_msg_id": "81890ab6-8c84-4302-8ce4-910dbbfd5438",
+  "attachments": [
+    {
+      "title": "SYLABS – Accélérateur Algérien de Startups | Algerian Startups Accelerator",
+      "title_link": "http://sylabs-dz.com",
+      "text": "Sylabs est un accélérateur de talent au coeur d’Alger. Entrepreneurs, startups, développeurs, startups et artistes s’y retrouvent pour une immersion totale dans le monde de la technologie et des startups, accélérer leurs projets, apprendre de nouvelles compétences ou simplement rencontrer des profils passionnés.",
+      "fallback": "SYLABS – Accélérateur Algérien de Startups | Algerian Startups Accelerator",
+      "from_url": "http://sylabs-dz.com",
+      "service_icon": "http://sylabs-dz.com/wp-content/uploads/2016/10/SY-BL-mini.png",
+      "service_name": "sylabs-dz.com",
+      "id": 1
+    }
+  ],
+  "ts": "1517689443.000100",
+  "timestamp": 1517689443000,
+  "isoDate": "2018-02-03T20:24:03.000Z"
+},{
+  "type": "message",
+  "user": "U115P26TB",
+  "text": "<!channel> Next week I will be moving the Singularity source code repository to the Sylabs organization. GitHub is very good about forwarding requests from the previous location, so it shouldn't break anything, but I wanted to mention it publicly incase anyone has any concerns or thoughts before I do it. I'll be on and off of keyboard over the weekend, so please DM if you have any major concerns. Thanks!",
+  "ts": "1517689345.000012",
+  "timestamp": 1517689345000,
+  "isoDate": "2018-02-03T20:22:25.000Z"
+},{
+  "user": "U93DA8W31",
+  "text": "<@U93DA8W31> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1517503095.000509",
+  "timestamp": 1517503095000,
+  "isoDate": "2018-02-01T16:38:15.000Z"
+},{
+  "user": "U8ZNNRX9V",
+  "text": "<@U8ZNNRX9V> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1516900949.000997",
+  "timestamp": 1516900949000,
+  "isoDate": "2018-01-25T17:22:29.000Z"
+}]

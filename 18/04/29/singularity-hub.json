@@ -1,0 +1,763 @@
+[
+{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "thanks!",
+  "ts": "1524863600.000495",
+  "reactions": [
+    {
+      "name": "cookie-chomp",
+      "users": [
+        "U2MT7BF0V"
+      ],
+      "count": 1
+    },
+    {
+      "name": "avocado0",
+      "users": [
+        "U2MT7BF0V"
+      ],
+      "count": 1
+    }
+  ],
+  "timestamp": 1524863600000,
+  "isoDate": "2018-04-27T21:13:20.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I can wait for <@U5RJ04A4F> to wake up then and chat with him",
+  "ts": "1524863599.000023",
+  "timestamp": 1524863599000,
+  "isoDate": "2018-04-27T21:13:19.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I test it naturally just by way of using Singularity all the time!",
+  "ts": "1524863583.000332",
+  "timestamp": 1524863583000,
+  "isoDate": "2018-04-27T21:13:03.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Would actually be helpful if you could test it some.",
+  "ts": "1524863424.000528",
+  "timestamp": 1524863424000,
+  "isoDate": "2018-04-27T21:10:24.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "It’s actually in the runtime.  But if we find any more bugs in short order we already have a 2.5.1 planned. :smile:",
+  "ts": "1524863403.000278",
+  "timestamp": 1524863403000,
+  "isoDate": "2018-04-27T21:10:03.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I just got excited and started making all the updates then realized I was missing the one thing that I probably needed, heh",
+  "ts": "1524863385.000209",
+  "timestamp": 1524863385000,
+  "isoDate": "2018-04-27T21:09:45.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "if there is a bug in 2.5 then we should hold off anyway, I would rather wait for the non-buggy builder!",
+  "ts": "1524863356.000438",
+  "timestamp": 1524863356000,
+  "isoDate": "2018-04-27T21:09:16.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "nope I have no idea what he does to make it",
+  "ts": "1524863335.000337",
+  "timestamp": 1524863335000,
+  "isoDate": "2018-04-27T21:08:55.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Is this something that you could work up in a PR and send to us?  I can try to make sure it get’s fast-tracked.",
+  "ts": "1524863258.000109",
+  "timestamp": 1524863258000,
+  "isoDate": "2018-04-27T21:07:38.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "I think we all have our hands full juggling a bunch of balls right now.  Just got a message from Malex about a bug in 2.5 that we need to address asap.",
+  "ts": "1524863236.000191",
+  "timestamp": 1524863236000,
+  "isoDate": "2018-04-27T21:07:16.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "this is true!",
+  "ts": "1524863195.000087",
+  "timestamp": 1524863195000,
+  "isoDate": "2018-04-27T21:06:35.000Z"
+},{
+  "type": "message",
+  "user": "U2MT7BF0V",
+  "text": "Heya <@U245DTC59> I’m not super familiar with the secure builder project.  But I know that it keeps your Google Cloud instances safer when Singularity Hub is doing it’s thing.",
+  "ts": "1524863178.000597",
+  "timestamp": 1524863178000,
+  "isoDate": "2018-04-27T21:06:18.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "hey everyone updates to singularity hub will have to come when the sylabs team is able to update the secure builders, until then no changes will be made.",
+  "ts": "1524860645.000171",
+  "timestamp": 1524860645000,
+  "isoDate": "2018-04-27T20:24:05.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "You can put a shub:// uri, and if the shub uri is a local Singularity Registry Server (that has an API endpoint) then yes you can. The global client (sregistry-cli) doesn't have a local server so you would not there, for that you would put a localimage to the path to the image (that you retrieve with sregistry get",
+  "thread_ts": "1524596649.000222",
+  "parent_user_id": "U4U16QYHK",
+  "ts": "1524610132.000295",
+  "timestamp": 1524610132000,
+  "isoDate": "2018-04-24T22:48:52.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "I was not talking about the pull. I know you can pull from a sregistry. I meant in the recipe header, in the bootstrap/from fields. Can you put a local sregistry with these two fields ?",
+  "thread_ts": "1524596649.000222",
+  "parent_user_id": "U4U16QYHK",
+  "ts": "1524608472.000182",
+  "timestamp": 1524608472000,
+  "isoDate": "2018-04-24T22:21:12.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "it has a plugin setup so if something extra is needed (that not everyone wants) we make a plugin!",
+  "thread_ts": "1524596649.000222",
+  "parent_user_id": "U4U16QYHK",
+  "ts": "1524601456.000577",
+  "timestamp": 1524601456000,
+  "isoDate": "2018-04-24T20:24:16.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "Singularity Registry Server is docker images. With `docker-compose up -d` you have an entire registry running on localhost. That means a database with images that you push and pull. You can use them locally with shub or sregistry client. You build how you like, from recipes on your computer. I would stronly advise you consider the infrastructure that I've spent years developing before making another one lol",
+  "thread_ts": "1524596649.000222",
+  "parent_user_id": "U4U16QYHK",
+  "ts": "1524601416.000388",
+  "timestamp": 1524601416000,
+  "isoDate": "2018-04-24T20:23:36.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "well, not exactly the same, but the image pull has similar structure :wink:",
+  "thread_ts": "1524596649.000222",
+  "parent_user_id": "U4U16QYHK",
+  "ts": "1524601286.000549",
+  "timestamp": 1524601286000,
+  "isoDate": "2018-04-24T20:21:26.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "it serves the same api as singularity hub",
+  "thread_ts": "1524596649.000222",
+  "parent_user_id": "U4U16QYHK",
+  "ts": "1524601269.000630",
+  "timestamp": 1524601269000,
+  "isoDate": "2018-04-24T20:21:09.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "you technically could if you just use the shub:// uri and give your local registry address",
+  "thread_ts": "1524596649.000222",
+  "parent_user_id": "U4U16QYHK",
+  "ts": "1524601264.000632",
+  "timestamp": 1524601264000,
+  "isoDate": "2018-04-24T20:21:04.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "Maybe you can do a mix with shub and a local git repository to add local stuffs. That's what we are doing here. Generic recipes -&gt; shub. Then a local git repository, eg: \"local_srecipes\" where you build your recipe with a shub bootstrap. These local recipes are almost the same than those on the shub except that I am adding local specific commands (eg: adding my scratch dir or rebuilding an app with the right flags) in the recipe and these recipes are renamed with `.local`. But, indeed, I think it would be useful to be able to Bootstrap directly from a local sregistry.",
+  "client_msg_id": "51ba69a2-2d9e-4eb9-b92c-61639db57b1a",
+  "thread_ts": "1524596649.000222",
+  "parent_user_id": "U4U16QYHK",
+  "ts": "1524598157.000195",
+  "timestamp": 1524598157000,
+  "isoDate": "2018-04-24T19:29:17.000Z"
+},{
+  "type": "message",
+  "user": "U4U16QYHK",
+  "text": "So we're setting up an internal registry via <https://github.com/singularityhub/sregistry>",
+  "attachments": [
+    {
+      "fallback": "singularityhub/sregistry",
+      "text": "server for storage and management of singularity images",
+      "title": "singularityhub/sregistry",
+      "footer": "<https://github.com/singularityhub/sregistry|singularityhub/sregistry>",
+      "id": 1,
+      "footer_icon": "https://assets-cdn.github.com/favicon.ico",
+      "ts": 1501726623,
+      "color": "24292f",
+      "fields": [
+        {
+          "title": "Website",
+          "value": "<https://singularityhub.github.io/sregistry>",
+          "short": true
+        },
+        {
+          "title": "Watchers",
+          "value": "8",
+          "short": true
+        },
+        {
+          "title": "Stars",
+          "value": "22",
+          "short": true
+        },
+        {
+          "title": "Forks",
+          "value": "11",
+          "short": true
+        }
+      ],
+      "mrkdwn_in": [
+        "text",
+        "fields"
+      ],
+      "bot_id": "B9G2T2ZC5",
+      "app_unfurl_url": "https://github.com/singularityhub/sregistry",
+      "is_app_unfurl": true
+    }
+  ],
+  "thread_ts": "1524596649.000222",
+  "parent_user_id": "U4U16QYHK",
+  "ts": "1524597572.000694",
+  "timestamp": 1524597572000,
+  "isoDate": "2018-04-24T19:19:32.000Z"
+},{
+  "type": "message",
+  "user": "U4U16QYHK",
+  "text": "Unfortunately, the images we have can't be posted publicly, as they have proprietary software.",
+  "thread_ts": "1524596649.000222",
+  "parent_user_id": "U4U16QYHK",
+  "ts": "1524597535.000005",
+  "timestamp": 1524597535000,
+  "isoDate": "2018-04-24T19:18:55.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "The robots are telling me they wish they had friends... want to be friends instead? heh",
+  "thread_ts": "1524596649.000222",
+  "parent_user_id": "U4U16QYHK",
+  "ts": "1524597309.000036",
+  "timestamp": 1524597309000,
+  "isoDate": "2018-04-24T19:15:09.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "you do know there is already an open source singularity registry? You would rather create a new one than contribute to developing the one that the larger community could also work on?",
+  "thread_ts": "1524596649.000222",
+  "parent_user_id": "U4U16QYHK",
+  "ts": "1524597202.000567",
+  "timestamp": 1524597202000,
+  "isoDate": "2018-04-24T19:13:22.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "Then do what you want from this recipe",
+  "client_msg_id": "e2aee0a9-cfa0-4051-b94c-f879e7f4b17b",
+  "ts": "1524597132.000268",
+  "timestamp": 1524597132000,
+  "isoDate": "2018-04-24T19:12:12.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "Thanks to <@U245DTC59> ;)",
+  "client_msg_id": "abde6db2-e27b-4a3c-8c44-d3276c1cb7a7",
+  "ts": "1524597100.000301",
+  "timestamp": 1524597100000,
+  "isoDate": "2018-04-24T19:11:40.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "So with a json parser you can extract the recipe from an image",
+  "client_msg_id": "6cd60094-4a16-4f34-9b5c-2afad159a2fe",
+  "ts": "1524597086.000036",
+  "timestamp": 1524597086000,
+  "isoDate": "2018-04-24T19:11:26.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "But with sregistry-cli you can retrieve a recipe with pull/inspect",
+  "client_msg_id": "a3a435c5-72a7-4992-a8a9-d6f704221de3",
+  "ts": "1524597057.000205",
+  "timestamp": 1524597057000,
+  "isoDate": "2018-04-24T19:10:57.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "<http://singularity.lbl.gov/docs-recipes#header>",
+  "client_msg_id": "41d237fd-f992-46dc-915b-21c2e8672d5f",
+  "ts": "1524596958.000214",
+  "timestamp": 1524596958000,
+  "isoDate": "2018-04-24T19:09:18.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "I don't think you can Bootstrap directly from a local sregistry yet",
+  "client_msg_id": "c6857c85-e746-4dbd-9abf-268fd9af7b74",
+  "ts": "1524596882.000370",
+  "timestamp": 1524596882000,
+  "isoDate": "2018-04-24T19:08:02.000Z"
+},{
+  "type": "message",
+  "user": "U4BKCNE9K",
+  "text": "In your recipe, you can do Bootstrap from shub or a localimage and build a new recipe from that.",
+  "client_msg_id": "47e5ab05-42d9-4b26-94da-635947795e7a",
+  "ts": "1524596823.000397",
+  "reactions": [
+    {
+      "name": "smile",
+      "users": [
+        "U245DTC59"
+      ],
+      "count": 1
+    }
+  ],
+  "timestamp": 1524596823000,
+  "isoDate": "2018-04-24T19:07:03.000Z"
+},{
+  "type": "message",
+  "user": "U4U16QYHK",
+  "text": "Roll my own what exactly? We have an internal singularity registry we're setting up.",
+  "edited": {
+    "user": "U4U16QYHK",
+    "ts": "1524596673.000000"
+  },
+  "thread_ts": "1524596649.000222",
+  "reply_count": 12,
+  "replies": [
+    {
+      "user": "U245DTC59",
+      "ts": "1524597202.000567"
+    },
+    {
+      "user": "U245DTC59",
+      "ts": "1524597309.000036"
+    },
+    {
+      "user": "U4U16QYHK",
+      "ts": "1524597535.000005"
+    },
+    {
+      "user": "U4U16QYHK",
+      "ts": "1524597572.000694"
+    },
+    {
+      "user": "U4BKCNE9K",
+      "ts": "1524598157.000195"
+    },
+    {
+      "user": "U245DTC59",
+      "ts": "1524601264.000632"
+    },
+    {
+      "user": "U245DTC59",
+      "ts": "1524601269.000630"
+    },
+    {
+      "user": "U245DTC59",
+      "ts": "1524601286.000549"
+    },
+    {
+      "user": "U245DTC59",
+      "ts": "1524601416.000388"
+    },
+    {
+      "user": "U245DTC59",
+      "ts": "1524601456.000577"
+    },
+    {
+      "user": "U4BKCNE9K",
+      "ts": "1524608472.000182"
+    },
+    {
+      "user": "U245DTC59",
+      "ts": "1524610132.000295"
+    }
+  ],
+  "subscribed": true,
+  "last_read": "1524610132.000295",
+  "unread_count": 0,
+  "ts": "1524596649.000222",
+  "timestamp": 1524596649000,
+  "isoDate": "2018-04-24T19:04:09.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "<https://singularityhub.github.io/sregistry/>",
+  "ts": "1524596601.000129",
+  "timestamp": 1524596601000,
+  "isoDate": "2018-04-24T19:03:21.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "you should look at Singularity Registry, and roll your own",
+  "ts": "1524596578.000784",
+  "timestamp": 1524596578000,
+  "isoDate": "2018-04-24T19:02:58.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "you would have to wget the image or similar in %setup and save to tmp, although if the existence is checked before that step, that wouldn't work",
+  "ts": "1524596565.000542",
+  "timestamp": 1524596565000,
+  "isoDate": "2018-04-24T19:02:45.000Z"
+},{
+  "type": "message",
+  "user": "U4U16QYHK",
+  "text": "So, work is setting up an internal sregistry, and I have one question--is there a way to do a localimage bootstrap from a build file you have in the registry?",
+  "ts": "1524592974.000067",
+  "timestamp": 1524592974000,
+  "isoDate": "2018-04-24T18:02:54.000Z"
+},{
+  "user": "U4U16QYHK",
+  "text": "<@U4U16QYHK> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1524592648.000253",
+  "timestamp": 1524592648000,
+  "isoDate": "2018-04-24T17:57:28.000Z"
+},{
+  "user": "U4BQ7KSMP",
+  "text": "<@U4BQ7KSMP> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1522859879.000160",
+  "timestamp": 1522859879000,
+  "isoDate": "2018-04-04T16:37:59.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "I think a lot of genomics stuffs takes ~5 hours given downloads of all those things...",
+  "ts": "1521648666.000797",
+  "reactions": [
+    {
+      "name": "+1",
+      "users": [
+        "U4BQ7KSMP"
+      ],
+      "count": 1
+    }
+  ],
+  "timestamp": 1521648666000,
+  "isoDate": "2018-03-21T16:11:06.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "Feedback needed: how many hours is reasonable to allow a build? (right now is 2, I'm thinking 6 is more reasonable)",
+  "ts": "1521648594.000465",
+  "timestamp": 1521648594000,
+  "isoDate": "2018-03-21T16:09:54.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "Hey everyone! with the next version of Singularity coming out I'm going to be also updating the singularity Hub Builders to be a little more streamlined, and I have some ideas that might help support some kind of interactive logging. 1) if any of you have ideas in the meantime please share, and 2)  also if any of you have builds that are fussy know that the update will be likely within the next few weeks. Ty!!",
+  "client_msg_id": "67c4df79-dd0c-4ebc-a6d1-b4307fc875a7",
+  "ts": "1521582087.000114",
+  "timestamp": 1521582087000,
+  "isoDate": "2018-03-20T21:41:27.000Z"
+},{
+  "user": "U9DC1RN03",
+  "text": "<@U9DC1RN03> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1521205809.000246",
+  "timestamp": 1521205809000,
+  "isoDate": "2018-03-16T13:10:09.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "updates in the Gitter <https://gitter.im/singularityhub/lobby>",
+  "attachments": [
+    {
+      "title": "singularityhub/lobby",
+      "title_link": "https://gitter.im/singularityhub/lobby",
+      "text": "Where developers come to talk.",
+      "fallback": "singularityhub/lobby",
+      "thumb_url": "https://avatars-05.gitter.im/group/iv/4/5a889ce6d73408ce4f8d96a6",
+      "from_url": "https://gitter.im/singularityhub/lobby",
+      "thumb_width": 128,
+      "thumb_height": 128,
+      "service_icon": "http://cdn03.gitter.im/_s/708c5ff/images/favicon-normal.ico",
+      "service_name": "gitter.im",
+      "id": 1
+    }
+  ],
+  "ts": "1521049759.000837",
+  "timestamp": 1521049759000,
+  "isoDate": "2018-03-14T17:49:19.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "hey everyone I did some server work tonight - if anything fishy is up just report an issue and I'll look asap, I think I fixed the one error that I was aiming to get (for perspective I saw it once a few months ago and a second time tonight) but with any fix and testing, there of course can still be tiny bugs! Fingers crossed that's not the case... cuz I am so pooped :stuck_out_tongue:",
+  "ts": "1520999663.000222",
+  "timestamp": 1520999663000,
+  "isoDate": "2018-03-14T03:54:23.000Z"
+},{
+  "user": "U9K6EQ8EP",
+  "text": "<@U9K6EQ8EP> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1520467368.000313",
+  "timestamp": 1520467368000,
+  "isoDate": "2018-03-08T00:02:48.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "Gitter is more open (doesn't need invite) so we can bridge it with slack to reach more of the community",
+  "thread_ts": "1519086959.000125",
+  "parent_user_id": "U245DTC59",
+  "ts": "1519086995.000207",
+  "timestamp": 1519086995000,
+  "isoDate": "2018-02-20T00:36:35.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "and for those of you that like Gitter (I'm working on three projects now so it's really useful!) The Singularity Hub Container tools (Hub, Registry, Global Client, Python) will grow a community here --&gt; <https://gitter.im/singularityhub>",
+  "thread_ts": "1519086959.000125",
+  "reply_count": 1,
+  "replies": [
+    {
+      "user": "U245DTC59",
+      "ts": "1519086995.000207"
+    }
+  ],
+  "subscribed": true,
+  "last_read": "1519086995.000207",
+  "unread_count": 0,
+  "ts": "1519086959.000125",
+  "timestamp": 1519086959000,
+  "isoDate": "2018-02-20T00:35:59.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "lol @$#$ is that really 2k+ lines of code?! I have no idea.",
+  "thread_ts": "1519085029.000131",
+  "parent_user_id": "U245DTC59",
+  "ts": "1519085134.000012",
+  "timestamp": 1519085134000,
+  "isoDate": "2018-02-20T00:05:34.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "teams are coming soon (PR under review) for your singularity registry! See the docs and screenshots under files here : <https://github.com/singularityhub/sregistry/pull/97/files> then work on the builders and security scanner is focused underway! Your feedback as always is very valuable to guide development! :building_construction:",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "[WIP] adding contributors and admin settings by vsoch · Pull Request #97 · singularityhub/sregistry",
+      "title_link": "https://github.com/singularityhub/sregistry/pull/97/files",
+      "text": "This is the start of work for #89 - everything is subject to change and explosion, this is mostly for me to keep abreast of global changed.",
+      "fallback": "GitHub: [WIP] adding contributors and admin settings by vsoch · Pull Request #97 · singularityhub/sregistry",
+      "from_url": "https://github.com/singularityhub/sregistry/pull/97/files",
+      "thumb_url": "https://avatars0.githubusercontent.com/u/814322?s=400&v=4",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "thread_ts": "1519085029.000131",
+  "reply_count": 1,
+  "replies": [
+    {
+      "user": "U245DTC59",
+      "ts": "1519085134.000012"
+    }
+  ],
+  "subscribed": true,
+  "last_read": "1519085134.000012",
+  "unread_count": 0,
+  "ts": "1519085029.000131",
+  "timestamp": 1519085029000,
+  "isoDate": "2018-02-20T00:03:49.000Z"
+},{
+  "user": "U9BB1J6GK",
+  "text": "<@U9BB1J6GK> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1519072915.000231",
+  "timestamp": 1519072915000,
+  "isoDate": "2018-02-19T20:41:55.000Z"
+},{
+  "user": "U272EC50C",
+  "text": "<@U272EC50C> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1518482336.000086",
+  "timestamp": 1518482336000,
+  "isoDate": "2018-02-13T00:38:56.000Z"
+},{
+  "user": "U97BMQF7W",
+  "text": "<@U97BMQF7W> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1518380857.000033",
+  "timestamp": 1518380857000,
+  "isoDate": "2018-02-11T20:27:37.000Z"
+},{
+  "user": "U96RF2PRB",
+  "text": "<@U96RF2PRB> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1518191313.000018",
+  "timestamp": 1518191313000,
+  "isoDate": "2018-02-09T15:48:33.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "hey everyone just did some debugging of the builders! I'm going back to sleep but please ping if you see any issues. ty!",
+  "ts": "1518169281.000402",
+  "timestamp": 1518169281000,
+  "isoDate": "2018-02-09T09:41:21.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "hey everyone, quick brain fart note - I restarted the worker yesterday to make some server updates and forgot to restart him, so if you had a collection that mysteriously didn't build, the worker was taking the evening off, lol.",
+  "ts": "1517692562.000114",
+  "timestamp": 1517692562000,
+  "isoDate": "2018-02-03T21:16:02.000Z"
+},{
+  "user": "U8V0FLPTK",
+  "text": "<@U8V0FLPTK> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1517579340.000421",
+  "timestamp": 1517579340000,
+  "isoDate": "2018-02-02T13:49:00.000Z"
+},{
+  "user": "U93DA8W31",
+  "text": "<@U93DA8W31> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1517503080.000894",
+  "timestamp": 1517503080000,
+  "isoDate": "2018-02-01T16:38:00.000Z"
+},{
+  "user": "U8ZNNRX9V",
+  "text": "<@U8ZNNRX9V> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1516900963.000630",
+  "timestamp": 1516900963000,
+  "isoDate": "2018-01-25T17:22:43.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "cool I made a badge!! <https://github.com/sci-f/hello-world.scif> lol",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "sci-f/hello-world.scif",
+      "title_link": "https://github.com/sci-f/hello-world.scif",
+      "text": "hello-world.scif - A hello world example for a scientific filesystem",
+      "fallback": "GitHub: sci-f/hello-world.scif",
+      "from_url": "https://github.com/sci-f/hello-world.scif",
+      "thumb_url": "https://avatars1.githubusercontent.com/u/29413846?s=400&v=4",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1516835782.000049",
+  "timestamp": 1516835782000,
+  "isoDate": "2018-01-24T23:16:22.000Z"
+},{
+  "user": "U8XMB02HG",
+  "text": "<@U8XMB02HG> has joined the channel",
+  "type": "message",
+  "subtype": "channel_join",
+  "ts": "1516781289.000177",
+  "timestamp": 1516781289000,
+  "isoDate": "2018-01-24T08:08:09.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "what kind of output do you expect, the build is expected to take 30mins approximately its building GCC",
+  "ts": "1516650072.000159",
+  "timestamp": 1516650072000,
+  "isoDate": "2018-01-22T19:41:12.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "it means it went over time and there was no output, and killed <https://github.com/singularityware/singularity-python/blob/master/singularity/build/scripts/singularity-build-latest.sh#L35>",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "singularityware/singularity-python",
+      "title_link": "https://github.com/singularityware/singularity-python/blob/master/singularity/build/scripts/singularity-build-latest.sh#L35",
+      "text": "singularity-python - command line tool for working with singularity hub and singularity containers",
+      "fallback": "GitHub: singularityware/singularity-python",
+      "from_url": "https://github.com/singularityware/singularity-python/blob/master/singularity/build/scripts/singularity-build-latest.sh#L35",
+      "thumb_url": "https://avatars2.githubusercontent.com/u/20306680?s=400&v=4",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1516649800.000643",
+  "timestamp": 1516649800000,
+  "isoDate": "2018-01-22T19:36:40.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "I dont understand this error in SHUB <https://www.singularity-hub.org/containers/1423/log>",
+  "attachments": [
+    {
+      "service_name": "Singularity Hub",
+      "title": "singularity-hub",
+      "title_link": "https://www.singularity-hub.org/containers/1423/log",
+      "text": "singularity container and workflow management",
+      "fallback": "Singularity Hub: singularity-hub",
+      "from_url": "https://www.singularity-hub.org/containers/1423/log",
+      "service_icon": "https://www.singularity-hub.org/static/img/favicon.ico",
+      "id": 1
+    }
+  ],
+  "ts": "1516649128.000217",
+  "timestamp": 1516649128000,
+  "isoDate": "2018-01-22T19:25:28.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "it's under settings, then Applications, then Oauth apps, find Singularity Hub, then click the red X to be a green check",
+  "ts": "1516637245.000376",
+  "timestamp": 1516637245000,
+  "isoDate": "2018-01-22T16:07:25.000Z"
+},{
+  "type": "message",
+  "user": "U245DTC59",
+  "text": "you need to go into your oauth apps and authorize the application to see the organization repos",
+  "ts": "1516637223.000179",
+  "timestamp": 1516637223000,
+  "isoDate": "2018-01-22T16:07:03.000Z"
+},{
+  "type": "message",
+  "user": "U68KP7Q07",
+  "text": "I need to build containers from repo <https://github.com/easybuilders/eb-singularity> but this is part of a github organization so I can't build them in shub. I can only see my fork copy and I need to get containers build under the org somehow. Is this something that can be done in Github or SHUB to allow access to github orgs",
+  "attachments": [
+    {
+      "service_name": "GitHub",
+      "title": "easybuilders/eb-singularity",
+      "title_link": "https://github.com/easybuilders/eb-singularity",
+      "text": "eb-singularity - Stuff related to integrating EasyBuild &amp; Singularity",
+      "fallback": "GitHub: easybuilders/eb-singularity",
+      "from_url": "https://github.com/easybuilders/eb-singularity",
+      "thumb_url": "https://avatars3.githubusercontent.com/u/29568382?s=400&v=4",
+      "thumb_width": 250,
+      "thumb_height": 250,
+      "service_icon": "https://a.slack-edge.com/bfaba/img/unfurl_icons/github.png",
+      "id": 1
+    }
+  ],
+  "ts": "1516636885.000564",
+  "timestamp": 1516636885000,
+  "isoDate": "2018-01-22T16:01:25.000Z"
+}]
